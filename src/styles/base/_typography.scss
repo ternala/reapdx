@@ -1,0 +1,39 @@
+.title {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var();
+  &.title-center {
+    text-align: center;
+  }
+  &.title-primary {
+    font-size: 48px;
+  }
+  &.title-secondary {
+    font-size: 34px;
+  }
+  &.title-tertiary {
+    font-size: 28px;
+  }
+  &.title-quaternary {
+    font-size: 24px;
+  }
+  &.title-fivefold {
+    font-size: 20px;
+  }
+  &.title-sixfold {
+    font-size: 16px;
+  }
+  //   @include mdMax {
+  //   }
+}
+
+.subtitle {
+  color: var();
+  &.subtitle-center {
+    text-align: center;
+  }
+//   &.subtitle-primary {
+//   }
+  //   @include mdMax {
+  //   }
+}

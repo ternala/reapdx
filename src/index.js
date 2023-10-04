@@ -1,11 +1,11 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
-import "./styles/style.scss"
-
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
+import "./styles/style.scss"
+import Header from "./components/Header"
+import Footer from "./components/Footer"
 import {
-  Navigation,
-  Footer,
+  Default,
   Home,
   Landing1,
   Landing2,
@@ -23,9 +23,10 @@ import {
 function App() {
   return (
     <Router>
-      <Navigation />
+      <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Default />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/landing-1" element={<Landing1 />} />
         <Route path="/landing-2" element={<Landing2 />} />
         <Route path="/landing-4" element={<Landing4 />} />

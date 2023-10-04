@@ -1,0 +1,50 @@
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: var(--font-heading);
+  font-size: 18px;
+  font-weight: 700;
+  height: 58px;
+  width: fit-content;
+  min-width: fit-content;
+  padding: 0 40px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  user-select: none;
+  text-decoration: none;
+  transition:
+    background-color 0.25s ease,
+    border 0.25s ease,
+    color 0.25s ease,
+    opacity 0.25s ease;
+  cursor: pointer;
+  &.disable {
+    opacity: 0.5;
+    pointer-events: none;
+    cursor: default;
+  }
+  &.button-primary {
+    background-color: var(--primary-accent);
+    color: var(--primary-light);
+    &:hover {
+      background-color: var(--secondary-accent);
+    }
+  }
+  &.button-secondary {
+    background-color: var(--primary-light);
+    color: var(--primary-accent);
+    border: 1px solid var(--primary-accent);
+    &:hover {
+      background-color: var(--button-secondary-background-hover);
+    }
+  }
+
+  @include smMax {
+    font-size: 16px;
+    height: 50px;
+    width: 100%;
+  }
+}

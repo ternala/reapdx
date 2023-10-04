@@ -1,5 +1,4 @@
-export { default as Navigation } from "../components/Navigation"
-export { default as Footer } from "../components/Footer"
+export { default as Default } from "./Default"
 export { default as Home } from "./Home"
 export { default as About } from "./About"
 export { default as Landing1 } from "./Landing1"

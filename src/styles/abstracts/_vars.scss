@@ -1,4 +1,61 @@
+$breakpoints: (
+  es: 375px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1488px,
+);
+
 :root {
+  // Fonts
   --font-heading: "Play", sans-serif;
   --font-primary: "Inter", sans-serif;
+
+  // Colors
+  // Primary
+  --primary-light: #fff;
+  --primary-dark: #282828;
+  --primary-accent: #49a942;
+
+  // Secondary
+  --secondary-accent: #3c9036;
+
+  // Gray
+  --gray-50: #fdfffd;
+  --gray-100: #f3f3f3;
+  --gray-200: #d2d2d2;
+  --gray-300: #bdbdbd;
+  --gray-400: #ccc;
+  --gray-500: #939598;
+  --gray-600: #868686;
+  --gray-700: #444343;
+  --gray-800: #434242;
+  --gray-900: #282828;
+  --gray-1000: #1e1e1c;
+
+  // Button
+  --button-secondary-background-hover: #effdee;
+
+  // Label
+  // Primary
+  --label-primary-background: #a7d2be;
+  --label-primary-text: #277a21;
+
+  // Secondary
+  --label-secondary-background: #d9d9d9;
+  --label-secondary-text: #8b8b8b;
+
+  // Tertiary
+  --label-tertiary-background: #ffab5e;
+  --label-tertiary-text: #d26500;
+
+  // Inputs
+  --error: #ef2323;
+  --success: #2bc820;
+
+  // Shadows
+  // Primary
+  --shadow-primary: 0px 4px 20px 0px rgba(82, 81, 81, 0.08);
+  --shadow-primary-hover: 0px 4px 20px 0px rgba(82, 81, 81, 0.15);
 }

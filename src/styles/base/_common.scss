@@ -1,0 +1,33 @@
+.wrapper {
+  flex: 1 1 auto;
+}
+
+.container,
+.container-md {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.container {
+  max-width: 1488px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  &.image-cover {
+    object-fit: cover;
+  }
+}
+
+// @import './common/spacing';
+// @import './common/font-weight';
+// @import './common/text-transform';
