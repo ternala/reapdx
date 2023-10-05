@@ -1,0 +1,26 @@
+.label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  height: 38px;
+  padding: 0 10px;
+  font-family: var(--font-primary);
+  font-size: 14px;
+  font-weight: 700;
+  background: gray;
+  border-radius: 34px;
+  cursor: default;
+  &.active {
+    color: var(--label-primary-text);
+    background-color: var(--label-primary-background);
+  }
+  &.sold {
+    color: var(--label-secondary-text);
+    background-color: var(--label-secondary-background);
+  }
+  &.pending {
+    color: var(--label-tertiary-text);
+    background-color: var(--label-tertiary-background);
+  }
+}

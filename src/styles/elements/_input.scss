@@ -1,0 +1,99 @@
+.input {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  input {
+    color: var(--input-primary-text);
+    font-family: var(--font-primary);
+    font-size: 14px;
+    font-weight: 400;
+    height: 48px;
+    padding: 0 15px;
+    border-radius: 2px;
+    border: 1px solid var(--input-primary-border);
+    background-color: var(--primary-light);
+    transition:
+      background-color 0.25s ease,
+      border 0.25s ease,
+      color 0.25s ease,
+      opacity 0.25s ease;
+    &::placeholder {
+      color: var(--input-primary-border);
+    }
+    &:hover,
+    &:focus {
+      outline: none;
+      border-color: var(--input-primary-border-hover);
+    }
+    &:disabled {
+      opacity: 0.5;
+      pointer-events: none;
+      background-color: var(--primary-light);
+      color: var(--input-primary-text);
+    }
+  }
+  label {
+    position: relative;
+    width: fit-content;
+    font-family: var(--font-primary);
+    font-size: 14px;
+    font-weight: 400;
+  }
+  &.required label::after {
+    content: "*";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    color: var(--input-error-border);
+  }
+  &.disabled input {
+    opacity: 0.5;
+    pointer-events: none;
+    background-color: var(--primary-light);
+    color: var(--input-primary-text);
+  }
+  &.error {
+    input {
+      border-color: var(--input-error-border);
+      background-color: var(--input-error-background);
+      &:hover,
+      &:focus {
+        background-color: var(--primary-light);
+      }
+    }
+    &::after {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+    }
+  }
+  &.success input {
+    border-color: var(--input--success-border);
+    background-color: var(--input--success-background);
+    &:hover,
+    &:focus {
+      background-color: var(--primary-light);
+    }
+  }
+  &::after {
+    content: "Wrong " attr(name) "";
+    display: block;
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    font-family: var(--font-primary);
+    font-size: 10px;
+    line-height: 10px;
+    font-weight: 400;
+    color: var(--input-error-border);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-5px);
+    transition:
+      opacity 0.25s ease,
+      visibility 0.25s ease,
+      transform 0.25s ease;
+  }
+}

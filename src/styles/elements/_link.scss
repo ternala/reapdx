@@ -12,7 +12,7 @@
   transition:
     color 0.25s ease,
     opacity 0.25s ease;
-  &.disable {
+  &.disabled {
     opacity: 0.5;
     pointer-events: none;
     cursor: default;

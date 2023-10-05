@@ -1,0 +1,48 @@
+.radio {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: fit-content;
+  font-family: var(--font-primary);
+  font-size: 14px;
+  font-weight: 400;
+  transition: opacity 0.25s ease;
+  &:hover input {
+    border-color: var(--secondary-accent);
+    background-color: var(--primary-accent);
+    box-shadow: inset 0px 0px 0px 2px var(--primary-light);
+  }
+  &.disabled {
+    input {
+      border-color: var(--primary-dark);
+      background-color: var(--primary-light);
+      box-shadow: none;
+    }
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  label {
+    cursor: pointer;
+  }
+  input {
+    width: 10px;
+    height: 10px;
+    appearance: none;
+    border-radius: 50%;
+    border: 1px solid var(--primary-dark);
+    background-color: var(--primary-light);
+    box-shadow: inset 0px 0px 0px 2px var(--primary-light);
+    transition:
+      background-color 0.25s ease,
+      border-color 0.25s ease;
+    cursor: pointer;
+    &:checked {
+      border-color: var(--secondary-accent);
+      background-color: var(--secondary-accent);
+    }
+    &:disabled {
+      border-color: var(--input-primary-border);
+      background-color: var(--primary-light);
+    }
+  }
+}

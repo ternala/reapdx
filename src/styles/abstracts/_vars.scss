@@ -51,8 +51,17 @@ $breakpoints: (
   --label-tertiary-text: #d26500;
 
   // Inputs
-  --error: #ef2323;
-  --success: #2bc820;
+  --input-primary-text: #494949;
+  --input-primary-border: #cccccc;
+  --input-primary-border-hover: #a3a3a3;
+
+  --input-error-border: #ef2323;
+  --input-error-background: #fff3f3;
+  --input--success-border: #2bc820;
+  --input--success-background: #f1fff0;
+
+  // Pagination
+  --pagination-primary: #bcbcbc;
 
   // Shadows
   // Primary
