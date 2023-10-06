@@ -2,6 +2,8 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  white-space: nowrap;
+  gap: 10px;
   font-family: var(--font-primary);
   font-size: 18px;
   font-weight: 700;
@@ -17,25 +19,28 @@
     pointer-events: none;
     cursor: default;
   }
-  &.link__arrow {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    svg {
-      display: block;
-      width: 20px;
-      height: 20px;
-      min-width: 20px;
-      fill: var(--primary-accent);
-      transition: fill 0.25s ease;
-    }
+
+  svg {
+    display: block;
+    width: 20px;
+    height: 20px;
+    min-width: 20px;
+    fill: var(--primary-accent);
+    transition: fill 0.25s ease;
   }
+
   &:hover {
     color: var(--secondary-accent);
-    &.link__arrow {
-      svg {
-        fill: var(--secondary-accent);
-      }
+    svg {
+      fill: var(--secondary-accent);
+    }
+  }
+  @include smMax {
+    font-size: 16px;
+    gap: 5px;
+    svg {
+      width: 18px;
+      height: 18px;
     }
   }
 }

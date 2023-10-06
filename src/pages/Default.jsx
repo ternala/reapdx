@@ -1,4 +1,6 @@
 import { ReactComponent as LinkArrow } from "../assets/icons/icon-link-arrow.svg"
+import { ReactComponent as PaginationArrowLeft } from "../assets/icons/icon-pagination-arrow-left.svg"
+import { ReactComponent as PaginationArrowRight } from "../assets/icons/icon-pagination-arrow-right.svg"
 
 function Default() {
   return (
@@ -59,7 +61,7 @@ function Default() {
                     <span className="default-span">Disabled</span>
                     <li>
                       <button
-                        className="button button-primary disable"
+                        className="button button-primary disabled"
                         type="button"
                       >
                         Sell a House
@@ -67,7 +69,7 @@ function Default() {
                     </li>
                     <li>
                       <button
-                        className="button button-secondary disable"
+                        className="button button-secondary disabled"
                         type="button"
                       >
                         Sell a House
@@ -101,7 +103,7 @@ function Default() {
                   <ul className="default-list">
                     <span className="default-span">Disabled</span>
                     <li>
-                      <a href="-" className="link link__arrow disable">
+                      <a href="-" className="link link__arrow disabled">
                         Home Sales
                         <LinkArrow />
                       </a>
@@ -193,10 +195,8 @@ function Default() {
                   <ul className="default-list">
                     <li>
                       <ul className="pagination">
-                        <li>
-                          <a href="-">
-                            <span>&laquo;</span>
-                          </a>
+                        <li className="disabled">
+                          <PaginationArrowLeft />
                         </li>
                         <li className="active">
                           <a href="-">1</a>
@@ -215,10 +215,20 @@ function Default() {
                         </li>
                         <li>
                           <a href="-">
-                            <span>&raquo;</span>
+                            <PaginationArrowRight />
                           </a>
                         </li>
                       </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="default-block">
+                <div className="default-title">Splinner</div>
+                <div className="default-block__wrap">
+                  <ul className="default-list">
+                    <li>
+                      <span className="spinner"/>
                     </li>
                   </ul>
                 </div>

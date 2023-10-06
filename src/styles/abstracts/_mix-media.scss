@@ -28,7 +28,7 @@
   }
 }
 
-@mixin xlMax {
+@mixin xxlMax {
   @media screen and (max-width: map-get($breakpoints, "xxl")) {
     @content;
   }
@@ -64,7 +64,7 @@
   }
 }
 
-@mixin xlMin {
+@mixin xxlMin {
   @media screen and (min-width: map-get($breakpoints, "xxl")) {
     @content;
   }

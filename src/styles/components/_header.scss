@@ -1,6 +1,204 @@
+.nav-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px 15px 12px 15px;
+  column-gap: 80px;
+  row-gap: 12px;
+  background-color: var(--primary-dark);
+  li {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    gap: 10px;
+  }
+  a {
+    font-size: 14px;
+  }
+  svg {
+    width: 18px;
+    height: 18px;
+    fill: var(--primary-light);
+  }
+  span {
+    font-family: var(--font-primary);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--primary-light);
+    text-transform: uppercase;
+  }
+  @include mdMax {
+    column-gap: 20px;
+    a,
+    span {
+      font-size: 12px;
+    }
+    svg {
+      width: 15px;
+      height: 15px;
+    }
+  }
+}
+.nav-wrap {
+  box-shadow: 0px 4px 20px 0px #0000000d;
+}
 .nav {
-  ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 20px;
+  @include lgMax {
+    justify-content: flex-start;
+  }
+  .burger {
+    display: none;
+    z-index: 5;
+    @include lgMax {
+      display: block;
+    }
+  }
+  .menu {
     display: flex;
     justify-content: space-between;
+    transition: transform 0.5s linear;
+    z-index: 4;
+
+    &::before {
+      position: fixed;
+      content: "";
+      display: block;
+      z-index: 2;
+      top: 40px;
+      left: 40px;
+      height: 80px;
+      aspect-ratio: 1 / 1;
+      translate: -50% -50%;
+      background-color: rgb(0, 128, 0);
+      border-radius: 50%;
+      opacity: 0;
+      transition: all 0.3s linear;
+    }
+    &.show {
+      opacity: 1;
+      transition: all 0.6s linear;
+      &::before {
+        height: 300vh;
+        opacity: 1;
+        transition: height 0.3s linear;
+      }
+    }
+    @include lgMax {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      flex-direction: column;
+      padding: 140px 0 0 90px;
+      height: 100%;
+      width: 100%;
+      z-index: 1;
+      opacity: 0;
+    }
+  }
+  .menu__item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 35px 15px;
+    z-index: 3;
+    cursor: pointer;
+    @include xxlMax {
+      padding: 25px 10px;
+    }
+    @include xlMax {
+      padding: 15px 5px;
+    }
+    .menu__item__link {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-family: var(--font-heading);
+      color: var(--primary-dark);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 20px;
+      letter-spacing: 0.035em;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: color 0.25s ease;
+    }
+    ul {
+      position: absolute;
+      top: 100%;
+      left: 15px;
+      right: 15px;
+      padding: 5px 0;
+      width: fit-content;
+      background-color: var(--primary-light);
+      opacity: 0;
+      z-index: 1;
+      visibility: hidden;
+      transform: translateY(-5%);
+      transition:
+        opacity 0.25s ease,
+        visibility 0.25s ease,
+        transform 0.4s ease;
+      li {
+        padding: 10px 15px;
+        a {
+          font-family: var(--font-primary);
+          color: var(--primary-dark);
+          font-size: 16px;
+          font-weight: 400;
+          letter-spacing: 0.035em;
+          text-decoration: none;
+          transition: color 0.25s ease;
+          white-space: nowrap;
+        }
+        &:hover {
+          a {
+            color: var(--primary-accent);
+          }
+        }
+      }
+    }
+    svg {
+      transition:
+        fill 0.25s ease,
+        transform 0.25s ease;
+      fill: var(--primary-dark);
+    }
+    &:first-child {
+      padding-left: 0;
+    }
+    &:last-child {
+      padding-right: 0;
+    }
+    &:hover {
+      .menu__item__link {
+        color: var(--primary-accent);
+      }
+      svg {
+        transform: rotateX(180deg);
+        fill: var(--primary-accent);
+      }
+      ul {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+      }
+    }
+  }
+  .logo {
+    height: 50px;
+    padding-top: 20px;
+    svg {
+      width: 100%;
+      height: 100%;
+    }
   }
 }

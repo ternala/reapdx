@@ -1,0 +1,26 @@
+.spinner {
+  display: grid;
+  place-items: center;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    var(--primary-light) 0deg,
+    var(--primary-accent) 360deg
+  );
+  animation: spin 1s infinite linear;
+  &::before {
+    content: "";
+    border-radius: 50%;
+    width: 75%;
+    height: 75%;
+    background-color: var(--primary-light);
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(1turn);
+  }
+}
