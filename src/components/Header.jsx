@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useLayoutEffect, useRef } from "react"
 import { NavLink } from "react-router-dom"
 
 import { ReactComponent as Logo } from "../assets/icons/icon-logo.svg"
@@ -8,15 +8,32 @@ import { ReactComponent as DownArrow } from "../assets/icons/icon-down-arrow.svg
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [height, setHeight] = useState(0)
+  const navInfo = useRef(null)
+  const nav = useRef(null)
+
+  useLayoutEffect(() => {
+    const handleResize = () => {
+      setHeight(navInfo.current.offsetHeight + nav.current.offsetHeight)
+    }
+
+    window.addEventListener("load", handleResize)
+    window.addEventListener("resize", handleResize)
+
+    return () => {
+      window.removeEventListener("resize", handleResize)
+    }
+  }, [])
+
+  document.body.style.setProperty("--navHeight", `${height}px`)
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen)
   }
 
-  const menuClassName = isMenuOpen ? "menu show" : "menu"
   return (
     <header>
-      <ul className="nav-info">
+      <ul ref={navInfo} className="nav-info">
         <li>
           <Phone />
           <a className="link" href="tel:5037141111">
@@ -40,14 +57,20 @@ function Header() {
       </ul>
       <div className="nav-wrap">
         <div className="container">
-          <nav className="nav" role="navigation">
+          <nav
+            ref={nav}
+            className={isMenuOpen ? "nav show" : "nav"}
+            role="navigation"
+          >
             <button className="burger" type="button" onClick={toggleMenu}>
-              х
+              <span />
+              <span />
+              <span />
             </button>
             <div className="logo">
               <Logo />
             </div>
-            <ul className={menuClassName}>
+            <ul className="menu">
               <li className="menu__item">
                 <NavLink className="menu__item__link" to="/">
                   Default page

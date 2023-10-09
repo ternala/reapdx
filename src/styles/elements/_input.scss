@@ -32,6 +32,12 @@
       background-color: var(--primary-light);
       color: var(--input-primary-text);
     }
+    &:-webkit-autofill,
+    &:-webkit-autofill:focus {
+      transition:
+        background-color 0s 600000s,
+        color 0s 600000s;
+    }
   }
   label {
     position: relative;

@@ -1,6 +1,7 @@
 @import "../abstracts/mix-font-face";
 
 // Play
+@include font-face("Play", "../../assets/fonts/Play/Play-Regular", 400);
 @include font-face("Play", "../../assets/fonts/Play/Play-Bold", 700);
 
 // Inter
