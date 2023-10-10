@@ -1,0 +1,227 @@
+footer {
+  padding: 60px 0;
+  background-color: var(--primary-dark);
+  @include xlMax {
+    padding: 40px 0;
+  }
+  @include lgMax {
+    padding: 30px 0;
+  }
+  @include smMax {
+    padding: 20px 0;
+  }
+}
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding-bottom: 30px;
+  @include lgMax {
+    flex-direction: column;
+  }
+  @include smMax {
+    align-items: center;
+    padding-bottom: 20px;
+  }
+}
+.footer-left {
+  max-width: 220px;
+  width: 100%;
+  h6 {
+    color: var(--gray-100);
+    font-family: var(--font-primary);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+    cursor: default;
+    @include smMax {
+      font-size: 16px;
+      margin: 10px 0;
+    }
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  a {
+    color: var(--gray-100);
+    font-family: var(--font-primary);
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 300;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: color 0.25s ease;
+    &:hover {
+      color: var(--gray-500);
+    }
+    @include smMax {
+      font-size: 14px;
+    }
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+.footer-right {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1154px;
+  width: 100%;
+  gap: 30px;
+  &::after {
+    content: "";
+    display: block;
+    max-width: 310px;
+    width: 100%;
+  }
+  @include customBreakpoint(max-width, 1300) {
+    justify-content: flex-start;
+  }
+  @include lgMax {
+    gap: 20px;
+    &::after {
+      display: none;
+    }
+  }
+}
+.footer-item {
+  max-width: 310px;
+  width: 100%;
+  @include lgMax {
+    max-width: 100%;
+    width: calc(50% - 10px);
+  }
+  h6 {
+    color: var(--gray-300);
+    font-family: var(--font-primary);
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    @include smMax {
+      font-size: 14px;
+    }
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    @include smMax {
+      gap: 10px;
+    }
+  }
+  a {
+    color: var(--primary-light);
+    font-family: var(--font-primary);
+    font-size: 16px;
+    font-weight: 700;
+    transition: color 0.25s ease;
+    text-decoration: none;
+    &:hover {
+      color: var(--gray-500);
+    }
+    @include smMax {
+      font-size: 14px;
+    }
+  }
+  &_contacts {
+    @include smMax {
+      order: 5;
+      width: 100%;
+    }
+    li {
+      @include link-wrap-style;
+    }
+  }
+  &_social {
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: center;
+      gap: 20px;
+      @include smMax {
+        gap: 15px;
+      }
+    }
+    li {
+      &:not(:first-child) {
+        margin: 0;
+      }
+    }
+    svg {
+      width: 25px;
+      height: 25px;
+      transition: fill 0.25s ease;
+      fill: var(--primary-accent);
+      @include smMax {
+        width: 20px;
+        height: 20px;
+      }
+    }
+    a {
+      display: flex;
+      cursor: pointer;
+      &:hover {
+        svg {
+          fill: var(--secondary-accent);
+        }
+      }
+    }
+  }
+}
+.footer-bottom {
+  ul {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 40px;
+    row-gap: 20px;
+    padding-top: 30px;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      background-color: var(--gray-300);
+      height: 1px;
+      width: 100%;
+    }
+    @include smMax {
+      column-gap: 25px;
+      padding-top: 20px;
+    }
+  }
+  li {
+    &:nth-last-child(2) {
+      margin-right: auto;
+    }
+  }
+  a {
+    @include link-style;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-decoration: 1px underline var(--secondary-accent);
+    text-underline-offset: 3px;
+    @include smMax {
+      font-size: 10px;
+    }
+  }
+  p {
+    color: var(--gray-200);
+    font-family: var(--font-primary);
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 300;
+    @include smMax {
+      font-size: 10px;
+    }
+  }
+}

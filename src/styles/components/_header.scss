@@ -14,37 +14,14 @@ header {
   column-gap: 80px;
   row-gap: 12px;
   background-color: var(--primary-dark);
-  li {
-    display: flex;
-    align-items: center;
-    white-space: nowrap;
-    gap: 10px;
+  @include lgMax {
+    column-gap: 40px;
   }
-  a {
-    font-size: 14px;
-  }
-  svg {
-    width: 18px;
-    height: 18px;
-    fill: var(--primary-light);
-  }
-  span {
-    font-family: var(--font-primary);
-    font-size: 14px;
-    font-weight: 500;
-    color: var(--primary-light);
-    text-transform: uppercase;
-  }
-  @include mdMax {
+  @include smMax {
     column-gap: 20px;
-    a,
-    span {
-      font-size: 12px;
-    }
-    svg {
-      width: 15px;
-      height: 15px;
-    }
+  }
+  li {
+    @include link-wrap-style;
   }
 }
 .nav-wrap {
