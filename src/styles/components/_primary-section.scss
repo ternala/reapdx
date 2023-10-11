@@ -1,0 +1,26 @@
+.primary-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(128, 128, 128, 0.364);
+  
+  @include mdMax {
+    flex-direction: column;
+  }
+  img {
+    max-height: 600px;
+    max-width: 650px;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+.primary-section__left,
+.primary-section__right {
+  background-color: gray;
+  width: calc(50% - 75px);
+  @include mdMax {
+    width: 100%;
+  }
+}

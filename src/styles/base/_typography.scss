@@ -1,39 +1,67 @@
-.title {
+@mixin title(
+  $size,
+  $color: var(--primary-light),
+  $weight: 700,
+  $style: normal
+) {
   font-family: var(--font-heading);
-  font-weight: 700;
-  color: var();
-  &.title-center {
-    text-align: center;
-  }
-  &.title-primary {
+  font-weight: $weight;
+  font-style: $style;
+  color: $color;
+
+  @if $size == "primary" {
     font-size: 48px;
-  }
-  &.title-secondary {
+  } @else if $size == "secondary" {
     font-size: 34px;
-  }
-  &.title-tertiary {
+  } @else if $size == "tertiary" {
     font-size: 28px;
-  }
-  &.title-quaternary {
+  } @else if $size == "quaternary" {
     font-size: 24px;
-  }
-  &.title-fivefold {
+  } @else if $size == "fivefold" {
     font-size: 20px;
-  }
-  &.title-sixfold {
+  } @else if $size == "sixfold" {
     font-size: 16px;
+  } @else {
+    @error "Unknown size #{$size}.";
   }
-  //   @include mdMax {
-  //   }
 }
+
+// @mixin title {
+//   font-family: var(--font-heading);
+//   font-weight: 700;
+//   color: var();
+//   &.title-center {
+//     text-align: center;
+//   }
+//   &.title-primary {
+//     font-size: 48px;
+//   }
+//   &.title-secondary {
+//     font-size: 34px;
+//   }
+//   &.title-tertiary {
+//     font-size: 28px;
+//   }
+//   &.title-quaternary {
+//     font-size: 24px;
+//   }
+//   &.title-fivefold {
+//     font-size: 20px;
+//   }
+//   &.title-sixfold {
+//     font-size: 16px;
+//   }
+//   //   @include mdMax {
+//   //   }
+// }
 
 .subtitle {
   color: var();
   &.subtitle-center {
     text-align: center;
   }
-//   &.subtitle-primary {
-//   }
+  //   &.subtitle-primary {
+  //   }
   //   @include mdMax {
   //   }
 }

@@ -10,8 +10,129 @@ import { ReactComponent as Pinterest } from "../assets/icons/icon-pinterest.svg"
 function Footer() {
   return (
     <footer>
+      <div className="container-fluid">
+        <div className="container">
+          <div className="footer-top">
+            <div className="footer-top__item">
+              <h6>Real Estate Membership</h6>
+              <ul>
+                <li>
+                  <a href="-">
+                    <img src="/images/member-housing.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="-">
+                    <img src="/images/member-oar.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="-">
+                    <img src="/images/member-pmar.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="-">
+                    <img src="/images/member-realtor.png" alt="" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="footer-top__item">
+              <h6>Real Estate Education</h6>
+              <ul>
+                <li>
+                  <a href="-">
+                    <img src="/images/education-abr.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="-">
+                    <img src="/images/education-cfa.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="-">
+                    <img src="/images/education-cssa.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="-">
+                    <img src="/images/education-energytrust.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="-">
+                    <img src="/images/education-green.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="-">
+                    <img src="/images/education-sfr.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="-">
+                    <img src="/images/education-sps.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="-">
+                    <img src="/images/education-srs.png" alt="" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="footer-top__item">
+              <h6>Real Estate Awards</h6>
+              <ul>
+                <li>
+                  <a href="-">
+                    <img src="/images/award-100most.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="-">
+                    <img src="/images/award-expertnetwork.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="-">
+                    <img src="/images/award-fivestar.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="-">
+                    <img src="/images/award-m.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="-">
+                    <img src="/images/award-presidents.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="-">
+                    <img src="/images/award-threebest.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="-">
+                    <img src="/images/award-top100.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="-">
+                    <img src="/images/award-zillow.png" alt="" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="container">
-        <div className="footer-wrap">
+        <div className="footer-center">
           <div className="footer-left">
             <div className="footer-image">
               <img src="/images/image-stephen.jpg" alt="" />
@@ -22,7 +143,7 @@ function Footer() {
                 <a href="-">Principal Broker in Oregon</a>
               </li>
               <li>
-                <a href="-">Principal Broker in Oregon</a>
+                <a href="-">Managing Broker in WA</a>
               </li>
               <li>
                 <a href="-">Licensed since 2003</a>

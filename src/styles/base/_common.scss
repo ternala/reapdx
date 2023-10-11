@@ -1,3 +1,19 @@
+main,
+section {
+  padding: 30px 0;
+  @include lgMax {
+    padding: 25px 0;
+  }
+  @include mdMax {
+    padding: 20px 0;
+  }
+  @include smMax {
+    padding: 15px 0;
+    &:first-child {
+      padding-top: 0;
+    }
+  }
+}
 .wrapper {
   padding-top: var(--navHeight);
   flex: 1 1 auto;
