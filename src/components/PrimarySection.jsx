@@ -1,12 +1,12 @@
-function PrimarySection() {
+function PrimarySection({ src, alt, title, reverse = false }) {
   return (
     <section>
       <div className="container">
-        <div className="primary-section">
+        <div className={reverse ? "primary-section reverse" : "primary-section"}>
           <div className="primary-section__left">
-            <img src="/images/section-man.png" alt="" />
+            <img src={src} alt={alt} />
           </div>
-          <div className="primary-section__right">d</div>
+          <div className="primary-section__right">{title}</div>
         </div>
       </div>
     </section>

@@ -1,0 +1,54 @@
+[
+  {
+    "id": 0,
+    "src": "/images/section-4-to-sell.png",
+    "alt": "",
+    "title": "",
+    "reverse": true
+  },
+  {
+    "id": 1,
+    "src": "/images/section-cancel-anytime.png",
+    "alt": "",
+    "title": ""
+  },
+  {
+    "id": 2,
+    "src": "/images/section-man.png",
+    "alt": "",
+    "title": "",
+    "reverse": true
+  },
+  {
+    "id": 3,
+    "src": "/images/section-woman.png",
+    "alt": "",
+    "title": ""
+  },
+  {
+    "id": 4,
+    "src": "/images/section-map-1.png",
+    "alt": "",
+    "title": "",
+    "reverse": true
+  },
+  {
+    "id": 5,
+    "src": "/images/section-map-2.png",
+    "alt": "",
+    "title": ""
+  },
+  {
+    "id": 6,
+    "src": "/images/section-hands.jpeg",
+    "alt": "",
+    "title": "",
+    "reverse": true
+  },
+  {
+    "id": 7,
+    "src": "/images/section-stephen.png",
+    "alt": "",
+    "title": ""
+  }
+]

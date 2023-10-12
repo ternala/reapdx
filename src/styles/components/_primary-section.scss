@@ -3,9 +3,23 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  column-gap: 150px;
+  row-gap: 10px;
   background-color: rgba(128, 128, 128, 0.364);
-  
+  &.reverse {
+    flex-direction: row-reverse;
+  }
+  @include xxlMax {
+    column-gap: 110px;
+  }
+  @include xlMax {
+    column-gap: 70px;
+  }
+  @include lgMax {
+    column-gap: 50px;
+  }
   @include mdMax {
+    column-gap: 40px;
     flex-direction: column;
   }
   img {
@@ -19,7 +33,7 @@
 .primary-section__left,
 .primary-section__right {
   background-color: gray;
-  width: calc(50% - 75px);
+  width: 50%;
   @include mdMax {
     width: 100%;
   }

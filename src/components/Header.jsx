@@ -1,10 +1,8 @@
 import React, { useState, useLayoutEffect, useRef } from "react"
 import { NavLink } from "react-router-dom"
 
-import { ReactComponent as Logo } from "../assets/icons/icon-logo.svg"
-import { ReactComponent as Calendar } from "../assets/icons/icon-calendar.svg"
-import { ReactComponent as Phone } from "../assets/icons/icon-phone.svg"
-import { ReactComponent as DownArrow } from "../assets/icons/icon-down-arrow.svg"
+import Logo from "../assets/icons/icon-logo.svg"
+import Icon from "./Icon"
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -35,21 +33,21 @@ function Header() {
     <header>
       <ul ref={navInfo} className="nav-info">
         <li>
-          <Phone />
+          <Icon id="phone" />
           <a className="link" href="tel:5037141111">
             503-714-1111
           </a>
           <span>OR</span>
         </li>
         <li>
-          <Phone />
+          <Icon id="phone" />
           <a className="link" href="tel:3603453833">
             360-345-3833
           </a>
           <span>SW WA</span>
         </li>
         <li>
-          <Calendar />
+          <Icon id="calendar" />
           <a className="link" href="-">
             Set an Appointment
           </a>
@@ -68,7 +66,7 @@ function Header() {
               <span />
             </button>
             <div className="logo">
-              <Logo />
+              <img src={Logo} alt="" />
             </div>
             <ul className="menu">
               <li className="menu__item">
@@ -78,7 +76,7 @@ function Header() {
               </li>
               <li className="menu__item">
                 <NavLink className="menu__item__link" to="/home">
-                  Home page <DownArrow />
+                  Home page
                 </NavLink>
                 <ul>
                   <li>

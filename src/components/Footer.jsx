@@ -1,11 +1,4 @@
-import { ReactComponent as Mail } from "../assets/icons/icon-mail.svg"
-import { ReactComponent as Phone } from "../assets/icons/icon-phone.svg"
-import { ReactComponent as Facebook } from "../assets/icons/icon-facebook.svg"
-import { ReactComponent as Twitter } from "../assets/icons/icon-twitter.svg"
-import { ReactComponent as Instagram } from "../assets/icons/icon-instagram.svg"
-import { ReactComponent as Linkedin } from "../assets/icons/icon-linkedin.svg"
-import { ReactComponent as Youtube } from "../assets/icons/icon-youtube.svg"
-import { ReactComponent as Pinterest } from "../assets/icons/icon-pinterest.svg"
+import Icon from "./Icon"
 
 function Footer() {
   return (
@@ -199,18 +192,18 @@ function Footer() {
               <h6>Let`s Meet Up. Click to Contact Us.</h6>
               <ul>
                 <li>
-                  <Mail />
+                  <Icon id="mail" />
                   <a href="mailto:realestateagentpdx@gmail.com?subject=Stephen FitzMaurice Team">
                     RealEstateAgentPDX@gmail.com
                   </a>
                 </li>
                 <li>
-                  <Phone />
+                  <Icon id="phone" />
                   <a href="tel:5037141111">503-714-1111</a>
                   <span>OR</span>
                 </li>
                 <li>
-                  <Phone />
+                  <Icon id="phone" />
                   <a href="tel:3603453833">360-345-3833</a>
                   <span>SW WA</span>
                 </li>
@@ -225,7 +218,7 @@ function Footer() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <Facebook />
+                    <Icon id="facebook" />
                   </a>
                 </li>
 
@@ -235,7 +228,7 @@ function Footer() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <Twitter />
+                    <Icon id="twitter" />
                   </a>
                 </li>
 
@@ -245,7 +238,7 @@ function Footer() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <Instagram />
+                    <Icon id="instagram" />
                   </a>
                 </li>
 
@@ -255,7 +248,7 @@ function Footer() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <Linkedin />
+                    <Icon id="linkedin" />
                   </a>
                 </li>
 
@@ -265,7 +258,7 @@ function Footer() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <Youtube />
+                    <Icon id="youtube" />
                   </a>
                 </li>
 
@@ -275,13 +268,13 @@ function Footer() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    <Pinterest />
+                    <Icon id="pinterest" />
                   </a>
                 </li>
 
                 <li>
                   <a to="mailto:re%61les%74a%74eag%65nt%70dx@gmai%6C.com">
-                    <Mail />
+                    <Icon id="mail" />
                   </a>
                 </li>
               </ul>
