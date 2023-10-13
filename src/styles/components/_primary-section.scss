@@ -5,10 +5,7 @@
   justify-content: space-between;
   column-gap: 150px;
   row-gap: 10px;
-  background-color: rgba(128, 128, 128, 0.364);
-  &.reverse {
-    flex-direction: row-reverse;
-  }
+  // background-color: rgba(128, 128, 128, 0.364);
   @include xxlMax {
     column-gap: 110px;
   }
@@ -22,6 +19,33 @@
     column-gap: 40px;
     flex-direction: column;
   }
+  &.reverse {
+    flex-direction: row-reverse;
+    @include mdMax {
+      flex-direction: column;
+    }
+  }
+  h2 {
+    @include title("secondary", var(--primary-dark));
+    margin-bottom: 20px;
+    @include smMax {
+      margin-bottom: 10px;
+    }
+  }
+  p {
+    @include text("tertiary");
+    margin-bottom: 20px;
+    line-height: 150%;
+    @include smMax {
+      margin-bottom: 10px;
+    }
+  }
+  ul {
+    margin: 20px 0;
+  }
+  a {
+    @include link-style;
+  }
   img {
     max-height: 600px;
     max-width: 650px;
@@ -30,9 +54,9 @@
     object-fit: contain;
   }
 }
-.primary-section__left,
-.primary-section__right {
-  background-color: gray;
+.primary-section__image,
+.primary-section__content {
+  // background-color: gray;
   width: 50%;
   @include mdMax {
     width: 100%;

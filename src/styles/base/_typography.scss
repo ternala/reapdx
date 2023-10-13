@@ -26,34 +26,26 @@
   }
 }
 
-// @mixin title {
-//   font-family: var(--font-heading);
-//   font-weight: 700;
-//   color: var();
-//   &.title-center {
-//     text-align: center;
-//   }
-//   &.title-primary {
-//     font-size: 48px;
-//   }
-//   &.title-secondary {
-//     font-size: 34px;
-//   }
-//   &.title-tertiary {
-//     font-size: 28px;
-//   }
-//   &.title-quaternary {
-//     font-size: 24px;
-//   }
-//   &.title-fivefold {
-//     font-size: 20px;
-//   }
-//   &.title-sixfold {
-//     font-size: 16px;
-//   }
-//   //   @include mdMax {
-//   //   }
-// }
+@mixin text($size, $color: var(--gray-700), $weight: 400, $style: normal) {
+  font-family: var(--font-primary);
+  font-weight: $weight;
+  font-style: $style;
+  color: $color;
+
+  @if $size == "primary" {
+    font-size: 12px;
+  } @else if $size == "secondary" {
+    font-size: 14px;
+  } @else if $size == "tertiary" {
+    font-size: 18px;
+  } @else if $size == "quaternary" {
+    font-size: 20px;
+  } @else if $size == "fivefold" {
+    font-size: 34px;
+  } @else {
+    @error "Unknown size #{$size}.";
+  }
+}
 
 .subtitle {
   color: var();

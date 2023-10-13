@@ -4,29 +4,18 @@ import PrimarySection from "../components/PrimarySection"
 import home from "../data/Home.json"
 // import Icon from "../components/Icon"
 
-// Define the ShowcaseApplicants component
-function ShowcaseApplicants(props) {
-  const { applicants } = props
-
-  return (
-    <div>
-      {applicants.map((applicant) => (
-        <PrimarySection
-          key={applicant.id}
-          src={applicant.src}
-          title={applicant.title}
-          reverse={applicant.reverse}
-        />
-      ))}
-    </div>
-  )
-}
-
 function Home() {
   return (
     <div className="wrapper">
       <main>
-        <ShowcaseApplicants applicants={home} />
+        <PrimarySection {...home[2]} />
+        <PrimarySection {...home[1]} />
+        <PrimarySection {...home[2]} />
+        <PrimarySection {...home[3]} />
+        <PrimarySection {...home[4]} />
+        <PrimarySection {...home[5]} />
+        <PrimarySection {...home[6]} />
+        <PrimarySection {...home[7]} />
         <Recent />
       </main>
     </div>

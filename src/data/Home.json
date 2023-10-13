@@ -1,54 +1,154 @@
 [
   {
     "id": 0,
-    "src": "/images/section-4-to-sell.png",
-    "alt": "",
-    "title": "",
+    "image": {
+      "src": "/images/section-4-to-sell.png",
+      "alt": ""
+    },
+    "title": "Top Sellers Agents",
+    "content": [
+      {
+        "paragraph": [
+          {
+            "text": "We charge a max. of 4% commission to sell a home in Portland or SW Washington, and a max. 4.5% to sell a home in Bend or Salem metro areas (this includes the buyer’s agent commission). "
+          }
+        ]
+      }
+    ],
     "reverse": true
   },
   {
     "id": 1,
-    "src": "/images/section-cancel-anytime.png",
-    "alt": "",
+    "image": {
+      "src": "/images/section-cancel-anytime.png",
+      "alt": ""
+    },
     "title": ""
   },
   {
     "id": 2,
-    "src": "/images/section-man.png",
-    "alt": "",
-    "title": "",
+    "image": {
+      "src": "/images/section-man.png",
+      "alt": ""
+    },
+    "title": "Home Selling Experts",
+    "content": [
+      {
+        "paragraph": [
+          {
+            "text": "Have a luxury home to sell? We provide ",
+            "link": {
+              "text": "additional marketing",
+              "url": "#"
+            }
+          },
+          {
+            "text": " to effectively reach a niche buyer pool."
+          }
+        ]
+      },
+      {
+        "paragraph": [
+          {
+            "text": "Want to ",
+            "link": {
+              "text": "sell your condo?",
+              "url": "#"
+            }
+          },
+          {
+            "text": " With over one hundred successful condo sales, we have extensive experience in nearly every large complex and high rise, and most of the smaller plexes as well."
+          }
+        ]
+      },
+      {
+        "paragraph": [
+          {
+            "text": "Need to short sale a property? We also provide top-notch ",
+            "link": {
+              "text": " short sale",
+              "url": "#"
+            }
+          },
+          {
+            "text": " services."
+          }
+        ]
+      },
+      {
+        "paragraph": [
+          {
+            "text": "See our ",
+            "link": {
+              "text": "team’s sales experience",
+              "url": "#"
+            }
+          },
+          {
+            "text": ": active listings, pending listings, and sold listings."
+          }
+        ]
+      },
+      {
+        "list": ["first", "second"]
+      }
+    ],
     "reverse": true
   },
   {
     "id": 3,
-    "src": "/images/section-woman.png",
-    "alt": "",
+    "image": {
+      "src": "/images/section-woman.png",
+      "alt": ""
+    },
     "title": ""
   },
   {
     "id": 4,
-    "src": "/images/section-map-1.png",
-    "alt": "",
+    "image": {
+      "src": "/images/section-map-1.png",
+      "alt": ""
+    },
     "title": "",
+    "content": [
+      {
+        "list": [
+          {
+            "text": "First",
+            "url": "#"
+          },
+          {
+            "text": "second",
+            "url": "#"
+          }
+        ]
+      }
+    ],
     "reverse": true
   },
   {
     "id": 5,
-    "src": "/images/section-map-2.png",
-    "alt": "",
+    "image": {
+      "src": "/images/section-map-2.png",
+      "alt": ""
+    },
     "title": ""
   },
   {
     "id": 6,
-    "src": "/images/section-hands.jpeg",
-    "alt": "",
+    "image": {
+      "src": "/images/section-hands.jpeg",
+      "alt": ""
+    },
     "title": "",
     "reverse": true
   },
   {
     "id": 7,
-    "src": "/images/section-stephen.png",
-    "alt": "",
+    "image": {
+      "src": "/images/section-stephen.png",
+      "alt": ""
+    },
     "title": ""
   }
 ]

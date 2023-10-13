@@ -1,6 +1,4 @@
-import { ReactComponent as LinkArrow } from "../assets/icons/icon-link-arrow.svg"
-import { ReactComponent as PaginationArrowLeft } from "../assets/icons/icon-pagination-arrow-left.svg"
-import { ReactComponent as PaginationArrowRight } from "../assets/icons/icon-pagination-arrow-right.svg"
+import Icon from "../components/Icon"
 
 function Default() {
   return (
@@ -100,7 +98,7 @@ function Default() {
                       <li>
                         <a href="-" className="link link__arrow">
                           Home Sales
-                          <LinkArrow />
+                          <Icon id="link-arrow" />
                         </a>
                       </li>
                     </ul>
@@ -109,7 +107,7 @@ function Default() {
                       <li>
                         <a href="-" className="link link__arrow disabled">
                           Home Sales
-                          <LinkArrow />
+                          <Icon id="link-arrow" />
                         </a>
                       </li>
                     </ul>
@@ -200,7 +198,7 @@ function Default() {
                       <li>
                         <ul className="pagination">
                           <li className="disabled">
-                            <PaginationArrowLeft />
+                            <Icon id="pagination-arrow-left" />
                           </li>
                           <li className="active">
                             <a href="-">1</a>
@@ -219,7 +217,7 @@ function Default() {
                           </li>
                           <li>
                             <a href="-">
-                              <PaginationArrowRight />
+                              <Icon id="pagination-arrow-right" />
                             </a>
                           </li>
                         </ul>
