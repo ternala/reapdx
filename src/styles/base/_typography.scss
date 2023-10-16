@@ -24,6 +24,40 @@
   } @else {
     @error "Unknown size #{$size}.";
   }
+  @include mdMax {
+    @if $size == "primary" {
+      font-size: 34px;
+    } @else if $size == "secondary" {
+      font-size: 24px;
+    } @else if $size == "tertiary" {
+      // font-size: 28px;
+    } @else if $size == "quaternary" {
+      // font-size: 24px;
+    } @else if $size == "fivefold" {
+      // font-size: 20px;
+    } @else if $size == "sixfold" {
+      // font-size: 16px;
+    } @else {
+      @error "Unknown size #{$size}.";
+    }
+  }
+  @include smMax {
+    @if $size == "primary" {
+      font-size: 24px;
+    } @else if $size == "secondary" {
+      font-size: 20px;
+    } @else if $size == "tertiary" {
+      // font-size: 28px;
+    } @else if $size == "quaternary" {
+      // font-size: 24px;
+    } @else if $size == "fivefold" {
+      // font-size: 20px;
+    } @else if $size == "sixfold" {
+      // font-size: 16px;
+    } @else {
+      @error "Unknown size #{$size}.";
+    }
+  }
 }
 
 @mixin text($size, $color: var(--gray-700), $weight: 400, $style: normal) {
@@ -31,6 +65,10 @@
   font-weight: $weight;
   font-style: $style;
   color: $color;
+
+  strong {
+    font-weight: 700;
+  }
 
   @if $size == "primary" {
     font-size: 12px;
@@ -45,6 +83,37 @@
   } @else {
     @error "Unknown size #{$size}.";
   }
+
+  @include smMax {
+    @if $size == "primary" {
+      // font-size: 12px;
+    } @else if $size == "secondary" {
+      // font-size: 14px;
+    } @else if $size == "tertiary" {
+      font-size: 14px;
+    } @else if $size == "quaternary" {
+      // font-size: 20px;
+    } @else if $size == "fivefold" {
+      // font-size: 34px;
+    } @else {
+      @error "Unknown size #{$size}.";
+    }
+  }
+}
+
+@mixin list-style($color: var(--primary-light)) {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  li {
+    @include text("tertiary");
+    color: $color;
+    &::marker {
+      margin-right: 10px;
+    }
+  }
+  list-style-type: square;
+  list-style-position: inside;
 }
 
 .subtitle {

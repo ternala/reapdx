@@ -1,0 +1,92 @@
+.statistic-block {
+  padding: 30px 70px;
+  box-shadow: 0px 4px 20px 0px #52515114;
+  border-radius: 2px;
+  overflow: hidden;
+  @include lgMax {
+    padding: 30px 50px;
+  }
+  @include mdMax {
+    padding: 25px 30px;
+  }
+  @include smMax {
+    padding: 20px 15px;
+  }
+  .statistic-block__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    @include smMax {
+      gap: 20px;
+    }
+    .statistic-block__list__item {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 10px;
+      @include smMax {
+        gap: 5px;
+      }
+      span {
+        @include title("primary", var(--primary-dark));
+      }
+      @include lgMax {
+        width: calc(50% - 20px);
+      }
+      @include smMax {
+        width: calc(50% - 10px);
+      }
+      a {
+        @include link-style;
+        white-space: normal;
+      }
+    }
+    .photo-block {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      @include mdMax {
+        gap: 5px;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        @include smMax {
+          gap: 2px;
+        }
+      }
+      h6,
+      li {
+        color: var(--primary-dark);
+        font-family: var(--font-primary);
+        font-size: 14px;
+        font-style: italic;
+        font-weight: 300;
+        @include smMax {
+          font-size: 10px;
+        }
+      }
+      h6 {
+        font-weight: 700;
+        font-style: normal;
+        margin-bottom: 6px;
+      }
+    }
+    .photo-block__image {
+      min-width: 90px;
+      width: 90px;
+      height: 90px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+      @include mdMax {
+        min-width: 60px;
+        width: 60px;
+        height: 60px;
+      }
+    }
+  }
+}

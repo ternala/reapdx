@@ -1,0 +1,189 @@
+[
+  {
+    "id": 0,
+    "image": {
+      "src": "/images/section-4-to-sell.png",
+      "alt": ""
+    },
+    "title": "4% Commission Max. to Sell a Home",
+    "reverse": true,
+    "content": [
+      {
+        "paragraph": [
+          {
+            "text": "In the ",
+            "link": {
+              "text": "Portland",
+              "url": "#"
+            }
+          },
+          {
+            "text": " metro area and in ",
+            "link": {
+              "text": "SW Washington",
+              "url": "#"
+            }
+          },
+          {
+            "text": " we charge a max. of 4% commission were we earn 1.75% and offer the buyer’s agent 2.25%, one of the most commonly offered rates in the area. In ",
+            "link": {
+              "text": "Salem",
+              "url": "#"
+            }
+          },
+          {
+            "text": " and ",
+            "link": {
+              "text": "Bend",
+              "url": "#"
+            }
+          },
+          {
+            "text": ", we charge 4.5% commission max."
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "4% commission",
+        "url": "#",
+        "style": "primary"
+      },
+      {
+        "text": "Sell a House",
+        "url": "#",
+        "style": "secondary"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "image": {
+      "src": "/images/section-increased.png",
+      "alt": ""
+    },
+    "title": "Increased Marketing to Sell Homes Faster and For More",
+    "content": [
+      {
+        "paragraph": [
+          {
+            "text": "We pay extra to market our clients’ homes so they sell faster and for more. See our ",
+            "link": {
+              "text": "selling services page",
+              "url": "#"
+            }
+          },
+          {
+            "text": " for more details or chat with the bot on this site to be directed to a local agent serving your area."
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Sell a Home",
+        "url": "#",
+        "style": "secondary"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "image": {
+      "src": "/images/section-cancel-anytime.png",
+      "alt": ""
+    },
+    "title": "",
+    "reverse": true
+  },
+  {
+    "id": 3,
+    "image": {
+      "src": "/images/section-realtor.png",
+      "alt": ""
+    },
+    "title": "Realtor Home Value Estimate",
+    "content": [
+      {
+        "paragraph": [
+          {
+            "text": "Nothing is more important than pricing your home right. A home value report is your first step in the right direction."
+          }
+        ]
+      },
+      {
+        "paragraph": [
+          {
+            "text": "My team serves 16 counties in ",
+            "strong": "Washington"
+          },
+          {
+            "text": " and ",
+            "strong": "Oregon"
+          },
+          {
+            "text": ". If your property is in either state, please fill out the form and we’d be happy to provide you with a professional home value estimate."
+          }
+        ]
+      },
+      {
+        "paragraph": [
+          {
+            "text": "Unlike some real estate agents, we will listen to you. Obviously, our clients have lived longer on their street than we have. We’ll combine our local knowledge, deep research tools, and our ",
+            "link": {
+              "text": "increased marketing program",
+              "url": "#"
+            }
+          },
+          {
+            "text": " to develop a plan to sell your home fast and for the best price."
+          }
+        ]
+      },
+      {
+        "paragraph": [
+          {
+            "text": "We would love to set an appointment to view the interior of your home and generate a specific value report. Pricing is not everything to selling a home, but it is the first step in determining a successful home selling experience."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "image": {
+      "src": "/images/section-5.png",
+      "alt": ""
+    },
+    "title": "Home Values Change with the Market",
+    "reverse": true,
+    "content": [
+      {
+        "paragraph": [
+          {
+            "text": "After submitting a home value estimate request check out our ",
+            "link": {
+              "text": "real estate market news section",
+              "url": "#"
+            }
+          },
+          {
+            "text": " if you’re located in the greater Portland metro area. We run a top 100 real estate blog in the world and it is focused on the greater Portland metro real estate market. We create regular reports on real estate development, housing market trends, home price market forecasts, tips on home buying and selling, and much more."
+          }
+        ]
+      },
+      {
+        "list": [
+          "Stephen FitzMaurice, Realtor",
+          "Top 5% Agent in the United States",
+          "Top 250 Team in the United States",
+          "Seller Representative Specialist, SRS",
+          "Principal Broker in Oregon",
+          "Managing Broker in WA",
+          "Licensed since 2003"
+        ]
+      }
+    ]
+  }
+]

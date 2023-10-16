@@ -1,0 +1,111 @@
+[
+  {
+    "id": 0,
+    "image": {
+      "src": "/images/",
+      "alt": ""
+    },
+    "title": "",
+    "reverse": true,
+    "content": [
+      {
+        "paragraph": [
+          {
+            "text": "",
+            "link": {
+              "text": "",
+              "url": "#"
+            }
+          },
+          {
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "",
+        "url": "#",
+        "style": "primary"
+      },
+      {
+        "text": "",
+        "url": "#",
+        "style": "secondary"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "image": {
+      "src": "/images/section-cancel-anytime.png",
+      "alt": ""
+    },
+    "title": "",
+    "reverse": true
+  },
+  {
+    "id": 2,
+    "image": {
+      "src": "/images/section-increased.png",
+      "alt": ""
+    },
+    "title": "Increased Marketing to Sell your Home Fast and for More in the Portland Market",
+    "content": [
+      {
+        "paragraph": [
+          {
+            "text": "",
+            "strong": "95%"
+          },
+          {
+            "text": " of buyers find their next home online. We list on thousands of websites and pay extra to feature your home on top websites in the nation, providing exceptional online exposure. We often generate over 100,000 online views per listing. Read our article with statistics from the National Association of Realtors Report explaining ",
+            "link": {
+              "text": "what exactly makes a home sell",
+              "url": "#"
+            }
+          },
+          {
+            "text": "."
+          }
+        ]
+      },
+      {
+        "paragraph": [
+          {
+            "text": "This amount of internet exposure, coupled with professional, full-service representation, has led to faster and higher-priced house sales for our clients. Our team has sold over 1,000 homes in less than 30 days on the market and over 500 homes in their first weekend on the market."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "image": {
+      "src": "/images/section-threebest.png",
+      "alt": ""
+    },
+    "title": "Paid Featured on the Top Websites",
+    "reverse": true,
+    "content": [
+      {
+        "paragraph": [
+          {
+            "text": "Extra promotion on the #1, #2, #4, and #7 Ranked Real Estate Websites in the U.S. and more."
+          }
+        ]
+      },
+      {
+        "list": [
+          "#1 Zillow.com (Featured)",
+          "#2 Realtor.com (Featured)",
+          "#4 Trulia.com (Featured)",
+          "#7 Homes.com (Featured)",
+          "CoStar.com (#1 Commercial Site) (Featured)",
+          "Loopnet.com (#1 Multifamily, Land) (Featured)"
+        ]
+      }
+    ]
+  }
+]

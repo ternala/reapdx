@@ -11,8 +11,8 @@
 .recent-list {
   display: flex;
   gap: 24px;
-  overflow-y: auto;
-  overflow-x: hidden;
+  overflow-y: hidden;
+  overflow-x: auto;
   li {
     min-width: 300px;
   }

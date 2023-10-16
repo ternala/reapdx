@@ -15,6 +15,18 @@
         ]
       }
     ],
+    "buttons": [
+      {
+        "text": "Sell a House",
+        "url": "#",
+        "style": "primary"
+      },
+      {
+        "text": "4% commission",
+        "url": "#",
+        "style": "secondary"
+      }
+    ],
     "reverse": true
   },
   {
@@ -88,9 +100,6 @@
             "text": ": active listings, pending listings, and sold listings."
           }
         ]
-      },
-      {
-        "list": ["first", "second"]
       }
     ],
     "reverse": true
@@ -101,7 +110,28 @@
       "src": "/images/section-woman.png",
       "alt": ""
     },
-    "title": ""
+    "title": "Top Buyers Agents",
+    "content": [
+      {
+        "paragraph": [
+          {
+            "text": "Our Oregon and Washington buyer’s agents are experienced veterans of the real estate industry and are excited to help you find your next home."
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Buy a House",
+        "url": "#",
+        "style": "primary"
+      },
+      {
+        "text": "Our Agents",
+        "url": "#",
+        "style": "secondary"
+      }
+    ]
   },
   {
     "id": 4,
@@ -109,16 +139,31 @@
       "src": "/images/section-map-1.png",
       "alt": ""
     },
-    "title": "",
+    "title": "Exclusive Smart home Search",
     "content": [
+      {
+        "paragraph": [
+          {
+            "text": "Our in-house developed home search websites offer one-click smart filters to help home buyers find the best deal on any home for sale in Oregon or Washington. Try it out today, it is a great way to connect with our team’s top rated buyer’s agents."
+          }
+        ]
+      },
       {
         "list": [
           {
-            "text": "First",
+            "text": "Portland Homes for Sale",
             "url": "#"
           },
           {
-            "text": "second",
+            "text": "Vancouver Homes for Sale",
+            "url": "#"
+          },
+          {
+            "text": "Salem Homes for Sale",
+            "url": "#"
+          },
+          {
+            "text": "Bend Homes for Sale",
             "url": "#"
           }
         ]
@@ -132,7 +177,20 @@
       "src": "/images/section-map-2.png",
       "alt": ""
     },
-    "title": ""
+    "title": "Extended Real Estate Service Area in Oregon and Washington",
+    "content": [
+      {
+        "paragraph": [
+          {
+            "text": "Click the top menu under ",
+            "strong": "“Roster”"
+          },
+          {
+            "text": " to connect with our team’s top real estate agents throughout Oregon and Washington. In Oregon we serve over a dozen counties including the entire Portland metro area, but also all the way down the Willamette Valley to Corvallis. We also serve Bend, Oregon and surrounding Central Oregon areas. In SW Washington we serve the entirety of Clark County and Cowlitz County."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 6,
@@ -140,8 +198,24 @@
       "src": "/images/section-hands.jpeg",
       "alt": ""
     },
-    "title": "",
-    "reverse": true
+    "title": "Commitment to Customer Service",
+    "reverse": true,
+    "content": [
+      {
+        "paragraph": [
+          {
+            "text": "I think you will be pleasantly surprised by what you’ll find on RealEstateAgentPDX.com. Our team’s mission is to provide home buying and selling clients with top-notch customer service at a reasonable cost.  Whether you are looking to buy or sell a home in Oregon or Washington, we want to give you the best experience possible. Check our ",
+            "link": {
+              "text": "verified real estate agent reviews",
+              "url": "#"
+            }
+          },
+          {
+            "text": "."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 7,
@@ -149,6 +223,23 @@
       "src": "/images/section-stephen.png",
       "alt": ""
     },
-    "title": ""
+    "title": "Top Real Estate Agents",
+    "content": [
+      {
+        "paragraph": [
+          {
+            "text": "Don’t delay. Reach out to the Stephen FitzMaurice team today. You’ll discover the power of his extensive marketing system that allows him to sell his client’s homes faster and for more. If you’re buying a home, you’ll discover a high level of dedication and skill made possible by a team of agents who have dedicated themselves professionally to nothing more and nothing less than helping buyers find their next home. Having been in the top 5% of real estate agents in the U.S. since 2013 and licensed since 2003, Stephen knows ",
+            "strong": "both"
+          },
+          {
+            "text": " how to sell homes in any market, ",
+            "strong": "and"
+          },
+          {
+            "text": " how to provide excellent customer service for each individual client along the way."
+          }
+        ]
+      }
+    ]
   }
 ]

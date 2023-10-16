@@ -1,0 +1,39 @@
+[
+  {
+    "id": 0,
+    "image": {
+      "src": "/images/",
+      "alt": ""
+    },
+    "title": "",
+    "reverse": true,
+    "content": [
+      {
+        "paragraph": [
+          {
+            "text": "",
+            "link": {
+              "text": "",
+              "url": "#"
+            }
+          },
+          {
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "buttons": [
+      {
+        "text": "",
+        "url": "#",
+        "style": "primary"
+      },
+      {
+        "text": "",
+        "url": "#",
+        "style": "secondary"
+      }
+    ]
+  }
+]

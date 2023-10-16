@@ -71,7 +71,7 @@ header {
       .menu {
         overflow-y: auto;
         overflow-x: hidden;
-        height: calc(100dvh - var(--navHeight) - 60px);
+        height: calc(100dvh - var(--navHeight));
         padding-top: 30px;
         padding-bottom: 30px;
       }
@@ -86,7 +86,8 @@ header {
     height: 60px;
     border: none;
     display: none;
-    background: rgba(128, 128, 128, 0.101);
+    // background: rgba(128, 128, 128, 0.101);
+    background-color: var(--primary-light);
     z-index: 5;
     cursor: pointer;
     span {
@@ -110,12 +111,12 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: var(--primary-light);
-    background-color: rgb(206 206 206);
+    // background-color: rgb(206 206 206);
     @include xlMax {
       position: absolute;
       top: 100%;
       gap: 0;
-      width: calc(100% - 105px);
+      width: 100%;
       height: 0;
       padding: 0 15px 0 90px;
       overflow: hidden;

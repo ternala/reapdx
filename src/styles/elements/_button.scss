@@ -4,11 +4,13 @@
   align-items: center;
   text-align: center;
   font-family: var(--font-heading);
+  background-color: var(--gray-300);
   font-size: 18px;
   font-weight: 700;
   height: 58px;
   width: fit-content;
   min-width: fit-content;
+  white-space: nowrap;
   padding: 0 40px;
   outline: none;
   border: none;

@@ -1,0 +1,118 @@
+[
+  {
+    "id": 0,
+    "image": {
+      "src": "/images/hero-section-home.png",
+      "alt": ""
+    },
+    "title": "Top Real Estate Agents",
+    "subtitle": "Oregon and Washington Realtors You Can Trust",
+    "content": [
+      {
+        "paragraph": [
+          {
+            "text": "Everything you need to navigate the Oregon or Washington real estate market is here. Customer service is our number one priority as your top 1% real estate team in the U.S. We are thankful to have collected over 600 positive ",
+            "link": {
+              "text": "client reviews",
+              "url": "#"
+            }
+          },
+          {
+            "text": ". We`d love to talk with you today. For immediate real estate advice in Oregon call ",
+            "link": {
+              "text": "503-714-1111",
+              "url": "#"
+            }
+          },
+          {
+            "text": " or ",
+            "link": {
+              "text": "360-345-3833",
+              "url": "#"
+            }
+          },
+          {
+            "text": " for Washington."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "image": {
+      "src": "/images/hero-section-landing-1.png",
+      "alt": ""
+    },
+    "subtitle": "Professional Home Value Estimate",
+    "content": [
+      {
+        "paragraph": [
+          {
+            "text": "Whether you are looking for a Realtor’s exact market value estimate of your home, or simply want the best online value tracker for your home, we’ve got you covered. Whenever you’re ready our top 1% sellers agents would love to tour your home. ",
+            "strong": "4% max. to sell a home. Cancel anytime policy."
+          }
+        ]
+      },
+      {
+        "paragraph": [
+          {
+            "text": "Call: ",
+            "link": {
+              "text": "503-714-1111",
+              "url": "#"
+            }
+          },
+          {
+            "text": " for Oregon or ",
+            "link": {
+              "text": "360-345-3833",
+              "url": "#"
+            }
+          },
+          {
+            "text": " for Washington."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "image": {
+      "src": "/images/hero-section-landing-2.png",
+      "alt": ""
+    },
+    "subtitle": "Portland Realtor: Among The Top 1% of Seller Agents in Oregon",
+    "content": [
+      {
+        "paragraph": [
+          {
+            "text": "We charge a 4% maximum to ",
+            "link": {
+              "text": "sell a home in the Portland metro",
+              "url": "#"
+            }
+          },
+          {
+            "text": " area (this includes the buyer’s agent commission). We offer a cancel-anytime policy, no charge contracts, and include professional photography, 3D home tours, a home warranty, and much more. Customer service is our focus. Licensed since 2003, Stephen’s team has completed over 2,000 local home sales."
+          }
+        ]
+      },
+      {
+        "paragraph": [
+          {
+            "text": "Let us put our expertise to work for you. Call to set an appointment with the best Portland Realtor at ",
+            "link": {
+              "text": "503-714-1111",
+              "url": "#"
+            }
+          },
+          {
+            "text": "."
+          }
+        ]
+      }
+    ]
+  }
+]
