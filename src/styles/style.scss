@@ -2,6 +2,9 @@
 @import "abstracts/vars";
 @import "abstracts/mix-media";
 
+@import "swiper/scss";
+@import "swiper/scss/pagination";
+
 @import "base/common";
 @import "base/fonts";
 @import "base/typography";
@@ -14,12 +17,14 @@
 @import "elements/pagination";
 @import "elements/radio";
 @import "elements/spinner";
+@import "elements/quote";
 // Components
 @import "components/footer";
 @import "components/header";
 @import "components/hero-section";
 @import "components/statistic-block";
 @import "components/primary-section";
+@import "components/form";
 @import "components/breadcrumbs";
 @import "components/recent";
 // Pages

@@ -1,0 +1,48 @@
+.quote {
+    
+  h4 {
+    @include title("secondary", var(--gray-700));
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  span {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  p {
+    @include text("tertiary", var(--primary-dark), 400, italic);
+    text-align: left;
+  }
+  cite {
+    @include text("quaternary", var(--primary-dark), 600);
+    color: #282828;
+    margin-top: 10px;
+    line-height: 130%;
+    display: inline-flex;
+    gap: 8px;
+    &::before {
+      content: "";
+      display: block;
+      margin: auto;
+      height: 1px;
+      width: 25px;
+      background-color: var(--gray-600);
+    }
+  }
+  blockquote {
+    position: relative;
+    margin: 0;
+    padding-left: 25px;
+    text-align: right;
+    &::before {
+      content: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTguMzMzMzcgMTAuMDAwMUM4LjMzMzM3IDEyLjA4MzQgNy41MDAwNCAxMy4zMzM0IDUuMDAwMDQgMTQuNTgzNE04LjMzMzM3IDEwLjAwMDFINC4xNjY3MUMzLjk0NTY5IDEwLjAwMDEgMy43MzM3MyA5LjkxMjI4IDMuNTc3NDUgOS43NTZDMy40MjExNyA5LjU5OTcyIDMuMzMzMzcgOS4zODc3NiAzLjMzMzM3IDkuMTY2NzVWNi4yNTAwOEMzLjMzMzM3IDYuMDI5MDcgMy40MjExNyA1LjgxNzExIDMuNTc3NDUgNS42NjA4M0MzLjczMzczIDUuNTA0NTUgMy45NDU2OSA1LjQxNjc1IDQuMTY2NzEgNS40MTY3NUg3LjUwMDA0QzcuNzIxMDUgNS40MTY3NSA3LjkzMzAyIDUuNTA0NTUgOC4wODkzIDUuNjYwODNDOC4yNDU1OCA1LjgxNzExIDguMzMzMzcgNi4wMjkwNyA4LjMzMzM3IDYuMjUwMDhWMTAuMDAwMVpNMTYuNjY2NyAxMC4wMDAxQzE2LjY2NjcgMTIuMDgzNCAxNS44MzM0IDEzLjMzMzQgMTMuMzMzNCAxNC41ODM0TTE2LjY2NjcgMTAuMDAwMUgxMi41QzEyLjI3OSAxMC4wMDAxIDEyLjA2NzEgOS45MTIyOCAxMS45MTA4IDkuNzU2QzExLjc1NDUgOS41OTk3MiAxMS42NjY3IDkuMzg3NzYgMTEuNjY2NyA5LjE2Njc1VjYuMjUwMDhDMTEuNjY2NyA2LjAyOTA3IDExLjc1NDUgNS44MTcxMSAxMS45MTA4IDUuNjYwODNDMTIuMDY3MSA1LjUwNDU1IDEyLjI3OSA1LjQxNjc1IDEyLjUgNS40MTY3NUgxNS44MzM0QzE2LjA1NDQgNS40MTY3NSAxNi4yNjYzIDUuNTA0NTUgMTYuNDIyNiA1LjY2MDgzQzE2LjU3ODkgNS44MTcxMSAxNi42NjY3IDYuMDI5MDcgMTYuNjY2NyA2LjI1MDA4VjEwLjAwMDFaIiBzdHJva2U9IiMxRTFFMUMiIHN0cm9rZS13aWR0aD0iMC44MzMzMzMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K);
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      display: block;
+      top: 0;
+      left: 0;
+    }
+  }
+}
