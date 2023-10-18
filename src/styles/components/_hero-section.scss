@@ -7,6 +7,16 @@
   background-color: var(--gray-300);
   border-radius: 2px;
   overflow: hidden;
+  &_center {
+    justify-content: center;
+    .hero-section__content {
+      text-align: center;
+      h2 {
+        width: 80%;
+        margin: 0 auto;
+      }
+    }
+  }
   & * :last-child {
     margin-bottom: 0;
   }

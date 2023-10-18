@@ -1,6 +1,7 @@
 import RenderContent from "./RenderContent"
 
 function HeroSection({
+  extraClass,
   image = "",
   title = "",
   subtitle = "",
@@ -10,7 +11,13 @@ function HeroSection({
   return (
     <section>
       <div className="container container-sm">
-        <div className="hero-section">
+        <div
+          className={
+            extraClass
+              ? `hero-section hero-section_${extraClass}`
+              : "hero-section"
+          }
+        >
           <img src={image.src} alt={image.alt} />
           <div className="hero-section__content">
             {children || (

@@ -7,6 +7,7 @@ function PrimarySection({
   content = [],
   buttons = [],
   reverse = false,
+  cover = false,
 }) {
   return (
     <section>
@@ -18,12 +19,23 @@ function PrimarySection({
             <img src={image.src} alt={image.alt} />
           </div>
           <div className="primary-section__content">
-            <h2>{title}</h2>
-            <RenderContent
-              className="primary-section__content__wrap"
-              content={content}
-            />
-            <RenderButtons buttons={buttons} />
+            {title ? <h2>{title}</h2> : null}
+            {cover ? (
+              <div className="primary-section__content__cover">
+                <RenderContent
+                  className="primary-section__content__wrap"
+                  content={content}
+                />
+              </div>
+            ) : (
+              <>
+                <RenderContent
+                  className="primary-section__content__wrap"
+                  content={content}
+                />
+                <RenderButtons buttons={buttons} />
+              </>
+            )}
           </div>
         </div>
       </div>

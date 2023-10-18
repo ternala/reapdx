@@ -1,4 +1,3 @@
-import React from "react"
 import Recent from "../components/Recent"
 import PrimarySection from "../components/PrimarySection"
 import PrimaryFormSection from "../components/PrimaryFormSection"
@@ -20,8 +19,11 @@ function Home() {
         <PrimarySection {...data[4]} />
         <PrimarySection {...data[5]} />
         <PrimarySection {...data[6]} />
-        <PrimaryFormSection />
-        <HeroSection image="dd">
+        <PrimaryFormSection title="Let’s Meet Up" type="secondary" />
+        <HeroSection
+          extraClass="center"
+          image={{ src: "/images/hero-section-home-2.png", alt: "" }}
+        >
           <h2>Greater Portland Real Estate Market Reports</h2>
           <div>
             <p>
@@ -37,7 +39,11 @@ function Home() {
         </HeroSection>
         <BlankSection text="Categories section" />
         <PrimarySection {...data[7]} />
-        <BlankSection text="Form section" />
+        <PrimaryFormSection
+          title="Let`s Connect"
+          type="primary"
+          reverse="true"
+        />
         <Recent />
       </main>
     </div>

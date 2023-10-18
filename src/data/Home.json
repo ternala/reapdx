@@ -35,7 +35,28 @@
       "src": "/images/section-cancel-anytime.png",
       "alt": ""
     },
-    "title": ""
+    "title": "",
+    "cover": true,
+    "content": [
+      {
+        "paragraph": [
+          {
+            "text": "We aim to provide the ",
+            "strong": "easiest"
+          },
+          {
+            "text": " real estate contracts in town. We are confident that we will serve our clients well and have no desire to lock them into a long term contract. Our clients can cancel the listing contract for no charge, ",
+            "link": {
+              "text": "anytime",
+              "url": "#"
+            }
+          },
+          {
+            "text": ", with 24 hours notice. The only time our clients cannot cancel is when we are in a pending contact with a buyer (multi-party contract)."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 2,
