@@ -77,22 +77,18 @@ function Header() {
               <li className="menu__item">
                 <NavLink className="menu__item__link" to="/">
                   Home page
+                  <Icon id="down-arrow" />
                 </NavLink>
                 <ul>
                   <li>
-                    <NavLink to="/landing-1.html">Landing 1</NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="/landing-2.html">Landing 2</NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="/landing-3.html">Landing 4</NavLink>
+                    <NavLink to="/404.html">404</NavLink>
                   </li>
                 </ul>
               </li>
               <li className="menu__item">
                 <NavLink className="menu__item__link" to="/landing-1.html">
-                  Landing 1
+                  Landings
+                  <Icon id="down-arrow" />
                 </NavLink>
                 <ul>
                   <li>
@@ -102,32 +98,9 @@ function Header() {
                     <NavLink to="/landing-2.html">Landing 2</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/landing-3.html">Landing 4</NavLink>
+                    <NavLink to="/landing-3.html">Landing 3</NavLink>
                   </li>
                 </ul>
-              </li>
-              <li className="menu__item">
-                <NavLink className="menu__item__link" to="/landing-2.html">
-                  Landing 2
-                </NavLink>
-                <ul>
-                  <li>
-                    <NavLink to="/landing-1.html">Landing 1</NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="/landing-2.html">
-                      Landing long text here
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink to="/landing-3.html">Landing 4</NavLink>
-                  </li>
-                </ul>
-              </li>
-              <li className="menu__item">
-                <NavLink className="menu__item__link" to="/landing-4.html">
-                  Landing 4
-                </NavLink>
               </li>
               <li className="menu__item">
                 <NavLink className="menu__item__link" to="/contact.html">

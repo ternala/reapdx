@@ -10,7 +10,7 @@ import {
   Home,
   Landing1,
   Landing2,
-  Landing4,
+  Landing3,
   Contact,
   Calculator,
   Listings,
@@ -19,6 +19,7 @@ import {
   Posts,
   BlogCategory,
   Article,
+  Page404,
 } from "./pages"
 
 function App() {
@@ -30,7 +31,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/landing-1.html" element={<Landing1 />} />
         <Route path="/landing-2.html" element={<Landing2 />} />
-        <Route path="/landing-4.html" element={<Landing4 />} />
+        <Route path="/landing-3.html" element={<Landing3 />} />
         <Route path="/contact.html" element={<Contact />} />
         <Route path="/calculator.html" element={<Calculator />} />
         <Route path="/listings.html" element={<Listings />} />
@@ -40,6 +41,7 @@ function App() {
         </Route>
         <Route path="/blog-category.html" element={<BlogCategory />} />
         <Route path="/article.html" element={<Article />} />
+        <Route path="/404.html" element={<Page404 />} />
       </Routes>
       <Footer />
     </Router>
