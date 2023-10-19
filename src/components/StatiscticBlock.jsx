@@ -28,7 +28,10 @@ function StatisticBlock() {
         <li className="statistic-block__list__item">
           <div className="photo-block">
             <div className="photo-block__image">
-              <img src="/images/photo-block-stephen.png" alt="" />
+              <img
+                src={`${process.env.PUBLIC_URL}/images/photo-block-stephen.png`}
+                alt=""
+              />
             </div>
             <div className="photo-block__content">
               <h6>Stephen FitzMaurice</h6>

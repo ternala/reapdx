@@ -70,85 +70,87 @@ function Header() {
             </div>
             <ul className="menu">
               <li className="menu__item">
-                <NavLink className="menu__item__link" to="/">
+                <NavLink className="menu__item__link" to="/default.html">
                   Default page
                 </NavLink>
               </li>
               <li className="menu__item">
-                <NavLink className="menu__item__link" to="/home">
+                <NavLink className="menu__item__link" to="/">
                   Home page
                 </NavLink>
                 <ul>
                   <li>
-                    <NavLink to="/landing-1">Landing 1</NavLink>
+                    <NavLink to="/landing-1.html">Landing 1</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/landing-2">Landing 2</NavLink>
+                    <NavLink to="/landing-2.html">Landing 2</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/landing-3">Landing 4</NavLink>
+                    <NavLink to="/landing-3.html">Landing 4</NavLink>
                   </li>
                 </ul>
               </li>
               <li className="menu__item">
-                <NavLink className="menu__item__link" to="/landing-1">
+                <NavLink className="menu__item__link" to="/landing-1.html">
                   Landing 1
                 </NavLink>
                 <ul>
                   <li>
-                    <NavLink to="/landing-1">Landing 1</NavLink>
+                    <NavLink to="/landing-1.html">Landing 1</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/landing-2">Landing 2</NavLink>
+                    <NavLink to="/landing-2.html">Landing 2</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/landing-3">Landing 4</NavLink>
+                    <NavLink to="/landing-3.html">Landing 4</NavLink>
                   </li>
                 </ul>
               </li>
               <li className="menu__item">
-                <NavLink className="menu__item__link" to="/landing-2">
+                <NavLink className="menu__item__link" to="/landing-2.html">
                   Landing 2
                 </NavLink>
                 <ul>
                   <li>
-                    <NavLink to="/landing-1">Landing 1</NavLink>
+                    <NavLink to="/landing-1.html">Landing 1</NavLink>
                   </li>
                   <li>
-                    <NavLink to="/landing-2">Landing long text here</NavLink>
+                    <NavLink to="/landing-2.html">
+                      Landing long text here
+                    </NavLink>
                   </li>
                   <li>
-                    <NavLink to="/landing-3">Landing 4</NavLink>
+                    <NavLink to="/landing-3.html">Landing 4</NavLink>
                   </li>
                 </ul>
               </li>
               <li className="menu__item">
-                <NavLink className="menu__item__link" to="/landing-4">
+                <NavLink className="menu__item__link" to="/landing-4.html">
                   Landing 4
                 </NavLink>
               </li>
               <li className="menu__item">
-                <NavLink className="menu__item__link" to="/contact">
+                <NavLink className="menu__item__link" to="/contact.html">
                   Contact
                 </NavLink>
               </li>
               <li className="menu__item">
-                <NavLink className="menu__item__link" to="/calculator">
+                <NavLink className="menu__item__link" to="/calculator.html">
                   Calculator
                 </NavLink>
               </li>
               <li className="menu__item">
-                <NavLink className="menu__item__link" to="/blog">
+                <NavLink className="menu__item__link" to="/blog.html">
                   Blog
                 </NavLink>
               </li>
               <li className="menu__item">
-                <NavLink className="menu__item__link" to="/blog-category">
+                <NavLink className="menu__item__link" to="/blog-category.html">
                   Blog category
                 </NavLink>
               </li>
               <li className="menu__item">
-                <NavLink className="menu__item__link" to="/article">
+                <NavLink className="menu__item__link" to="/article.html">
                   Article
                 </NavLink>
               </li>

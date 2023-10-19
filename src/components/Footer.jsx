@@ -11,22 +11,22 @@ function Footer() {
               <ul>
                 <li>
                   <a href="-">
-                    <img src="/images/member-housing.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/images/member-housing.png`} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="-">
-                    <img src="/images/member-oar.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/images/member-oar.png`} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="-">
-                    <img src="/images/member-pmar.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/images/member-pmar.png`} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="-">
-                    <img src="/images/member-realtor.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/images/member-realtor.png`} alt="" />
                   </a>
                 </li>
               </ul>
@@ -36,42 +36,42 @@ function Footer() {
               <ul>
                 <li>
                   <a href="-">
-                    <img src="/images/education-abr.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/images/education-abr.png`} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="-">
-                    <img src="/images/education-cfa.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/images/education-cfa.png`} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="-">
-                    <img src="/images/education-cssa.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/images/education-cssa.png`} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="-">
-                    <img src="/images/education-energytrust.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/images/education-energytrust.png`} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="-">
-                    <img src="/images/education-green.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/images/education-green.png`} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="-">
-                    <img src="/images/education-sfr.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/images/education-sfr.png`} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="-">
-                    <img src="/images/education-sps.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/images/education-sps.png`} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="-">
-                    <img src="/images/education-srs.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/images/education-srs.png`} alt="" />
                   </a>
                 </li>
               </ul>
@@ -81,42 +81,42 @@ function Footer() {
               <ul>
                 <li>
                   <a href="-">
-                    <img src="/images/award-100most.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/images/award-100most.png`} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="-">
-                    <img src="/images/award-expertnetwork.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/images/award-expertnetwork.png`} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="-">
-                    <img src="/images/award-fivestar.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/images/award-fivestar.png`} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="-">
-                    <img src="/images/award-m.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/images/award-m.png`} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="-">
-                    <img src="/images/award-presidents.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/images/award-presidents.png`} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="-">
-                    <img src="/images/award-threebest.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/images/award-threebest.png`} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="-">
-                    <img src="/images/award-top100.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/images/award-top100.png`} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="-">
-                    <img src="/images/award-zillow.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/images/award-zillow.png`} alt="" />
                   </a>
                 </li>
               </ul>
@@ -128,7 +128,7 @@ function Footer() {
         <div className="footer-center">
           <div className="footer-left">
             <div className="footer-image">
-              <img src="/images/image-stephen.jpg" alt="" />
+              <img src={`${process.env.PUBLIC_URL}/images/image-stephen.jpg`} alt="" />
             </div>
             <h6>Stephen FitzMaurice</h6>
             <ul>

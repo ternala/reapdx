@@ -18,7 +18,7 @@ function HeroSection({
               : "hero-section"
           }
         >
-          <img src={image.src} alt={image.alt} />
+          <img src={process.env.PUBLIC_URL + image.src} alt={image.alt} />
           <div className="hero-section__content">
             {children || (
               <>

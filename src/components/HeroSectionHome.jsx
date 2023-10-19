@@ -6,7 +6,7 @@ function HeroSectionHome({ image, title, subtitle, content = [] }) {
     <section>
       <div className="container container-sm">
         <div className="hero-section">
-          <img src={image.src} alt={image.alt} />
+          <img src={process.env.PUBLIC_URL + image.src} alt={image.alt} />
           <div className="hero-section__content">
             {title ? <h1>{title}</h1> : null}
             {subtitle ? <h2>{subtitle}</h2> : null}

@@ -23,23 +23,23 @@ import {
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Header />
       <Routes>
-        <Route path="/" element={<Default />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/landing-1" element={<Landing1 />} />
-        <Route path="/landing-2" element={<Landing2 />} />
-        <Route path="/landing-4" element={<Landing4 />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/calculator" element={<Calculator />} />
-        <Route path="/listings" element={<Listings />} />
-        <Route path="/blog" element={<Blog />}>
+        <Route path="/default.html" element={<Default />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/landing-1.html" element={<Landing1 />} />
+        <Route path="/landing-2.html" element={<Landing2 />} />
+        <Route path="/landing-4.html" element={<Landing4 />} />
+        <Route path="/contact.html" element={<Contact />} />
+        <Route path="/calculator.html" element={<Calculator />} />
+        <Route path="/listings.html" element={<Listings />} />
+        <Route path="/blog.html" element={<Blog />}>
           <Route path="" element={<Posts />} />
           <Route path=":postSlug" element={<Post />} />
         </Route>
-        <Route path="/blog-category" element={<BlogCategory />} />
-        <Route path="/article" element={<Article />} />
+        <Route path="/blog-category.html" element={<BlogCategory />} />
+        <Route path="/article.html" element={<Article />} />
       </Routes>
       <Footer />
     </Router>

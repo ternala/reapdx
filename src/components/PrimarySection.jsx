@@ -16,7 +16,7 @@ function PrimarySection({
           className={reverse ? "primary-section reverse" : "primary-section"}
         >
           <div className="primary-section__image">
-            <img src={image.src} alt={image.alt} />
+            <img src={process.env.PUBLIC_URL + image.src} alt={image.alt} />
           </div>
           <div className="primary-section__content">
             {title ? <h2>{title}</h2> : null}
