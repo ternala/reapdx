@@ -7,6 +7,44 @@
   border-radius: 2px;
   background: #fdfffd;
   box-shadow: 0px 4px 20px 0px rgba(82, 81, 81, 0.08);
+  &_subscribe {
+    box-shadow: none;
+    background: none;
+    padding: 0;
+    margin-bottom: 30px;
+    .form__wrap {
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: flex-end;
+      column-gap: 40px;
+      row-gap: 20px;
+      @include smMax {
+        flex-direction: column;
+      }
+      .input {
+        label {
+          font-size: 16px;
+          @include smMax {
+            font-size: 14px;
+          }
+        }
+        input {
+          height: 58px;
+          @include smMax {
+            label {
+              height: 50px;
+            }
+          }
+        }
+      }
+    }
+    .button-group {
+      margin: 0;
+      @include smMax {
+        width: 100%;
+      }
+    }
+  }
   .button-group {
     display: flex;
     justify-content: center;

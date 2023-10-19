@@ -8,6 +8,7 @@ function PrimarySection({
   buttons = [],
   reverse = false,
   cover = false,
+  children,
 }) {
   return (
     <section>
@@ -20,22 +21,23 @@ function PrimarySection({
           </div>
           <div className="primary-section__content">
             {title ? <h2>{title}</h2> : null}
-            {cover ? (
-              <div className="primary-section__content__cover">
-                <RenderContent
-                  className="primary-section__content__wrap"
-                  content={content}
-                />
-              </div>
-            ) : (
-              <>
-                <RenderContent
-                  className="primary-section__content__wrap"
-                  content={content}
-                />
-                <RenderButtons buttons={buttons} />
-              </>
-            )}
+            {children ||
+              (cover ? (
+                <div className="primary-section__content__cover">
+                  <RenderContent
+                    className="primary-section__content__wrap"
+                    content={content}
+                  />
+                </div>
+              ) : (
+                <>
+                  <RenderContent
+                    className="primary-section__content__wrap"
+                    content={content}
+                  />
+                  <RenderButtons buttons={buttons} />
+                </>
+              ))}
           </div>
         </div>
       </div>

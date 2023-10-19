@@ -31,6 +31,13 @@
     @include smMax {
       margin-bottom: 10px;
     }
+    a {
+      @include link-style;
+      display: inline;
+      white-space: normal;
+      font-size: inherit;
+      text-decoration: 3px underline var(--primary-accent);
+    }
   }
   img {
     max-height: 600px;
@@ -164,6 +171,25 @@
     }
     a {
       @include link-style;
+      display: inline;
+      white-space: normal;
+    }
+  }
+  .photo-block {
+    margin: 20px 0;
+    @include lgMax {
+      ul {
+        gap: 5px !important;
+      }
+      gap: 15px;
+      margin:  15px 0;
+    }
+  }
+  .photo-block__image {
+    @include lgMax {
+      min-width: 90px;
+      width: 90px;
+      height: 90px;
     }
   }
 }
