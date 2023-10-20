@@ -17,7 +17,7 @@
       flex-wrap: nowrap;
       align-items: flex-end;
       column-gap: 40px;
-      row-gap: 20px;
+      row-gap: 15px;
       @include smMax {
         flex-direction: column;
       }

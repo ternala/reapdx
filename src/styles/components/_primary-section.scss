@@ -77,13 +77,49 @@
     }
   }
 }
-.primary-section__image,
+.primary-section__media,
 .primary-section__content {
   // background-color: gray;
   position: relative;
   width: 50%;
   @include mdMax {
     width: 100%;
+  }
+}
+.primary-section__media {
+  &_video {
+    position: relative;
+    cursor: pointer;
+    &::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      content: "";
+      width: 100px;
+      height: 100px;
+      display: block;
+      transition: opacity 0.25s ease;
+      background-size: 100% 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxwYXRoIGQ9Ik01MCAwQzIyLjUgMCAwIDIyLjUgMCA1MEMwIDc3LjUgMjIuNSAxMDAgNTAgMTAwQzc3LjUgMTAwIDEwMCA3Ny41IDEwMCA1MEMxMDAgMjIuNSA3Ny41IDAgNTAgMFpNMzcuNSA3NVYyNUw3NSA1MEwzNy41IDc1WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==);
+      @include lgMax {
+        width: 80px;
+        height: 80px;
+      }
+      @include smMax {
+        width: 60px;
+        height: 60px;
+      }
+    }
+    &:hover {
+      &::after {
+        opacity: 0.7;
+      }
+    }
   }
 }
 .primary-section__form {
@@ -182,7 +218,7 @@
         gap: 5px !important;
       }
       gap: 15px;
-      margin:  15px 0;
+      margin: 15px 0;
     }
   }
   .photo-block__image {

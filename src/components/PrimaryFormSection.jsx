@@ -1,12 +1,9 @@
-// Import Swiper React components
 // eslint-disable-next-line import/no-unresolved
 import { Swiper, SwiperSlide } from "swiper/react"
-
-// import required modules
 // eslint-disable-next-line import/no-unresolved
 import { Pagination } from "swiper/modules"
 import Form from "./Form"
-// import radial from "../assets/icons/icon-radial.svg"
+
 
 function PrimaryFormSection({ title, type, reverse = false }) {
   return (
@@ -15,7 +12,7 @@ function PrimaryFormSection({ title, type, reverse = false }) {
         <div
           className={reverse ? "primary-section reverse" : "primary-section"}
         >
-          <div className="primary-section__image">
+          <div className="primary-section__media">
             <div className="primary-section__form">
               <h3>{title}</h3>
               <Form type={type} />

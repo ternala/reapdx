@@ -16,7 +16,13 @@ function PrimarySection({
         <div
           className={reverse ? "primary-section reverse" : "primary-section"}
         >
-          <div className="primary-section__image">
+          <div
+            className={
+              image.video
+                ? "primary-section__media primary-section__media_video"
+                : "primary-section__media"
+            }
+          >
             <img src={process.env.PUBLIC_URL + image.src} alt={image.alt} />
           </div>
           <div className="primary-section__content">

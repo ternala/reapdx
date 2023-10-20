@@ -17,7 +17,7 @@ function FormSection() {
                 <input id="2" type="text" placeholder="Phone" />
               </div>
 
-              <div className="input required full-width" name="email">
+              <div className="input required " name="email">
                 <label htmlFor="3">Email address</label>
                 <input id="3" type="text" placeholder="Email" />
               </div>
@@ -32,7 +32,7 @@ function FormSection() {
                 <input id="5" type="text" placeholder="" />
               </div>
 
-              <div className="input full-width" name="">
+              <div className="input" name="">
                 <label htmlFor="6">Your estimate of value</label>
                 <input id="6" type="text" placeholder="" />
               </div>

@@ -114,5 +114,110 @@
         ]
       }
     ]
+  },
+  {
+    "id": 3,
+    "image": {
+      "src": "/images/hero-section-",
+      "alt": ""
+    },
+    "title": "",
+    "subtitle": "",
+    "content": []
+  },
+  {
+    "id": 4,
+    "image": {
+      "src": "/images/hero-section-listings.png",
+      "alt": ""
+    },
+    "title": "Active Listings",
+    "subtitle": "",
+    "content": [
+      {
+        "paragraph": [
+          {
+            "text": "The Stephen FitzMaurice Team has completed over 2,000 home sales in Oregon and Washington."
+          }
+        ]
+      },
+      {
+        "paragraph": [
+          {
+            "text": "4% Commission Max. to Sell in ",
+            "link": {
+              "text": "Portland",
+              "url": "#"
+            }
+          },
+          {
+            "text": " or "
+          },
+          {
+            "link": {
+              "text": "Portland",
+              "url": "#"
+            }
+          },
+          {
+            "text": "."
+          }
+        ]
+      },
+      {
+        "paragraph": [
+          {
+            "text": "4.25% Max. in ",
+            "link": {
+              "text": "Salem",
+              "url": "#"
+            }
+          },
+          {
+            "text": " and "
+          },
+          {
+            "link": {
+              "text": "Bend",
+              "url": "#"
+            }
+          },
+          {
+            "text": " metro areas."
+          }
+        ]
+      },
+      {
+        "paragraph": [
+          {
+            "text": "Top 1% Team in the U.S."
+          }
+        ]
+      },
+      {
+        "paragraph": [
+          {
+            "text": "Cancel Anytime Contracts."
+          }
+        ]
+      },
+      {
+        "paragraph": [
+          {
+            "text": "Increased Marketing."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "image": {
+      "src": "/images/hero-section-",
+      "alt": ""
+    },
+    "title": "",
+    "subtitle": "",
+    "content": []
   }
 ]

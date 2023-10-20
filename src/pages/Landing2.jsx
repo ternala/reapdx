@@ -13,7 +13,7 @@ function Landing2() {
         <HeroSection {...hero[2]} />
         <PrimarySection
           extraClass={["start"]}
-          image={{ src: "/images/image-stephen-sell.png", alt: "" }}
+          image={{ src: "/images/image-stephen-sell.png", alt: "", video: true }}
         >
           <h2>
             Portland Realtor Charges 4% Commission Max. to Sell a Home in the{" "}

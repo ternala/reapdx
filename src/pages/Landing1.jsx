@@ -14,7 +14,7 @@ function Landing1() {
         <Breadcrumbs />
         <HeroSection {...hero[1]} />
         <PrimarySection
-          image={{ src: "/images/image-stephen-preview.jpg", alt: "" }}
+          image={{ src: "/images/image-stephen-preview.jpg", alt: "", video: true }}
         >
           <h2>Want an Instant Computer Estimate?</h2>
           <div className="primary-section__content__wrap">
