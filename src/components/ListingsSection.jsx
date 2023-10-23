@@ -23,7 +23,7 @@ function ListingsSection() {
             <div className="listings-section__nav__filters">
               <span>Filter Listing by</span>
               <select name="select">
-                <option value="100-500" selected>
+                <option value="100-500" defaultValue>
                   100-500K
                 </option>
                 <option value="500-900">500-900K</option>

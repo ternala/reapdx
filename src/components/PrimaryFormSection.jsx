@@ -39,8 +39,7 @@ function PrimaryFormSection({ title, type, reverse = false }) {
                 <SwiperSlide>
                   <div className="quote">
                     <h4>What My Clients Are Saying</h4>
-                    <blockquote className="">
-                      <span>99</span>
+                    <blockquote>
                       <p>
                         I am so grateful for my choice in Stephen. Being able to
                         have total confidence in him made the experience of
@@ -55,8 +54,7 @@ function PrimaryFormSection({ title, type, reverse = false }) {
                 <SwiperSlide>
                   <div className="quote">
                     <h4>What My Clients Are Saying</h4>
-                    <blockquote className="">
-                      <span>99</span>
+                    <blockquote>
                       <p>
                         I am so grateful for my choice in Stephen. Being able to
                         have total confidence in him made the experience of

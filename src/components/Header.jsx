@@ -91,14 +91,19 @@ function Header() {
                   <li>
                     <NavLink to="/landing-2.html">Landing 2</NavLink>
                   </li>
-                  <li>
+                  {/* <li>
                     <NavLink to="/landing-3.html">Landing 3</NavLink>
-                  </li>
+                  </li> */}
                 </ul>
               </li>
               <li className="menu__item">
                 <NavLink className="menu__item__link" to="/listings.html">
                   Listings
+                </NavLink>
+              </li>
+              <li className="menu__item">
+                <NavLink className="menu__item__link" to="/blog-category.html">
+                  Blog category
                 </NavLink>
               </li>
               <li className="menu__item">
@@ -114,11 +119,6 @@ function Header() {
               <li className="menu__item">
                 <NavLink className="menu__item__link" to="/calculator.html">
                   Calculator
-                </NavLink>
-              </li>
-              <li className="menu__item">
-                <NavLink className="menu__item__link" to="/blog.html">
-                  Blog
                 </NavLink>
               </li>
               <li className="menu__item">

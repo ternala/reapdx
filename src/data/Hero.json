@@ -213,11 +213,29 @@
   {
     "id": 5,
     "image": {
-      "src": "/images/hero-section-",
+      "src": "/images/hero-section-blog.png",
       "alt": ""
     },
     "title": "",
     "subtitle": "",
     "content": []
+  },
+  {
+    "id": 6,
+    "image": {
+      "src": "/images/hero-section-blog-category.png",
+      "alt": ""
+    },
+    "title": "",
+    "subtitle": "Best Time to Sell or Buy a Home",
+    "content": [
+      {
+        "paragraph": [
+          {
+            "text": "Stephen FitzMaurice, Realtor licensed since 2003 writes an annual report on the best time to buy a home in the greater Portland metro area. Choosing the right month to buy a home can mean an easy home sale where you can pick from ample inventory and negotiate down on a home price and get the repairs you ask for. Buying a home in the wrong month can mean loosing out on multiple bidding wars and ultimately paying more for the home you end up purchasing. Stephen’s partner and buyer’s specialist Kami Price, licensed since 2004, is ready to help you buy in any market."
+          }
+        ]
+      }
+    ]
   }
 ]

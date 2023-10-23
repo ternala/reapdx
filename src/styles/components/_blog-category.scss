@@ -1,0 +1,66 @@
+.blog-category-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  @include smMax {
+    gap: 20px;
+  }
+}
+.blog-category-card {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 20px);
+  text-decoration: none;
+  @include mdMax {
+    width: 100%;
+  }
+  h2 {
+    @include title("tertiary", var(--primary-dark));
+    letter-spacing: 0.035em;
+    margin: 20px 0 10px 0;
+    transition: color 0.25s ease;
+    @include mdMax {
+      margin: 10px 0;
+    }
+  }
+  p {
+    @include text("tertiary");
+  }
+  svg {
+    width: 45px;
+    height: 45px;
+    margin-top: 15px;
+    fill: var(--primary-dark);
+    transition: fill 0.25s ease;
+    @include mdMax {
+      height: 33px;
+    }
+  }
+  &:hover {
+    h2 {
+      color: var(--primary-accent);
+    }
+    svg {
+      fill: var(--primary-accent);
+    }
+  }
+}
+.blog-category-card__image {
+  width: 100%;
+  height: 500px;
+  min-height: 500px;
+  background-color: var(--gray-300);
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  @include xlMax {
+    height: 400px;
+    min-height: 400px;
+  }
+  @include lgMax {
+    height: 320px;
+    min-height: 320px;
+  }
+}

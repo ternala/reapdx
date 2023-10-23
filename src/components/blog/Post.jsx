@@ -1,13 +1,4 @@
-// import React, { useEffect } from "react";
-// import { useParams } from "react-router"
-
 function Post() {
-  // let { postSlug } = useParams()
-
-  // useEffect(() => {
-  //     // Fetch post using the postSlug
-  // }, [postSlug]);
-
   return (
     <div>
       <h1>This is a Post Title</h1>
