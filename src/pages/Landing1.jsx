@@ -60,7 +60,7 @@ function Landing1() {
           </div>
         </PrimarySection>
         <FormSection />
-        <Recent />
+        <Recent title="Recent Articles"/>
       </main>
     </div>
   )

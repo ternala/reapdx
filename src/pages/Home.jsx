@@ -3,9 +3,9 @@ import PrimarySection from "../components/PrimarySection"
 import PrimaryFormSection from "../components/PrimaryFormSection"
 import HeroSectionHome from "../components/HeroSectionHome"
 import HeroSection from "../components/HeroSection"
-import BlankSection from "../components/BlankSection"
 import data from "../data/Home.json"
 import hero from "../data/Hero.json"
+import CategoriesSection from "../components/CategoriesSection"
 
 function Home() {
   return (
@@ -37,14 +37,14 @@ function Home() {
             </p>
           </div>
         </HeroSection>
-        <BlankSection text="Categories section" />
+        <CategoriesSection />
         <PrimarySection {...data[7]} />
         <PrimaryFormSection
           title="Let`s Connect"
           type="primary"
           reverse="true"
         />
-        <Recent />
+        <Recent title="Recent Articles" />
       </main>
     </div>
   )

@@ -19,7 +19,7 @@ function Listings() {
           type="primary"
           reverse="true"
         />
-        <Recent />
+        <Recent title="Recent Articles"/>
       </main>
     </div>
   )

@@ -66,6 +66,8 @@
   }
   a {
     @include link-style;
+    white-space: normal;
+    display: inline;
     @include smMax {
       font-size: 14px;
     }

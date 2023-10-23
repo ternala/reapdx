@@ -42,11 +42,14 @@ section {
     font-size: 40px;
     font-family: var(--font-heading);
   }
-}
-
-.container-sm {
-  @include smMax {
+  &_zero {
+    max-width: 1428px;
     padding: 0;
+  }
+  &_sm {
+    @include smMax {
+      padding: 0;
+    }
   }
 }
 

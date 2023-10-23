@@ -102,8 +102,21 @@ function Header() {
                 </NavLink>
               </li>
               <li className="menu__item">
+                <NavLink className="menu__item__link" to="/blog.html">
+                  Blog
+                </NavLink>
+              </li>
+              <li className="menu__item">
                 <NavLink className="menu__item__link" to="/blog-category.html">
                   Blog category
+                </NavLink>
+              </li>
+              <li className="menu__item">
+                <NavLink
+                  className="menu__item__link"
+                  to="/made-right-choice.html"
+                >
+                  MRC
                 </NavLink>
               </li>
               <li className="menu__item">

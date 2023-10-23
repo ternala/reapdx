@@ -69,7 +69,7 @@ function Landing2() {
             </p>
           </div>
         </PrimarySection>
-        <Recent />
+        <Recent title="Recent Articles"/>
       </main>
     </div>
   )

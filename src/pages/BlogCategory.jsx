@@ -17,7 +17,7 @@ function BlogCategory() {
           type="primary"
           reverse="true"
         />
-        <Recent />
+        <Recent title="Recent Articles"/>
       </main>
     </div>
   )

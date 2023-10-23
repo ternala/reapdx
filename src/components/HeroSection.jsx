@@ -10,7 +10,7 @@ function HeroSection({
 }) {
   return (
     <section>
-      <div className="container container-sm">
+      <div className="container container_sm">
         <div
           className={
             extraClass

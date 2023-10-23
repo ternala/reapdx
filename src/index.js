@@ -20,6 +20,7 @@ import {
   BlogCategory,
   Article,
   Page404,
+  MadeRightChoice
 } from "./pages"
 
 function App() {
@@ -42,6 +43,7 @@ function App() {
         <Route path="/blog-category.html" element={<BlogCategory />} />
         <Route path="/article.html" element={<Article />} />
         <Route path="/404.html" element={<Page404 />} />
+        <Route path="/made-right-choice.html" element={<MadeRightChoice />} />
       </Routes>
       <Footer />
     </Router>

@@ -8,14 +8,24 @@ function PrimarySection({
   buttons = [],
   reverse = false,
   cover = false,
+  extraClass,
   children,
 }) {
+  const primaryClassName = () => {
+    let string = "primary-section"
+    if (reverse) {
+      string += " primary-section_reverse"
+    }
+
+    if (extraClass) {
+      string += ` primary-section_${extraClass}`
+    }
+    return string
+  }
   return (
     <section>
       <div className="container">
-        <div
-          className={reverse ? "primary-section reverse" : "primary-section"}
-        >
+        <div className={primaryClassName()}>
           <div
             className={
               image.video

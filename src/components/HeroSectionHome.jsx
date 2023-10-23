@@ -4,7 +4,7 @@ import StatisticBlock from "./StatiscticBlock"
 function HeroSectionHome({ image, title, subtitle, content = [] }) {
   return (
     <section>
-      <div className="container container-sm">
+      <div className="container container_sm">
         <div className="hero-section">
           <img src={process.env.PUBLIC_URL + image.src} alt={image.alt} />
           <div className="hero-section__content">

@@ -213,12 +213,52 @@
   {
     "id": 5,
     "image": {
-      "src": "/images/hero-section-blog.png",
+      "src": "/images/hero-section-landing-1.png",
       "alt": ""
     },
     "title": "",
     "subtitle": "",
-    "content": []
+    "content": [
+      {
+        "paragraph": [
+          {
+            "text": "",
+            "strong": "This is a top 100 real estate blog in the world"
+          },
+          {
+            "text": " according to Feedspot.com. In particular, this is a local real estate blog written by a top 1% real estate agent in the U.S., Stephen FitzMaurice, Realtor. Stephen regularly reports on the greater Portland metro area’s real estate market including ",
+            "link": {
+              "text": "annual housing forecasts",
+              "url": "#"
+            }
+          },
+          {
+            "text": " and ",
+            "link": {
+              "text": "best time to sell or buy a home reports",
+              "url": "#"
+            }
+          },
+          {
+            "text": ". He gives home selling and home buying professional advice. He also writes informative articles on Portland neighborhoods and suburbs as they relate to the real estate market. Finally, he writes to inform the general public about real estate agents, such as annual ",
+            "link": {
+              "text": "average real estate agent commission reports",
+              "url": "#"
+            }
+          },
+          {
+            "text": " and more."
+          }
+        ]
+      },
+      {
+        "paragraph": [
+          {
+            "text": "You can subscribe to this top 100 real estate blog via email or by RSS button below."
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 6,
