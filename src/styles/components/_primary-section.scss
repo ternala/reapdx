@@ -1,6 +1,7 @@
 .primary-section {
   display: flex;
   flex-direction: row;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
   column-gap: 150px;
@@ -31,7 +32,10 @@
   &_short {
     max-width: 950px;
     margin: 0 auto;
+    justify-content: center;
     h3 {
+      @include title("secondary", var(--primary-dark));
+      margin-bottom: 20px;
       text-align: center;
     }
     blockquote {
@@ -48,7 +52,7 @@
       }
     }
   }
-  h3 {
+  h2 {
     @include title("secondary", var(--primary-dark));
     margin-bottom: 20px;
     @include smMax {

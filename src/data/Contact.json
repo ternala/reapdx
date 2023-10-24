@@ -1,0 +1,90 @@
+[
+  {
+    "id": 0,
+    "image": {
+      "src": "/images/section-contact-map.png",
+      "alt": ""
+    },
+    "title": "Team Service Area",
+    "content": [
+      {
+        "paragraph": [
+          {
+            "text": "",
+            "strong": "Greater Portland Metro Area"
+          }
+        ]
+      },
+      {
+        "paragraph": [
+          {
+            "text": "We serve the entire Portland metro area. We serve Multnomah, Washington, and Clackamas counties. We also serve Scappoose and St. Helens in Columbia county."
+          }
+        ]
+      },
+      {
+        "paragraph": [
+          {
+            "text": "",
+            "strong": "Southern Willamette Valley"
+          }
+        ]
+      },
+      {
+        "paragraph": [
+          {
+            "text": "We serve everyone in these six Oregon counties south of Portland: Marion, Clackamas, Yamhill, Linn, Benton, and Polk."
+          }
+        ]
+      },
+      {
+        "paragraph": [
+          {
+            "text": "",
+            "strong": "Central Oregon"
+          }
+        ]
+      },
+      {
+        "paragraph": [
+          {
+            "text": "We serve everyone in these three central Oregon counties: Deschutes, Jefferson, and Crook."
+          }
+        ]
+      },
+      {
+        "paragraph": [
+          {
+            "text": "",
+            "strong": "Southern Washington"
+          }
+        ]
+      },
+      {
+        "paragraph": [
+          {
+            "text": "In southern Washington we serve the entirety of Clark and Cowlitz county."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 0,
+    "image": {
+      "src": "/images/section-contact-stephen.png",
+      "alt": ""
+    },
+    "title": "Top Team at eXp Realty",
+    "reverse": true,
+    "content": [
+      {
+        "paragraph": [
+          {
+            "text": "We run the number one team at eXp Realty in Oregon and SW Washington. eXp Realty is the 4th largest Realty company in the U.S. and the fastest growing in the world."
+          }
+        ]
+      }
+    ]
+  }
+]

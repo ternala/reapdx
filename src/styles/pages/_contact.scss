@@ -1,0 +1,97 @@
+.wrapper_contact {
+  .primary-section_short {
+    text-align: center;
+    h2 {
+      margin-bottom: 30px;
+    }
+    p {
+      margin-top: 10px;
+      font-style: italic;
+      font-weight: 500;
+    }
+  }
+}
+.contact-hero-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 120px;
+  min-height: 500px;
+  background-color: var(--gray-300);
+  color: var(--primary-light);
+  overflow: hidden;
+  &:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(37, 37, 37, 0.6);
+    backdrop-filter: blur(10px);
+    z-index: 0;
+  }
+  h2 {
+    @include title("secondary");
+  }
+  a {
+    @include link-style;
+    display: inline;
+    white-space: normal;
+  }
+  p {
+    @include text("tertiary", var(--primary-light));
+    margin-bottom: 10px;
+    line-height: 150%;
+  }
+  ul {
+    @include list-style;
+  }
+  span {
+    font-family: var(--font-primary);
+    font-size: 18px;
+    font-weight: 500;
+    margin: 20px 0 10px 0;
+    display: block;
+  }
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+.contact-hero-section__left,
+.contact-hero-section__right {
+  width: calc(50% - 75px);
+  z-index: 1;
+}
+.contact-hero-section__left {
+  a {
+    font-size: 34px;
+    @include mdMax {
+      font-size: 24px;
+    }
+    @include smMax {
+      font-size: 20px;
+    }
+  }
+}
+.contact-hero-section__left__wrap {
+  &:not(:last-child) {
+    margin-bottom: 40px;
+    @include smMax {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.contact-hero-section__right__wrap {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}

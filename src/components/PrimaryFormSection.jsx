@@ -4,14 +4,22 @@ import { Swiper, SwiperSlide } from "swiper/react"
 import { Pagination } from "swiper/modules"
 import Form from "./Form"
 
+function PrimaryFormSection({ title, type, extraClass, reverse = false }) {
+  const primaryClassName = () => {
+    let string = "primary-section"
+    if (reverse) {
+      string += " primary-section_reverse"
+    }
 
-function PrimaryFormSection({ title, type, reverse = false }) {
+    if (extraClass) {
+      string += ` primary-section_${extraClass}`
+    }
+    return string
+  }
   return (
     <section>
       <div className="container">
-        <div
-          className={reverse ? "primary-section reverse" : "primary-section"}
-        >
+        <div className={primaryClassName()}>
           <div className="primary-section__media">
             <div className="primary-section__form">
               <h3>{title}</h3>
