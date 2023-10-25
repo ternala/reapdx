@@ -91,14 +91,19 @@ function Header() {
                   <li>
                     <NavLink to="/landing-2.html">Landing 2</NavLink>
                   </li>
-                  {/* <li>
+                  <li>
                     <NavLink to="/landing-3.html">Landing 3</NavLink>
-                  </li> */}
+                  </li>
                 </ul>
               </li>
               <li className="menu__item">
                 <NavLink className="menu__item__link" to="/listings.html">
                   Listings
+                </NavLink>
+              </li>
+              <li className="menu__item">
+                <NavLink className="menu__item__link" to="/article.html">
+                  Article
                 </NavLink>
               </li>
               <li className="menu__item">

@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react"
-import Icon from "./Icon"
 
 const list = [
   "Best Time to Sell or Buy a Home",
@@ -62,7 +61,7 @@ function CategoriesSection() {
                 }
               >
                 <span className="categories-section__list__item__span">
-                  {span}
+                  <div>{span}</div>
                 </span>
                 <div className="categories-section__list__item__content">
                   <span className="categories-section__list__item__content__label">
@@ -72,7 +71,7 @@ function CategoriesSection() {
                     href="-"
                     className="categories-section__list__item__content__main-link"
                   >
-                    {span} <Icon id="link-arrow" />
+                    {span}
                   </a>
                   <p>
                     Kami Price, Principal Broker is our lead buyer’s agent and a
@@ -84,67 +83,43 @@ function CategoriesSection() {
                   </span>
                   <ul className="categories-section__list__item__content__subcategories">
                     <li>
-                      <a href="-">
-                        Buyer Closing Costs
-                        <Icon id="link-arrow" />
-                      </a>
+                      <a href="-">Buyer Closing Costs</a>
                     </li>
                     <li>
-                      <a href="-">
-                        Coming Soon ans Pocket Listings
-                        <Icon id="link-arrow" />
-                      </a>
+                      <a href="-">Coming Soon ans Pocket Listings</a>
                     </li>
                     <li>
-                      <a href="-">
-                        Downpayment Grants for Home Buyers
-                        <Icon id="link-arrow" />
-                      </a>
+                      <a href="-">Downpayment Grants for Home Buyers</a>
                     </li>
                     <li>
-                      <a href="-">
-                        Portland School Ratings
-                        <Icon id="link-arrow" />
-                      </a>
+                      <a href="-">Portland School Ratings</a>
                     </li>
                     <li>
-                      <a href="-">
-                        Buying a Condo in Portland
-                        <Icon id="link-arrow" />
-                      </a>
+                      <a href="-">Buying a Condo in Portland</a>
                     </li>
                     <li>
-                      <a href="-">
-                        Deeds, Title, and Escrow
-                        <Icon id="link-arrow" />
-                      </a>
+                      <a href="-">Deeds, Title, and Escrow</a>
                     </li>
                     <li>
-                      <a href="-">
-                        Portland Housing Affordability
-                        <Icon id="link-arrow" />
-                      </a>
+                      <a href="-">Portland Housing Affordability</a>
                     </li>
                     <li>
-                      <a href="-">
-                        Rent vs Buy Reports
-                        <Icon id="link-arrow" />
-                      </a>
+                      <a href="-">Rent vs Buy Reports</a>
                     </li>
                   </ul>
                   <div className="categories-section__list__item__form">
                     <form action="#">
-                      <div className="input " name="email">
-                        <label htmlFor="1">
-                          Subscribe to our 2x month email digest.
-                        </label>
+                      <span> Subscribe to our 2x month email digest.</span>
+                      <div className="input input_dark" name="email">
                         <input id="1" type="text" placeholder="Email" />
                       </div>
                       <button className="button button-primary" type="submit">
                         Submit
                       </button>
-                      <p>Or follow by RSS link :</p>
-                      <a href="-">Subscribe by RSS</a>
+                      <div className="categories-section__list__item__form__wrap">
+                        <p>Or follow by RSS link:</p>
+                        <a href="-">Subscribe by RSS</a>
+                      </div>
                     </form>
                   </div>
                 </div>

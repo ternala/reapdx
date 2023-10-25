@@ -1,0 +1,41 @@
+.team-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px;
+  @include smMax {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+    gap: 15px;
+  }
+}
+.team-section__item {
+  display: flex;
+  gap: 20px;
+  width: calc(50% - 25px);
+  @include lgMax {
+    flex-direction: column;
+  }
+  @include smMax {
+    min-width: 275px;
+  }
+  img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    @include mdMax {
+      width: 150px;
+      height: 150px;
+    }
+  }
+}
+.team-section__item__content {
+  @include text("tertiary", var(--gray-700));
+  span {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+  }
+}

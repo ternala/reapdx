@@ -39,6 +39,12 @@
         color 0s 600000s;
     }
   }
+  &_dark {
+    input {
+      color: var(--primary-light);
+      background-color: #ffffff0f;
+    }
+  }
   label {
     position: relative;
     width: fit-content;

@@ -1,0 +1,91 @@
+.article-wrap {
+  display: flex;
+  gap: 20px;
+  section {
+    width: calc(100% - 385px - 20px);
+    @include lgMax {
+      width: 100%;
+    }
+    img {
+      max-width: 100%;
+      margin: 30px 0;
+      @include mdMax {
+        margin: 20px 0;
+      }
+      @include smMax {
+        margin: 10px 0;
+      }
+    }
+    p {
+      @include text("tertiary", var(--gray-700));
+      line-height: 150%;
+      margin: 20px 0;
+      @include mdMax {
+        margin: 10px 0;
+      }
+    }
+    a {
+      @include link-style;
+      display: inline;
+    }
+    ul {
+      @include list-style(var(--primary-dark));
+      margin: 20px 0;
+      @include mdMax {
+        margin: 10px 0;
+      }
+    }
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin: 20px 0;
+      @include mdMax {
+        margin-bottom: 10px;
+      }
+    }
+    h1 {
+      @include title("primary", var(--primary-dark));
+      margin-bottom: 30px;
+      @include lgMax {
+        margin-bottom: 20px;
+      }
+      @include smMax {
+        margin-bottom: 10px;
+      }
+    }
+    h2 {
+      @include title("secondary", var(--primary-dark));
+    }
+    h3 {
+      @include title("tertiary", var(--primary-dark));
+    }
+    h4 {
+      @include title("quaternary", var(--primary-dark));
+    }
+    h5 {
+      @include title("fivefold", var(--primary-dark));
+    }
+    h6 {
+      @include title("sixfold", var(--primary-dark));
+    }
+    .button {
+      display: flex;
+      margin: 40px auto;
+    }
+  }
+  aside {
+    width: 385px;
+    @include lgMax {
+      display: none;
+    }
+  }
+
+  .form__wrap {
+    h4 {
+      @include title("quaternary", var(--primary-dark));
+      margin: 0 auto 5px auto;
+    }
+  }
+}

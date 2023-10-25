@@ -3,7 +3,7 @@ import HeroSection from "../components/HeroSection"
 import Recent from "../components/Recent"
 import PrimaryFormSection from "../components/PrimaryFormSection"
 import PrimarySection from "../components/PrimarySection"
-import BlankSection from "../components/BlankSection"
+import CategoriesSection from "../components/CategoriesSection"
 import Icon from "../components/Icon"
 import hero from "../data/Hero.json"
 
@@ -14,7 +14,7 @@ function Blog() {
         <Breadcrumbs />
         <HeroSection {...hero[5]} />
         <Recent title="Most Recent" />
-        <BlankSection text="Categories section" />
+        <CategoriesSection />
         <PrimarySection
           extraClass="start"
           title="Title"
@@ -124,8 +124,6 @@ function Blog() {
             </div>
           </a>
         </PrimarySection>
-
-        <BlankSection text="Dark form section" />
         <PrimaryFormSection
           title="Let`s Connect"
           type="primary"
