@@ -1,41 +1,63 @@
 import data from "../data/Contact.json"
 import Recent from "../components/Recent"
 import PrimarySection from "../components/PrimarySection"
+import Breadcrumbs from "../components/Breadcrumbs"
 import PrimaryFormSection from "../components/PrimaryFormSection"
 
 function Contact() {
   return (
     <div className="wrapper wrapper_contact">
       <main>
+        <Breadcrumbs />
+        <section>
+          <div className="container">
+            <div className="contact-iframe">
+              <h1>Let’s get together.</h1>
+              <h2>Expert Real Estate Advice</h2>
+              <p>We look forward to connecting with you!</p>
+              <iframe
+                title="title"
+                loading="lazy"
+                width="100%"
+                height="600px"
+                src="https://stephenfitzmauriceteam.zohobookings.com/portal-embed#/customer/stephenfitzmauriceteam"
+                frameBorder="0"
+                allowFullScreen=""
+                data-rocket-lazyload="fitvidscompatible"
+                data-lazy-src="https://stephenfitzmauriceteam.zohobookings.com/portal-embed#/customer/stephenfitzmauriceteam"
+                data-ll-status="loaded"
+                className="entered lazyloaded"
+              >
+                {" "}
+              </iframe>
+            </div>
+          </div>
+        </section>
         <PrimaryFormSection
           title="Let’s Meet Up"
           type="secondary"
           reverse="true"
         />
         <section>
-          <div className="container">
+          <div className="container container_zero">
             <div className="contact-hero-section">
               <img
                 src={`${process.env.PUBLIC_URL}/images/hero-section-contact.jpeg`}
                 alt=""
               />
-              <div className="contact-hero-section__left">
-                <div className="contact-hero-section__left__wrap">
+              <div className="contact-hero-section__content">
+                <div className="contact-hero-section__content__links">
                   <h2>Call</h2>
                   <a href="-">503-714-1111</a>
-                </div>
-                <div className="contact-hero-section__left__wrap">
                   <h2>Click to Email:</h2>
-                  <a href="-">RealEstateAgent PDX@gmail.com</a>
+                  <a href="-">RealEstateAgentPDX@gmail.com</a>
+                  <p>Looking for someone in particular?</p>
+                  <p>
+                    Go here to see the entire <a href="-">Team Roster</a>
+                  </p>
                 </div>
-              </div>
-              <div className="contact-hero-section__right">
-                <p>Looking for someone in particular?</p>
-                <p>
-                  Go here to see the entire <a href="-">Team Roster</a>
-                </p>
                 <span>Team Leader:</span>
-                <div className="contact-hero-section__right__wrap">
+                <div className="contact-hero-section__content__wrap">
                   <ul>
                     <li>Stephen FitzMaurice</li>
                     <li>Principal Broker in Oregon</li>

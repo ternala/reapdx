@@ -16,11 +16,14 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 120px;
-  min-height: 500px;
+  padding: 40px 15px;
+  min-height: 600px;
   background-color: var(--gray-300);
   color: var(--primary-light);
   overflow: hidden;
+  @include smMax {
+    min-height: 485px;
+  }
   &:after {
     position: absolute;
     content: "";
@@ -35,6 +38,10 @@
   }
   h2 {
     @include title("secondary");
+    margin-bottom: 15px;
+    @include smMax {
+      margin-bottom: 5px;
+    }
   }
   a {
     @include link-style;
@@ -55,6 +62,10 @@
     font-weight: 500;
     margin: 20px 0 10px 0;
     display: block;
+    text-align: left;
+    @include smMax {
+      font-size: 14px;
+    }
   }
   img {
     position: absolute;
@@ -65,11 +76,43 @@
     object-fit: cover;
   }
 }
-.contact-hero-section__left,
-.contact-hero-section__right {
-  width: calc(50% - 75px);
+.contact-hero-section__content {
+  margin: 0 auto;
+  text-align: center;
   z-index: 1;
+  @include smMax {
+    text-align: left;
+  }
+  &__links {
+    a {
+      font-size: 34px;
+      display: block;
+      margin-bottom: 40px;
+      @include mdMax {
+        margin-bottom: 20px;
+        font-size: 24px;
+      }
+      @include smMax {
+        font-size: 20px;
+      }
+    }
+    p {
+      a {
+        font-size: inherit;
+        display: inline;
+      }
+    }
+  }
+  &__wrap {
+    display: flex;
+    text-align: left;
+    gap: 15px;
+    @include smMax {
+      flex-direction: column;
+    }
+  }
 }
+
 .contact-hero-section__left {
   a {
     font-size: 34px;
@@ -81,17 +124,26 @@
     }
   }
 }
-.contact-hero-section__left__wrap {
-  &:not(:last-child) {
-    margin-bottom: 40px;
-    @include smMax {
-      margin-bottom: 20px;
+
+.contact-iframe {
+  text-align: center;
+  h1 {
+    @include title("primary", var(--primary-dark));
+    margin-bottom: 30px;
+  }
+  h2 {
+    @include title("secondary", var(--primary-dark));
+    margin-bottom: 15px;
+  }
+  p {
+    @include text("tertiary", var(--primary-dark));
+    margin-bottom: 30px;
+  }
+  @include mdMax {
+    h1,
+    h2,
+    p {
+      margin-bottom: 10px;
     }
   }
-}
-
-.contact-hero-section__right__wrap {
-  display: flex;
-  flex-direction: row;
-  gap: 15px;
 }

@@ -259,6 +259,28 @@
       white-space: normal;
     }
   }
+  &__items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    @include mdMax {
+      gap: 30px;
+    }
+  }
+  &__item {
+    width: 250px;
+    @include mdMax {
+      width: 146px;
+    }
+    span {
+      @include title("primary", var(--primary-dark));
+      display: block;
+      margin-bottom: 10px;
+      @include smMax {
+        margin-bottom: 5px;
+      }
+    }
+  }
   &__block {
     &:not(:last-child) {
       margin-bottom: 35px;

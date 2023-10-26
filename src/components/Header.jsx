@@ -107,6 +107,11 @@ function Header() {
                 </NavLink>
               </li>
               <li className="menu__item">
+                <NavLink className="menu__item__link" to="/calculator.html">
+                  Calculator
+                </NavLink>
+              </li>
+              <li className="menu__item">
                 <NavLink className="menu__item__link" to="/contact.html">
                   Contact
                 </NavLink>
