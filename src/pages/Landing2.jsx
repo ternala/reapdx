@@ -12,8 +12,12 @@ function Landing2() {
         <Breadcrumbs />
         <HeroSection {...hero[2]} />
         <PrimarySection
-          extraClass={["start"]}
-          image={{ src: "/images/image-stephen-sell.png", alt: "", video: true }}
+          extraClass="start"
+          image={{
+            src: "/images/image-stephen-sell.png",
+            alt: "",
+            video: "https://www.youtube.com/watch?v=a1YjR3KnylI",
+          }}
         >
           <h2>
             Portland Realtor Charges 4% Commission Max. to Sell a Home in the{" "}
@@ -69,7 +73,7 @@ function Landing2() {
             </p>
           </div>
         </PrimarySection>
-        <Recent title="Recent Articles"/>
+        <Recent title="Recent Articles" />
       </main>
     </div>
   )

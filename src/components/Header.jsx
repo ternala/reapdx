@@ -1,5 +1,5 @@
 import React, { useState, useLayoutEffect, useRef } from "react"
-import { NavLink } from "react-router-dom"
+// import { a } from "react-router-dom"
 
 import Logo from "../assets/icons/icon-logo.svg"
 import Icon from "./Icon"
@@ -70,94 +70,91 @@ function Header() {
             </div>
             <ul className="menu">
               <li className="menu__item">
-                <NavLink className="menu__item__link" to="/default.html">
+                <a className="menu__item__link" href="/default.html">
                   Default page
-                </NavLink>
+                </a>
               </li>
               <li className="menu__item">
-                <NavLink className="menu__item__link" to="/">
+                <a className="menu__item__link" href="/">
                   Home page
-                </NavLink>
+                </a>
               </li>
               <li className="menu__item">
-                <NavLink className="menu__item__link">
+                <a href="-" className="menu__item__link">
                   Landings
                   <Icon id="down-arrow" />
-                </NavLink>
+                </a>
                 <ul>
                   <li>
-                    <NavLink to="/landing-1.html">Landing 1</NavLink>
+                    <a href="/landing-1.html">Landing 1</a>
                   </li>
                   <li>
-                    <NavLink to="/landing-2.html">Landing 2</NavLink>
+                    <a href="/landing-2.html">Landing 2</a>
                   </li>
                   <li>
-                    <NavLink to="/landing-3.html">Landing 3</NavLink>
+                    <a href="/landing-3.html">Landing 3</a>
                   </li>
                 </ul>
               </li>
               <li className="menu__item">
-                <NavLink className="menu__item__link" to="/listings.html">
+                <a className="menu__item__link" href="/listings.html">
                   Listings
-                </NavLink>
+                </a>
               </li>
               <li className="menu__item">
-                <NavLink className="menu__item__link" to="/article.html">
+                <a className="menu__item__link" href="/article.html">
                   Article
-                </NavLink>
+                </a>
               </li>
               <li className="menu__item">
-                <NavLink className="menu__item__link" to="/calculator.html">
+                <a className="menu__item__link" href="/calculator.html">
                   Calculator
-                </NavLink>
+                </a>
               </li>
               <li className="menu__item">
-                <NavLink className="menu__item__link" to="/contact.html">
+                <a className="menu__item__link" href="/contact.html">
                   Contact
-                </NavLink>
+                </a>
               </li>
               <li className="menu__item">
-                <NavLink className="menu__item__link" to="/blog.html">
+                <a className="menu__item__link" href="/blog.html">
                   Blog
-                </NavLink>
+                </a>
               </li>
               <li className="menu__item">
-                <NavLink className="menu__item__link" to="/blog-category.html">
+                <a className="menu__item__link" href="/blog-category.html">
                   Blog category
-                </NavLink>
+                </a>
               </li>
               <li className="menu__item">
-                <NavLink
-                  className="menu__item__link"
-                  to="/made-right-choice.html"
-                >
+                <a className="menu__item__link" href="/made-right-choice.html">
                   MRC
-                </NavLink>
+                </a>
               </li>
               <li className="menu__item">
-                <NavLink className="menu__item__link" to="/404.html">
+                <a className="menu__item__link" href="/404.html">
                   404
-                </NavLink>
+                </a>
               </li>
               {/* <li className="menu__item">
-                <NavLink className="menu__item__link" to="/contact.html">
+                <a className="menu__item__link" href="/contact.html">
                   Contact
-                </NavLink>
+                </a>
               </li>
               <li className="menu__item">
-                <NavLink className="menu__item__link" to="/calculator.html">
+                <a className="menu__item__link" href="/calculator.html">
                   Calculator
-                </NavLink>
+                </a>
               </li>
               <li className="menu__item">
-                <NavLink className="menu__item__link" to="/blog-category.html">
+                <a className="menu__item__link" href="/blog-category.html">
                   Blog category
-                </NavLink>
+                </a>
               </li>
               <li className="menu__item">
-                <NavLink className="menu__item__link" to="/article.html">
+                <a className="menu__item__link" href="/article.html">
                   Article
-                </NavLink>
+                </a>
               </li> */}
             </ul>
           </nav>

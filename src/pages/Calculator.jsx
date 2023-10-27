@@ -3,16 +3,20 @@ import { useState } from "react"
 function Calculator() {
   const [homePrice, setHomePrice] = useState(0)
   const [commission, setCommission] = useState(0)
-  const [result, setResult] = useState(0)
 
-  const calculateResult = () => {
-    const multiplicationResult = homePrice * commission
-    setResult(multiplicationResult)
+  const handleChangeHome = (event) => {
+    if (Number(event.target.value) < 0) {
+      setHomePrice(0)
+    } else {
+      setHomePrice(Number(event.target.value))
+    }
   }
-
-  const handleChange = (event) => {
-    calculateResult()
-    setHomePrice(Number(event.target.value))
+  const handleChangeCom = (event) => {
+    if (Number(event.target.value) < 0) {
+      setCommission(0)
+    } else {
+      setCommission(Number(event.target.value))
+    }
   }
 
   const incrementHomePrice = () => {
@@ -51,7 +55,7 @@ function Calculator() {
                           id="1"
                           type="number"
                           value={homePrice}
-                          onChange={handleChange}
+                          onChange={handleChangeHome}
                         />
                         <button type="button" onClick={incrementHomePrice}>
                           +
@@ -68,14 +72,16 @@ function Calculator() {
                           id="2"
                           type="number"
                           value={commission}
-                          onChange={handleChange}
+                          onChange={handleChangeCom}
                         />
                         <button type="button" onClick={incrementCommission}>
                           +
                         </button>
                       </div>
                     </div>
-                    <span className="result">Result: {result}</span>
+                    <span className="result">
+                      Result: {homePrice * commission}
+                    </span>
                   </div>
                   <div className="input full-width" name="name">
                     <label htmlFor="3">Interested?</label>

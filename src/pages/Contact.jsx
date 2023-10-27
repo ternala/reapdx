@@ -12,7 +12,7 @@ function Contact() {
         <section>
           <div className="container">
             <div className="contact-iframe">
-              <h1>Let’s get together.</h1>
+              <h1>Let`s get together.</h1>
               <h2>Expert Real Estate Advice</h2>
               <p>We look forward to connecting with you!</p>
               <iframe
@@ -21,7 +21,6 @@ function Contact() {
                 width="100%"
                 height="600px"
                 src="https://stephenfitzmauriceteam.zohobookings.com/portal-embed#/customer/stephenfitzmauriceteam"
-                frameBorder="0"
                 allowFullScreen=""
                 data-rocket-lazyload="fitvidscompatible"
                 data-lazy-src="https://stephenfitzmauriceteam.zohobookings.com/portal-embed#/customer/stephenfitzmauriceteam"

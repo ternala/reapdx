@@ -26,14 +26,19 @@ function PrimarySection({
     <section>
       <div className="container">
         <div className={primaryClassName()}>
-          <div
-            className={
-              image.video
-                ? "primary-section__media primary-section__media_video"
-                : "primary-section__media"
-            }
-          >
-            <img src={process.env.PUBLIC_URL + image.src} alt={image.alt} />
+          <div className="primary-section__media">
+            {image.video ? (
+              <a
+                className="video-block"
+                href={image.video}
+                data-fancybox="gallery"
+                data-caption="Caption #1"
+              >
+                <img src={process.env.PUBLIC_URL + image.src} alt="" />
+              </a>
+            ) : (
+              <img src={process.env.PUBLIC_URL + image.src} alt={image.alt} />
+            )}
           </div>
           <div className="primary-section__content">
             {title ? <h2>{title}</h2> : null}

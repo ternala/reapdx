@@ -11,7 +11,7 @@ function Landing3() {
       <main>
         <Breadcrumbs />
         <PrimarySection
-          extraClass={["start"]}
+          extraClass="start"
           reverse="true"
           image={{ src: "/images/landing-3-section-1.png", alt: "" }}
         >
@@ -77,12 +77,17 @@ function Landing3() {
         </PrimarySection>
         <section>
           <div className="container">
-            <div className="video-section">
+            <a
+              className="video-block"
+              href="https://www.youtube.com/watch?v=a1YjR3KnylI"
+              data-fancybox="gallery"
+              data-caption="Caption #1"
+            >
               <img
                 src={`${process.env.PUBLIC_URL}/images/video-section.gif`}
                 alt=""
               />
-            </div>
+            </a>
           </div>
         </section>
         <FormSection />
