@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/control-has-associated-label */
 import { useState } from "react"
 
 function Calculator() {
@@ -5,34 +6,26 @@ function Calculator() {
   const [commission, setCommission] = useState(0)
 
   const handleChangeHome = (event) => {
-    if (Number(event.target.value) < 0) {
-      setHomePrice(0)
-    } else {
-      setHomePrice(Number(event.target.value))
-    }
+    setHomePrice(event.target.value >= 0 ? event.target.value : "")
   }
   const handleChangeCom = (event) => {
-    if (Number(event.target.value) < 0) {
-      setCommission(0)
-    } else {
-      setCommission(Number(event.target.value))
-    }
+    setCommission(event.target.value >= 0 ? event.target.value : "")
   }
 
   const incrementHomePrice = () => {
-    setHomePrice(homePrice + 1)
+    setHomePrice(homePrice >= 0 ? homePrice + 1 : 0)
   }
 
   const decrementHomePrice = () => {
-    setHomePrice(homePrice - 1)
+    setHomePrice(homePrice > 0 ? homePrice - 1 : 0)
   }
 
   const incrementCommission = () => {
-    setCommission(commission + 1)
+    setCommission(commission >= 0 ? commission + 1 : 0)
   }
 
   const decrementCommission = () => {
-    setCommission(commission - 1)
+    setCommission(commission > 0 ? commission - 1 : 0)
   }
 
   return (
@@ -48,44 +41,49 @@ function Calculator() {
                     <div className="input input_number" name="name">
                       <label htmlFor="1">Home Sales Price</label>
                       <div className="input__wrap">
-                        <button type="button" onClick={decrementHomePrice}>
-                          -
-                        </button>
                         <input
                           id="1"
                           type="number"
-                          value={homePrice}
+                          value={homePrice >= 0 ? homePrice : 0}
                           onChange={handleChangeHome}
                         />
-                        <button type="button" onClick={incrementHomePrice}>
-                          +
-                        </button>
+                        <div className="calculator-block__buttons">
+                          <button type="button" onClick={incrementHomePrice} />
+                          <button type="button" onClick={decrementHomePrice} />
+                        </div>
                       </div>
                     </div>
                     <div className="input input_number" name="name">
-                      <label htmlFor="2">Commission</label>
+                      <label htmlFor="2">Commission %</label>
                       <div className="input__wrap">
-                        <button type="button" onClick={decrementCommission}>
-                          -
-                        </button>
                         <input
                           id="2"
                           type="number"
-                          value={commission}
+                          value={commission >= 0 ? commission : ""}
                           onChange={handleChangeCom}
                         />
-                        <button type="button" onClick={incrementCommission}>
-                          +
-                        </button>
+                        <div className="calculator-block__buttons">
+                          <button type="button" onClick={incrementCommission} />
+                          <button type="button" onClick={decrementCommission} />
+                        </div>
                       </div>
                     </div>
-                    <span className="result">
-                      Result: {homePrice * commission}
-                    </span>
+                    <div className="calculator-block__result">
+                      <div className="input">
+                        <label>Commission</label>
+                        <span>
+                          {((homePrice * commission) / 100).toFixed(2)}
+                        </span>
+                      </div>
+                    </div>
                   </div>
                   <div className="input full-width" name="name">
                     <label htmlFor="3">Interested?</label>
-                    <input id="3" type="text" placeholder="Name" />
+                    <input
+                      id="3"
+                      type="text"
+                      placeholder="Fill out the form below"
+                    />
                   </div>
                   <div className="input required" name="name">
                     <label htmlFor="3">Name</label>

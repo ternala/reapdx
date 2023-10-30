@@ -65,23 +65,24 @@
     @include link-style;
     display: inline;
     white-space: normal;
-    font-size: inherit;
-    font-style: normal;
+    font-size: inherit !important;
+    font-style: inherit !important;
   }
   h6,
   li {
     color: var(--primary-dark);
     font-family: var(--font-primary);
-    font-size: 14px;
-    font-style: italic !important;
+    font-size: 14px !important;
     font-weight: 300;
     @include smMax {
       font-size: 10px;
     }
   }
+  li {
+    font-style: italic !important;
+  }
   h6 {
     font-weight: 700;
-    font-style: normal;
     margin-bottom: 6px;
   }
 }

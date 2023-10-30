@@ -31,7 +31,7 @@ function Landing3() {
                     Portland: <a href="-">503-773-0000</a>
                   </li>
                   <li>
-                    SW WA:<a href="-">360-345-3833</a>
+                    SW WA: <a href="-">360-345-3833</a>
                   </li>
                 </ul>
               </div>
@@ -79,12 +79,12 @@ function Landing3() {
           <div className="container">
             <a
               className="video-block"
-              href="https://www.youtube.com/watch?v=a1YjR3KnylI"
+              href="https://www.youtube.com/watch?v=cZX40JQxtsU"
               data-fancybox="gallery"
               data-caption="Caption #1"
             >
               <img
-                src={`${process.env.PUBLIC_URL}/images/video-section.gif`}
+                src={`${process.env.PUBLIC_URL}/images/video-section.png`}
                 alt=""
               />
             </a>
