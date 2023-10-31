@@ -80,7 +80,7 @@ function Header() {
               <li className="menu__item">
                 <a
                   className="menu__item__link"
-                  href={`${process.env.PUBLIC_URL}/`}
+                  href={`${process.env.PUBLIC_URL}/home.html`}
                 >
                   Home page
                 </a>

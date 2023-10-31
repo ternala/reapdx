@@ -31,7 +31,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/default.html" element={<Default />} />
-        <Route path="/" element={<Home />} />
+        <Route path="/home.html" element={<Home />} />
         <Route path="/landing-1.html" element={<Landing1 />} />
         <Route path="/landing-2.html" element={<Landing2 />} />
         <Route path="/landing-3.html" element={<Landing3 />} />

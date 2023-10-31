@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/realestateagent/static/css/main.26f53b33.css",
-    "main.js": "/realestateagent/static/js/main.a3b8ea47.js",
+    "main.js": "/realestateagent/static/js/main.23f1c025.js",
     "static/media/Inter-Bold.eot": "/realestateagent/static/media/Inter-Bold.af37bd6a6d4fdb380e05.eot",
     "static/media/Inter-Bold.ttf": "/realestateagent/static/media/Inter-Bold.0eaf807b1cf0eceabe0f.ttf",
     "static/media/Inter-Medium.eot": "/realestateagent/static/media/Inter-Medium.fef7a96c2ada6a1b2355.eot",
@@ -33,6 +33,6 @@
   },
   "entrypoints": [
     "static/css/main.26f53b33.css",
-    "static/js/main.a3b8ea47.js"
+    "static/js/main.23f1c025.js"
   ]
 }
