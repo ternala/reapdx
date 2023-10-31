@@ -11,10 +11,14 @@ function Landing1() {
   return (
     <div className="wrapper">
       <main>
-        <Breadcrumbs />
+        <Breadcrumbs page="Landing-1"/>
         <HeroSection {...hero[1]} />
         <PrimarySection
-          image={{ src: "/images/image-stephen-preview.jpg", alt: "", video: "https://www.youtube.com/watch?v=a1YjR3KnylI" }}
+          image={{
+            src: "/images/image-stephen-preview.jpg",
+            alt: "",
+            video: "https://www.youtube.com/watch?v=a1YjR3KnylI",
+          }}
         >
           <h2>Want an Instant Computer Estimate?</h2>
           <div className="primary-section__content__wrap">
@@ -22,7 +26,7 @@ function Landing1() {
               <div className="form__wrap">
                 <div className="input full-width" name="">
                   <label htmlFor="6">What`s your home worth?</label>
-                  <input id="6" type="text" placeholder="" />
+                  <input id="6" type="text" placeholder="Enter an Address" />
                 </div>
                 <div className="button-group">
                   <button className="button button-primary" type="submit">
@@ -34,7 +38,7 @@ function Landing1() {
             <p>
               If for any reason the above address box doesn’t work for your
               browser, please simply{" "}
-              <a href="-">
+              <a href="/">
                 click this link to open the online home value estimator in a new
                 window
               </a>
@@ -60,7 +64,7 @@ function Landing1() {
           </div>
         </PrimarySection>
         <FormSection />
-        <Recent title="Recent Articles"/>
+        <Recent title="Recent Articles" />
       </main>
     </div>
   )

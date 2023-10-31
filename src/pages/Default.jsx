@@ -86,7 +86,7 @@ function Default() {
                     <ul className="default-list">
                       <span className="default-span">Primary active</span>
                       <li>
-                        <a href="-" className="link">
+                        <a href="/" className="link">
                           Home Sales
                         </a>
                       </li>
@@ -96,7 +96,7 @@ function Default() {
                         Primary active with icon
                       </span>
                       <li>
-                        <a href="-" className="link link__arrow">
+                        <a href="/" className="link link__arrow">
                           Home Sales
                           <Icon id="link-arrow" />
                         </a>
@@ -105,7 +105,7 @@ function Default() {
                     <ul className="default-list">
                       <span className="default-span">Disabled</span>
                       <li>
-                        <a href="-" className="link link__arrow disabled">
+                        <a href="/" className="link link__arrow disabled">
                           Home Sales
                           <Icon id="link-arrow" />
                         </a>
@@ -201,22 +201,22 @@ function Default() {
                             <Icon id="pagination-arrow-left" />
                           </li>
                           <li className="active">
-                            <a href="-">1</a>
+                            <a href="/">1</a>
                           </li>
                           <li>
-                            <a href="-">2</a>
+                            <a href="/">2</a>
                           </li>
                           <li>
-                            <a href="-">3</a>
+                            <a href="/">3</a>
                           </li>
                           <li>
                             <span>...</span>
                           </li>
                           <li>
-                            <a href="-">32</a>
+                            <a href="/">32</a>
                           </li>
                           <li>
-                            <a href="-">
+                            <a href="/">
                               <Icon id="pagination-arrow-right" />
                             </a>
                           </li>

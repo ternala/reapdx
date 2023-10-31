@@ -10,23 +10,35 @@ function Footer() {
               <h6>Real Estate Membership</h6>
               <ul>
                 <li>
-                  <a href="-">
-                    <img src={`${process.env.PUBLIC_URL}/images/member-housing.png`} alt="" />
+                  <a href="/">
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/member-housing.png`}
+                      alt=""
+                    />
                   </a>
                 </li>
                 <li>
-                  <a href="-">
-                    <img src={`${process.env.PUBLIC_URL}/images/member-oar.png`} alt="" />
+                  <a href="/">
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/member-oar.png`}
+                      alt=""
+                    />
                   </a>
                 </li>
                 <li>
-                  <a href="-">
-                    <img src={`${process.env.PUBLIC_URL}/images/member-pmar.png`} alt="" />
+                  <a href="/">
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/member-pmar.png`}
+                      alt=""
+                    />
                   </a>
                 </li>
                 <li>
-                  <a href="-">
-                    <img src={`${process.env.PUBLIC_URL}/images/member-realtor.png`} alt="" />
+                  <a href="/">
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/member-realtor.png`}
+                      alt=""
+                    />
                   </a>
                 </li>
               </ul>
@@ -35,43 +47,67 @@ function Footer() {
               <h6>Real Estate Education</h6>
               <ul>
                 <li>
-                  <a href="-">
-                    <img src={`${process.env.PUBLIC_URL}/images/education-abr.png`} alt="" />
+                  <a href="/">
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/education-abr.png`}
+                      alt=""
+                    />
                   </a>
                 </li>
                 <li>
-                  <a href="-">
-                    <img src={`${process.env.PUBLIC_URL}/images/education-cfa.png`} alt="" />
+                  <a href="/">
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/education-cfa.png`}
+                      alt=""
+                    />
                   </a>
                 </li>
                 <li>
-                  <a href="-">
-                    <img src={`${process.env.PUBLIC_URL}/images/education-cssa.png`} alt="" />
+                  <a href="/">
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/education-cssa.png`}
+                      alt=""
+                    />
                   </a>
                 </li>
                 <li>
-                  <a href="-">
-                    <img src={`${process.env.PUBLIC_URL}/images/education-energytrust.png`} alt="" />
+                  <a href="/">
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/education-energytrust.png`}
+                      alt=""
+                    />
                   </a>
                 </li>
                 <li>
-                  <a href="-">
-                    <img src={`${process.env.PUBLIC_URL}/images/education-green.png`} alt="" />
+                  <a href="/">
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/education-green.png`}
+                      alt=""
+                    />
                   </a>
                 </li>
                 <li>
-                  <a href="-">
-                    <img src={`${process.env.PUBLIC_URL}/images/education-sfr.png`} alt="" />
+                  <a href="/">
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/education-sfr.png`}
+                      alt=""
+                    />
                   </a>
                 </li>
                 <li>
-                  <a href="-">
-                    <img src={`${process.env.PUBLIC_URL}/images/education-sps.png`} alt="" />
+                  <a href="/">
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/education-sps.png`}
+                      alt=""
+                    />
                   </a>
                 </li>
                 <li>
-                  <a href="-">
-                    <img src={`${process.env.PUBLIC_URL}/images/education-srs.png`} alt="" />
+                  <a href="/">
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/education-srs.png`}
+                      alt=""
+                    />
                   </a>
                 </li>
               </ul>
@@ -80,43 +116,67 @@ function Footer() {
               <h6>Real Estate Awards</h6>
               <ul>
                 <li>
-                  <a href="-">
-                    <img src={`${process.env.PUBLIC_URL}/images/award-100most.png`} alt="" />
+                  <a href="/">
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/award-100most.png`}
+                      alt=""
+                    />
                   </a>
                 </li>
                 <li>
-                  <a href="-">
-                    <img src={`${process.env.PUBLIC_URL}/images/award-expertnetwork.png`} alt="" />
+                  <a href="/">
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/award-expertnetwork.png`}
+                      alt=""
+                    />
                   </a>
                 </li>
                 <li>
-                  <a href="-">
-                    <img src={`${process.env.PUBLIC_URL}/images/award-fivestar.png`} alt="" />
+                  <a href="/">
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/award-fivestar.png`}
+                      alt=""
+                    />
                   </a>
                 </li>
                 <li>
-                  <a href="-">
-                    <img src={`${process.env.PUBLIC_URL}/images/award-m.png`} alt="" />
+                  <a href="/">
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/award-m.png`}
+                      alt=""
+                    />
                   </a>
                 </li>
                 <li>
-                  <a href="-">
-                    <img src={`${process.env.PUBLIC_URL}/images/award-presidents.png`} alt="" />
+                  <a href="/">
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/award-presidents.png`}
+                      alt=""
+                    />
                   </a>
                 </li>
                 <li>
-                  <a href="-">
-                    <img src={`${process.env.PUBLIC_URL}/images/award-threebest.png`} alt="" />
+                  <a href="/">
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/award-threebest.png`}
+                      alt=""
+                    />
                   </a>
                 </li>
                 <li>
-                  <a href="-">
-                    <img src={`${process.env.PUBLIC_URL}/images/award-top100.png`} alt="" />
+                  <a href="/">
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/award-top100.png`}
+                      alt=""
+                    />
                   </a>
                 </li>
                 <li>
-                  <a href="-">
-                    <img src={`${process.env.PUBLIC_URL}/images/award-zillow.png`} alt="" />
+                  <a href="/">
+                    <img
+                      src={`${process.env.PUBLIC_URL}/images/award-zillow.png`}
+                      alt=""
+                    />
                   </a>
                 </li>
               </ul>
@@ -128,18 +188,21 @@ function Footer() {
         <div className="footer-center">
           <div className="footer-left">
             <div className="footer-image">
-              <img src={`${process.env.PUBLIC_URL}/images/image-stephen.jpg`} alt="" />
+              <img
+                src={`${process.env.PUBLIC_URL}/images/image-stephen.jpg`}
+                alt=""
+              />
             </div>
             <h6>Stephen FitzMaurice</h6>
             <ul>
               <li>
-                <a href="-">Principal Broker in Oregon</a>
+                <a href="/">Principal Broker in Oregon</a>
               </li>
               <li>
-                <a href="-">Managing Broker in WA</a>
+                <a href="/">Managing Broker in WA</a>
               </li>
               <li>
-                <a href="-">Licensed since 2003</a>
+                <a href="/">Licensed since 2003</a>
               </li>
             </ul>
           </div>
@@ -148,16 +211,16 @@ function Footer() {
               <h6>Menu</h6>
               <ul>
                 <li>
-                  <a href="-">Portland Realtors</a>
+                  <a href="/">Portland Realtors</a>
                 </li>
                 <li>
-                  <a href="-">Vancouver Realtors</a>
+                  <a href="/">Vancouver Realtors</a>
                 </li>
                 <li>
-                  <a href="-">Salem Realtors</a>
+                  <a href="/">Salem Realtors</a>
                 </li>
                 <li>
-                  <a href="-">Bend Realtors</a>
+                  <a href="/">Bend Realtors</a>
                 </li>
               </ul>
             </div>
@@ -165,13 +228,13 @@ function Footer() {
               <h6>About Us</h6>
               <ul>
                 <li>
-                  <a href="-">eXp Realty</a>
+                  <a href="/">eXp Realty</a>
                 </li>
                 <li>
-                  <a href="-">4th Largest Realty in the U.S</a>
+                  <a href="/">4th Largest Realty in the U.S</a>
                 </li>
                 <li>
-                  <a href="-">Fastest Growing in the World</a>
+                  <a href="/">Fastest Growing in the World</a>
                 </li>
               </ul>
             </div>
@@ -179,10 +242,10 @@ function Footer() {
               <h6>Top Articles</h6>
               <ul>
                 <li>
-                  <a href="-">Top 5% Real Estate Agent in the U.S</a>
+                  <a href="/">Top 5% Real Estate Agent in the U.S</a>
                 </li>
                 <li>
-                  <a href="-">
+                  <a href="/">
                     Best Time to Sell or Buy a HomeEstate Agent in the U.S
                   </a>
                 </li>
@@ -284,10 +347,10 @@ function Footer() {
         <div className="footer-bottom">
           <ul>
             <li>
-              <a href="-">Privacy Policy</a>
+              <a href="/">Privacy Policy</a>
             </li>
             <li>
-              <a href="-">Disclosures</a>
+              <a href="/">Disclosures</a>
             </li>
             <li>
               <p>© 2023 Copyright Stephen FitzMaurice</p>

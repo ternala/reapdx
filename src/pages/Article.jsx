@@ -6,7 +6,7 @@ function Article() {
   return (
     <div className="wrapper">
       <main>
-        <Breadcrumbs />
+        <Breadcrumbs page="Article"/>
         <div className="container">
           <div className="article-wrap">
             <section>
@@ -50,13 +50,13 @@ function Article() {
                   Our first stop on the Columbia is on the far northeast border
                   of Portland along NE Marine Dr. just west of Chinook Landing
                   Marine Park. Here, you’ll find several groups of floating
-                  homes in the <a href="-">Wilkes neighborhood</a>, home to
+                  homes in the <a href="/">Wilkes neighborhood</a>, home to
                   several marinas and moorages. This neighborhood has an Old
                   Portland vibe—quiet and not concerned with keeping up with
                   trends—which makes it ideal for those who want to enjoy the
                   serenity of the riverfront lifestyle yet be close enough to
                   the city when they want to partake.{" "}
-                  <a href="-">See all Wilkes neighborhood homes for sale</a>.
+                  <a href="/">See all Wilkes neighborhood homes for sale</a>.
                 </p>
               </article>
             </section>
@@ -102,27 +102,27 @@ function Article() {
                 <h2>Stephen FitzMaurice</h2>
                 <p>
                   Stephen FitzMaurice, Realtor is a{" "}
-                  <a href="-">top 5% real estate agent in the U.S.</a> A
+                  <a href="/">top 5% real estate agent in the U.S.</a> A
                   Principal Broker in Oregon, Managing Broker in Washington, he
                   has been licensed since 2003 for residential real estate
-                  sales. Call his team in Oregon at <a href="-">503-714-1111</a>{" "}
-                  or in Washington at <a href="-">360-345-3833</a>.
+                  sales. Call his team in Oregon at <a href="/">503-714-1111</a>{" "}
+                  or in Washington at <a href="/">360-345-3833</a>.
                 </p>
                 <div className="button-group">
-                  <a href="-" className="button button-primary">
+                  <a href="/" className="button button-primary">
                     Call Us
                   </a>
-                  <a href="-" className="button button-secondary">
+                  <a href="/" className="button button-secondary">
                     Send Mail
                   </a>
                 </div>
                 <p>
-                  4% max to sell a home in <a href="-t">Portland</a>&nbsp;and{" "}
-                  <a href="-">SW Washington</a>.
+                  4% max to sell a home in <a href="/">Portland</a>&nbsp;and{" "}
+                  <a href="/">SW Washington</a>.
                 </p>
                 <p>
-                  4.5% max to sell a home in <a href="-">Salem</a> and{" "}
-                  <a href="-">Bend</a>.
+                  4.5% max to sell a home in <a href="/">Salem</a> and{" "}
+                  <a href="/">Bend</a>.
                 </p>
                 <p>
                   <em>Over 2,000 homes sold.</em>

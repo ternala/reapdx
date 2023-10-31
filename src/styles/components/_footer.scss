@@ -143,6 +143,9 @@ footer {
       display: none;
     }
   }
+  @include smMax {
+    justify-content: center;
+  }
 }
 .footer-item {
   max-width: 310px;
@@ -186,7 +189,7 @@ footer {
   &_contacts {
     @include smMax {
       order: 5;
-      width: 100%;
+      width: auto;
     }
     li {
       @include link-wrap-style;

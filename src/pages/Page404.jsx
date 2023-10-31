@@ -12,14 +12,14 @@ function Page404() {
                 <span className="page404__title">404</span>
                 <span className="page404__subtitle">oops! page not found</span>
                 <div className="button-group">
-                  <a href="-" className="button button-primary">
+                  <a href="/" className="button button-primary">
                     Sell a Home
                   </a>
-                  <a href="-" className="button button-secondary">
+                  <a href="/" className="button button-secondary">
                     Buy a Home
                   </a>
                 </div>
-                <a href="-" className="page404__link">
+                <a href="/" className="page404__link">
                   Return to Home Page
                 </a>
               </div>

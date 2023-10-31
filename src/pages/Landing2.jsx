@@ -9,7 +9,7 @@ function Landing2() {
   return (
     <div className="wrapper">
       <main>
-        <Breadcrumbs />
+        <Breadcrumbs page="Landing-2"/>
         <HeroSection {...hero[2]} />
         <PrimarySection
           extraClass="start"
@@ -21,7 +21,7 @@ function Landing2() {
         >
           <h2>
             Portland Realtor Charges 4% Commission Max. to Sell a Home in the{" "}
-            <a href="-">Portland Housing Market</a>
+            <a href="/">Portland Housing Market</a>
           </h2>
           <div className="primary-section__content__wrap">
             <p>
@@ -43,11 +43,11 @@ function Landing2() {
                 <h6>Stephen FitzMaurice</h6>
                 <ul>
                   <li>
-                    <a href="-">Top 5%</a> Agent in the U.S.
+                    <a href="/">Top 5%</a> Agent in the U.S.
                   </li>
                   <li>Principal Broker in Oregon</li>
                   <li>
-                    <a href="-">503-714-1111</a>
+                    <a href="/">503-714-1111</a>
                   </li>
                 </ul>
               </div>

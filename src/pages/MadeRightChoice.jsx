@@ -32,16 +32,16 @@ function MadeRightChoice() {
                   <ul>
                     <li>
                       Out of thousands of agents, only two others received the{" "}
-                      <a href="-">Three Best Rated®</a> customer service award.
+                      <a href="/">Three Best Rated®</a> customer service award.
                     </li>
                     <li>
                       Only 5% received the latest{" "}
-                      <a href="-">Fivestar Professional</a> customer service
+                      <a href="/">Fivestar Professional</a> customer service
                       award.
                     </li>
                     <li>
                       Only a small handful have over{" "}
-                      <a href="-">500+ independently verified reviews</a>.
+                      <a href="/">500+ independently verified reviews</a>.
                     </li>
                   </ul>
                 </div>
@@ -50,19 +50,19 @@ function MadeRightChoice() {
                   <ul>
                     <li>
                       We consistently reach the{" "}
-                      <a href="-">top charts in sales</a> each year for the
+                      <a href="/">top charts in sales</a> each year for the
                       metro. Top ten, top five, even number one.
                     </li>
                     <li>
                       We are more successful in selling our client’s homes
                       because we are willing to{" "}
-                      <a href="-">spend more to market them</a>.
+                      <a href="/">spend more to market them</a>.
                     </li>
                     <li>
                       We are also willing to charge a more reasonable commission
-                      fee (<a href="-">4% or 4.5% max</a>. depending on the
+                      fee (<a href="/">4% or 4.5% max</a>. depending on the
                       area) while backing up our services with a{" "}
-                      <a href="-">cancel anytime for no charge</a> policy.
+                      <a href="/">cancel anytime for no charge</a> policy.
                     </li>
                   </ul>
                 </div>
@@ -70,19 +70,19 @@ function MadeRightChoice() {
                   <h3>Buyers agents are not all the same.</h3>
                   <ul>
                     <li>
-                      We can provide <a href="-">100% availability</a> in any
+                      We can provide <a href="/">100% availability</a> in any
                       market conditions. This is because we are a small team and
                       not an individual agent that is limited by their own
                       personal capacity.
                     </li>
                     <li>
                       We have obtained some of the{" "}
-                      <a href="-">highest levels of negotiation</a> training
+                      <a href="/">highest levels of negotiation</a> training
                       available.
                     </li>
                     <li>
                       We have earned additional certificates to educate our
-                      clients on <a href="-">any type of home purchase</a>: new
+                      clients on <a href="/">any type of home purchase</a>: new
                       construction, green homes, short sales, foreclosures, and
                       more.
                     </li>

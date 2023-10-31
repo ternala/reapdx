@@ -6,21 +6,21 @@ function StatisticBlock() {
       <ul className="statistic-block__list">
         <li className="statistic-block__list__item">
           <span>2,000+</span>
-          <a href="-">
+          <a href="/">
             Home Sales
             <Icon id="link-arrow" />
           </a>
         </li>
         <li className="statistic-block__list__item">
           <span>700+</span>
-          <a href="-">
+          <a href="/">
             Positive Client Reviews
             <Icon id="link-arrow" />
           </a>
         </li>
         <li className="statistic-block__list__item">
           <span>1 Billion </span>
-          <a href="-">
+          <a href="/">
             Total Team Sales Volume Since 2003
             <Icon id="link-arrow" />
           </a>

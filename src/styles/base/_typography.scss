@@ -105,15 +105,17 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  padding-left: 15px;
   li {
     @include text("tertiary");
     color: $color;
     &::marker {
       margin-right: 10px;
+      font-size: inherit;
     }
   }
   list-style-type: square;
-  list-style-position: inside;
+  // list-style-position: inside;
 }
 
 .subtitle {

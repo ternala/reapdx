@@ -68,7 +68,7 @@ function CategoriesSection() {
                     Category
                   </span>
                   <a
-                    href="-"
+                    href="/"
                     className="categories-section__list__item__content__main-link"
                   >
                     {span}
@@ -76,35 +76,35 @@ function CategoriesSection() {
                   <p>
                     Kami Price, Principal Broker is our lead buyer’s agent and a
                     top 1% buyer’s agent in the Portland metro area.{" "}
-                    <a href="-">Read More</a>
+                    <a href="/">Read More</a>
                   </p>
                   <span className="categories-section__list__item__content__label">
                     Subcategories
                   </span>
                   <ul className="categories-section__list__item__content__subcategories">
                     <li>
-                      <a href="-">Buyer Closing Costs</a>
+                      <a href="/">Buyer Closing Costs</a>
                     </li>
                     <li>
-                      <a href="-">Coming Soon ans Pocket Listings</a>
+                      <a href="/">Coming Soon ans Pocket Listings</a>
                     </li>
                     <li>
-                      <a href="-">Downpayment Grants for Home Buyers</a>
+                      <a href="/">Downpayment Grants for Home Buyers</a>
                     </li>
                     <li>
-                      <a href="-">Portland School Ratings</a>
+                      <a href="/">Portland School Ratings</a>
                     </li>
                     <li>
-                      <a href="-">Buying a Condo in Portland</a>
+                      <a href="/">Buying a Condo in Portland</a>
                     </li>
                     <li>
-                      <a href="-">Deeds, Title, and Escrow</a>
+                      <a href="/">Deeds, Title, and Escrow</a>
                     </li>
                     <li>
-                      <a href="-">Portland Housing Affordability</a>
+                      <a href="/">Portland Housing Affordability</a>
                     </li>
                     <li>
-                      <a href="-">Rent vs Buy Reports</a>
+                      <a href="/">Rent vs Buy Reports</a>
                     </li>
                   </ul>
                   <div className="categories-section__list__item__form">
@@ -118,7 +118,7 @@ function CategoriesSection() {
                       </button>
                       <div className="categories-section__list__item__form__wrap">
                         <p>Or follow by RSS link:</p>
-                        <a href="-">Subscribe by RSS</a>
+                        <a href="/">Subscribe by RSS</a>
                       </div>
                     </form>
                   </div>

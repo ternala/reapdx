@@ -11,7 +11,7 @@ function Blog() {
   return (
     <div className="wrapper">
       <main>
-        <Breadcrumbs />
+        <Breadcrumbs page="Blog" />
         <HeroSection {...hero[5]} />
         <Recent title="Most Recent" />
         <CategoriesSection />
@@ -20,7 +20,7 @@ function Blog() {
           title="Title"
           image={{ src: "/images/section-blog-1.png", alt: "" }}
         >
-          <a href="-" className="blog-category-card">
+          <a href="/" className="blog-category-card">
             <div className="blog-category-card__content">
               <h2>Best to Sell or Buy a home</h2>
               <p>
@@ -30,7 +30,7 @@ function Blog() {
               <Icon id="arrow-right" />
             </div>
           </a>
-          <a href="-" className="blog-category-card">
+          <a href="/" className="blog-category-card">
             <div className="blog-category-card__content">
               <h2>Best to Sell or Buy a home</h2>
               <p>
@@ -40,7 +40,7 @@ function Blog() {
               <Icon id="arrow-right" />
             </div>
           </a>
-          <a href="-" className="blog-category-card">
+          <a href="/" className="blog-category-card">
             <div className="blog-category-card__content">
               <h2>Best to Sell or Buy a home</h2>
               <p>
@@ -57,7 +57,7 @@ function Blog() {
           reverse="true"
           image={{ src: "/images/section-blog-2.png", alt: "" }}
         >
-          <a href="-" className="blog-category-card">
+          <a href="/" className="blog-category-card">
             <div className="blog-category-card__content">
               <h2>Best to Sell or Buy a home</h2>
               <p>
@@ -67,7 +67,7 @@ function Blog() {
               <Icon id="arrow-right" />
             </div>
           </a>
-          <a href="-" className="blog-category-card">
+          <a href="/" className="blog-category-card">
             <div className="blog-category-card__content">
               <h2>Best to Sell or Buy a home</h2>
               <p>
@@ -77,7 +77,7 @@ function Blog() {
               <Icon id="arrow-right" />
             </div>
           </a>
-          <a href="-" className="blog-category-card">
+          <a href="/" className="blog-category-card">
             <div className="blog-category-card__content">
               <h2>Best to Sell or Buy a home</h2>
               <p>
@@ -93,7 +93,7 @@ function Blog() {
           title="Title"
           image={{ src: "/images/section-blog-3.png", alt: "" }}
         >
-          <a href="-" className="blog-category-card">
+          <a href="/" className="blog-category-card">
             <div className="blog-category-card__content">
               <h2>Best to Sell or Buy a home</h2>
               <p>
@@ -103,7 +103,7 @@ function Blog() {
               <Icon id="arrow-right" />
             </div>
           </a>
-          <a href="-" className="blog-category-card">
+          <a href="/" className="blog-category-card">
             <div className="blog-category-card__content">
               <h2>Best to Sell or Buy a home</h2>
               <p>
@@ -113,7 +113,7 @@ function Blog() {
               <Icon id="arrow-right" />
             </div>
           </a>
-          <a href="-" className="blog-category-card">
+          <a href="/" className="blog-category-card">
             <div className="blog-category-card__content">
               <h2>Best to Sell or Buy a home</h2>
               <p>

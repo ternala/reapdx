@@ -9,15 +9,15 @@ function ListingsSection() {
           <div className="listings-section__nav">
             <ul className="listings-section__nav__tabs">
               <li>
-                <a href="-">Sold Listings</a>
+                <a href="/">Sold Listings</a>
               </li>
               <li>
-                <a href="-" className="active">
+                <a href="/" className="active">
                   Active
                 </a>
               </li>
               <li>
-                <a href="-">Pending</a>
+                <a href="/">Pending</a>
               </li>
             </ul>
             <div className="listings-section__nav__filters">

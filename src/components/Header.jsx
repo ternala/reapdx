@@ -1,5 +1,5 @@
 import React, { useState, useLayoutEffect, useRef } from "react"
-// import { a } from "react-router-dom"
+// import { NavLink } from "react-router-dom"
 
 import Logo from "../assets/icons/icon-logo.svg"
 import Icon from "./Icon"
@@ -48,7 +48,7 @@ function Header() {
         </li>
         <li>
           <Icon id="calendar" />
-          <a className="link" href="-">
+          <a className="link" href="/">
             Set an Appointment
           </a>
         </li>
@@ -70,92 +70,108 @@ function Header() {
             </div>
             <ul className="menu">
               <li className="menu__item">
-                <a className="menu__item__link" href="/default.html">
+                <a
+                  className="menu__item__link"
+                  href={`${process.env.PUBLIC_URL}/default.html`}
+                >
                   Default page
                 </a>
               </li>
               <li className="menu__item">
-                <a className="menu__item__link" href="/">
+                <a
+                  className="menu__item__link"
+                  href={`${process.env.PUBLIC_URL}/`}
+                >
                   Home page
                 </a>
               </li>
               <li className="menu__item">
-                <a href="-" className="menu__item__link">
+                <a href="/" className="menu__item__link">
                   Landings
                   <Icon id="down-arrow" />
                 </a>
                 <ul>
                   <li>
-                    <a href="/landing-1.html">Landing 1</a>
+                    <a href={`${process.env.PUBLIC_URL}/landing-1.html`}>
+                      Landing 1
+                    </a>
                   </li>
                   <li>
-                    <a href="/landing-2.html">Landing 2</a>
+                    <a href={`${process.env.PUBLIC_URL}/landing-2.html`}>
+                      Landing 2
+                    </a>
                   </li>
                   <li>
-                    <a href="/landing-3.html">Landing 3</a>
+                    <a href={`${process.env.PUBLIC_URL}/landing-3.html`}>
+                      Landing 3
+                    </a>
                   </li>
                 </ul>
               </li>
               <li className="menu__item">
-                <a className="menu__item__link" href="/listings.html">
+                <a
+                  className="menu__item__link"
+                  href={`${process.env.PUBLIC_URL}/listings.html`}
+                >
                   Listings
                 </a>
               </li>
               <li className="menu__item">
-                <a className="menu__item__link" href="/article.html">
+                <a
+                  className="menu__item__link"
+                  href={`${process.env.PUBLIC_URL}/article.html`}
+                >
                   Article
                 </a>
               </li>
               <li className="menu__item">
-                <a className="menu__item__link" href="/calculator.html">
+                <a
+                  className="menu__item__link"
+                  href={`${process.env.PUBLIC_URL}/calculator.html`}
+                >
                   Calculator
                 </a>
               </li>
               <li className="menu__item">
-                <a className="menu__item__link" href="/contact.html">
+                <a
+                  className="menu__item__link"
+                  href={`${process.env.PUBLIC_URL}/contact.html`}
+                >
                   Contact
                 </a>
               </li>
               <li className="menu__item">
-                <a className="menu__item__link" href="/blog.html">
+                <a
+                  className="menu__item__link"
+                  href={`${process.env.PUBLIC_URL}/blog.html`}
+                >
                   Blog
                 </a>
               </li>
               <li className="menu__item">
-                <a className="menu__item__link" href="/blog-category.html">
+                <a
+                  className="menu__item__link"
+                  href={`${process.env.PUBLIC_URL}/blog-category.html`}
+                >
                   Blog category
                 </a>
               </li>
               <li className="menu__item">
-                <a className="menu__item__link" href="/made-right-choice.html">
+                <a
+                  className="menu__item__link"
+                  href={`${process.env.PUBLIC_URL}/made-right-choice.html`}
+                >
                   MRC
                 </a>
               </li>
               <li className="menu__item">
-                <a className="menu__item__link" href="/404.html">
+                <a
+                  className="menu__item__link"
+                  href={`${process.env.PUBLIC_URL}/404.html`}
+                >
                   404
                 </a>
               </li>
-              {/* <li className="menu__item">
-                <a className="menu__item__link" href="/contact.html">
-                  Contact
-                </a>
-              </li>
-              <li className="menu__item">
-                <a className="menu__item__link" href="/calculator.html">
-                  Calculator
-                </a>
-              </li>
-              <li className="menu__item">
-                <a className="menu__item__link" href="/blog-category.html">
-                  Blog category
-                </a>
-              </li>
-              <li className="menu__item">
-                <a className="menu__item__link" href="/article.html">
-                  Article
-                </a>
-              </li> */}
             </ul>
           </nav>
         </div>

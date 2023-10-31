@@ -85,11 +85,11 @@ function Calculator() {
                       placeholder="Fill out the form below"
                     />
                   </div>
-                  <div className="input required" name="name">
+                  <div className="input" name="name">
                     <label htmlFor="3">Name</label>
                     <input id="3" type="text" placeholder="Name" />
                   </div>
-                  <div className="input required" name="phone">
+                  <div className="input" name="phone">
                     <label htmlFor="4">Phone</label>
                     <input id="4" type="text" placeholder="Phone" />
                   </div>
@@ -116,7 +116,7 @@ function Calculator() {
                 <p>
                   I believe real estate agent commissions should be reasonable.
                   Though I have become increasingly successful over the years,
-                  <a href="-"> reaching Top 5% in the country</a>, we have
+                  <a href="/"> reaching Top 5% in the country</a>, we have
                   maintained a reasonable commission rate.
                 </p>
                 <p>

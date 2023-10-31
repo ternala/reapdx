@@ -7,22 +7,22 @@ function Pagination() {
         <Icon id="pagination-arrow" />
       </li>
       <li className="active">
-        <a href="-">1</a>
+        <a href="/">1</a>
       </li>
       <li>
-        <a href="-">2</a>
+        <a href="/">2</a>
       </li>
       <li>
-        <a href="-">3</a>
+        <a href="/">3</a>
       </li>
       <li>
         <span>...</span>
       </li>
       <li>
-        <a href="-">32</a>
+        <a href="/">32</a>
       </li>
       <li>
-        <a href="-">
+        <a href="/">
           <Icon id="pagination-arrow" />
         </a>
       </li>

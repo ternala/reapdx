@@ -2,7 +2,7 @@
   "name": "reapdx",
   "version": "0.1.0",
   "private": true,
-  "homepage": "",
+  "homepage": "/realestateagent",
   "dependencies": {
     "@fancyapps/ui": "^5.0.24",
     "react": "^18.2.0",
@@ -18,7 +18,7 @@
     "eject": "react-scripts eject"
   },
   "reactSnap": {
-    "publicPath": "",
+    "publicPath": "/realestateagent",
     "fixWebpackChunksIssue": false
   },
   "eslintConfig": {

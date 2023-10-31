@@ -8,7 +8,7 @@ function Contact() {
   return (
     <div className="wrapper wrapper_contact">
       <main>
-        <Breadcrumbs />
+        <Breadcrumbs page="Contact" />
         <section>
           <div className="container">
             <div className="contact-iframe">
@@ -20,6 +20,7 @@ function Contact() {
                 loading="lazy"
                 width="100%"
                 height="600px"
+                frameBorder="0"
                 src="https://stephenfitzmauriceteam.zohobookings.com/portal-embed#/customer/stephenfitzmauriceteam"
                 allowFullScreen=""
                 data-rocket-lazyload="fitvidscompatible"
@@ -47,12 +48,12 @@ function Contact() {
               <div className="contact-hero-section__content">
                 <div className="contact-hero-section__content__links">
                   <h2>Call</h2>
-                  <a href="-">503-714-1111</a>
+                  <a href="/">503-714-1111</a>
                   <h2>Click to Email:</h2>
-                  <a href="-">RealEstateAgentPDX@gmail.com</a>
+                  <a href="/">RealEstateAgentPDX@gmail.com</a>
                   <p>Looking for someone in particular?</p>
                   <p>
-                    Go here to see the entire <a href="-">Team Roster</a>
+                    Go here to see the entire <a href="/">Team Roster</a>
                   </p>
                 </div>
                 <span>Team Leader:</span>

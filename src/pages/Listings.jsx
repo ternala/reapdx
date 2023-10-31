@@ -11,7 +11,7 @@ function Listings() {
   return (
     <div className="wrapper">
       <main>
-        <Breadcrumbs />
+        <Breadcrumbs page="Listings"/>
         <HeroSection {...hero[4]} />
         <ListingsSection />
         <PrimaryFormSection

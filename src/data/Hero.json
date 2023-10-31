@@ -118,12 +118,24 @@
   {
     "id": 3,
     "image": {
-      "src": "/images/hero-section-",
+      "src": "/images/hero-section-landing-3.png",
       "alt": ""
     },
     "title": "",
-    "subtitle": "",
-    "content": []
+    "subtitle": "Why Work with Kami?",
+    "content": [
+      {
+        "list": [
+          "Licensed Principal Broker and Managing Broker",
+          "Top 1% buyers agent in the greater Portland metro area.",
+          "Local Oregon and Washington team showing agents ready to show homes on your schedule.",
+          "Long list of certificates and awards.",
+          "Locally licensed since 2004.",
+          "Relevant Masters Degree.",
+          "Buyers agent specialist."
+        ]
+      }
+    ]
   },
   {
     "id": 4,

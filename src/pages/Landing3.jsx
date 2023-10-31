@@ -2,14 +2,17 @@ import React from "react"
 import Recent from "../components/Recent"
 import Breadcrumbs from "../components/Breadcrumbs"
 import TeamSection from "../components/TeamSection"
+import HeroSection from "../components/HeroSection"
 import FormSection from "../components/FormSection"
 import PrimarySection from "../components/PrimarySection"
+import hero from "../data/Hero.json"
 
 function Landing3() {
   return (
     <div className="wrapper">
       <main>
-        <Breadcrumbs />
+        <Breadcrumbs page="Landing-3"/>
+        <HeroSection {...hero[3]} />
         <PrimarySection
           extraClass="start"
           reverse="true"
@@ -28,10 +31,10 @@ function Landing3() {
                 <h6>Kami Price, Realtor</h6>
                 <ul>
                   <li>
-                    Portland: <a href="-">503-773-0000</a>
+                    Portland: <a href="/">503-773-0000</a>
                   </li>
                   <li>
-                    SW WA: <a href="-">360-345-3833</a>
+                    SW WA: <a href="/">360-345-3833</a>
                   </li>
                 </ul>
               </div>
@@ -114,7 +117,7 @@ function Landing3() {
           <div className="container">
             <div className="review-section">
               <h2>Excellent Buyers Agent Reviews</h2>
-              <a href="-" className="review-section__image">
+              <a href="/" className="review-section__image">
                 <img
                   src={`${process.env.PUBLIC_URL}/images/review-section.png`}
                   alt=""

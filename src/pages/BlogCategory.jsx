@@ -9,7 +9,7 @@ function BlogCategory() {
   return (
     <div className="wrapper">
       <main>
-        <Breadcrumbs />
+        <Breadcrumbs page="Blog category"/>
         <HeroSection {...hero[6]} />
         <BlogCategorySection />
         <PrimaryFormSection

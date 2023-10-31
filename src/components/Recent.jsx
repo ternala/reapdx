@@ -6,7 +6,7 @@ function Recent({ title }) {
           <h5>{title}</h5>
           <ul className="recent-list">
             <li>
-              <a href="-">
+              <a href="/">
                 <div className="recent-list__image">
                   <img
                     src={`${process.env.PUBLIC_URL}/images/article-1.png`}
@@ -20,7 +20,7 @@ function Recent({ title }) {
               </a>
             </li>
             <li>
-              <a href="-">
+              <a href="/">
                 <div className="recent-list__image">
                   <img
                     src={`${process.env.PUBLIC_URL}/images/article-2.png`}
@@ -34,7 +34,7 @@ function Recent({ title }) {
               </a>
             </li>
             <li>
-              <a href="-">
+              <a href="/">
                 <div className="recent-list__image">
                   <img
                     src={`${process.env.PUBLIC_URL}/images/article-3.png`}

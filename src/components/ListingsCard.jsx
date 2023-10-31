@@ -33,7 +33,7 @@ function ListingsCard({ image }) {
           </ul>
           <div className="listings-section__card__content__action">
             <h6>eXp Realty</h6>
-            <a href="-" className="button button-primary" target="_blank">
+            <a href="/" className="button button-primary" target="_blank">
               View Details
             </a>
           </div>

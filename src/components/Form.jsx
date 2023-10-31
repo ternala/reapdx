@@ -27,11 +27,11 @@ function From({ type }) {
               <label htmlFor="2">Area or Address</label>
               <input id="2" type="text" placeholder="Text" />
             </div>
-            <div className="input required" name="name">
+            <div className="input" name="name">
               <label htmlFor="3">Name</label>
               <input id="3" type="text" placeholder="Name" />
             </div>
-            <div className="input required" name="phone">
+            <div className="input" name="phone">
               <label htmlFor="4">Phone</label>
               <input id="4" type="text" placeholder="Phone" />
             </div>
