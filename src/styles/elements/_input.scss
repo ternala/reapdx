@@ -13,6 +13,7 @@
     border-radius: 2px;
     border: 1px solid var(--input-primary-border);
     background-color: var(--primary-light);
+    appearance: none;
     transition:
       background-color 0.25s ease,
       border 0.25s ease,
@@ -37,6 +38,14 @@
       transition:
         background-color 0s 600000s,
         color 0s 600000s;
+    }
+    &::-webkit-outer-spin-button,
+    &::-webkit-inner-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+    &[type="number"] {
+      -moz-appearance: textfield;
     }
   }
   &_dark {
