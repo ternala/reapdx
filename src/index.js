@@ -1,7 +1,6 @@
 import React from "react"
 import ReactDOM from "react-dom/client"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
-import { Fancybox } from "@fancyapps/ui"
 import "./styles/style.scss"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
@@ -25,7 +24,6 @@ import {
 } from "./pages"
 
 function App() {
-  Fancybox.bind("[data-fancybox]")
   return (
     <Router basename={process.env.PUBLIC_URL}>
       <Header />

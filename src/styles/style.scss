@@ -2,9 +2,8 @@
 @import "abstracts/vars";
 @import "abstracts/mix-media";
 
-@import "swiper/scss";
-@import "swiper/scss/pagination";
-@import "@fancyapps/ui/dist/fancybox/fancybox.css";
+@import "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css";
+@import "https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css";
 
 @import "base/common";
 @import "base/fonts";

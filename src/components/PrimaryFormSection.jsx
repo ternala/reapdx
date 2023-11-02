@@ -1,7 +1,3 @@
-// eslint-disable-next-line import/no-unresolved
-import { Swiper, SwiperSlide } from "swiper/react"
-// eslint-disable-next-line import/no-unresolved
-import { Pagination } from "swiper/modules"
 import Form from "./Form"
 
 function PrimaryFormSection({ title, type, extraClass, reverse = false }) {
@@ -28,53 +24,56 @@ function PrimaryFormSection({ title, type, extraClass, reverse = false }) {
           </div>
           <div className="primary-section__content">
             {type === "primary" ? (
-              <Swiper pagination modules={[Pagination]} className="mySwiper">
-                <SwiperSlide>
-                  <div className="quote">
-                    <h4>What My Clients Are Saying</h4>
-                    <blockquote className="">
-                      <p>
-                        I am so grateful for my choice in Stephen. Being able to
-                        have total confidence in him made the experience of
-                        selling my house stress free. He is friendly, focused,
-                        professional, and to the point. Best Realtor I have ever
-                        used, period.
-                      </p>
-                      <cite>Amy</cite>
-                    </blockquote>
+              <div className="swiper">
+                <div className="swiper-wrapper">
+                  <div className="swiper-slide">
+                    <div className="quote">
+                      <h4>What My Clients Are Saying</h4>
+                      <blockquote className="">
+                        <p>
+                          I am so grateful for my choice in Stephen. Being able
+                          to have total confidence in him made the experience of
+                          selling my house stress free. He is friendly, focused,
+                          professional, and to the point. Best Realtor I have
+                          ever used, period.
+                        </p>
+                        <cite>Amy</cite>
+                      </blockquote>
+                    </div>
                   </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="quote">
-                    <h4>What My Clients Are Saying</h4>
-                    <blockquote>
-                      <p>
-                        I am so grateful for my choice in Stephen. Being able to
-                        have total confidence in him made the experience of
-                        selling my house stress free. He is friendly, focused,
-                        professional, and to the point. Best Realtor I have ever
-                        used, period.
-                      </p>
-                      <cite>Amy</cite>
-                    </blockquote>
+                  <div className="swiper-slide">
+                    <div className="quote">
+                      <h4>What My Clients Are Saying</h4>
+                      <blockquote>
+                        <p>
+                          I am so grateful for my choice in Stephen. Being able
+                          to have total confidence in him made the experience of
+                          selling my house stress free. He is friendly, focused,
+                          professional, and to the point. Best Realtor I have
+                          ever used, period.
+                        </p>
+                        <cite>Amy</cite>
+                      </blockquote>
+                    </div>
                   </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                  <div className="quote">
-                    <h4>What My Clients Are Saying</h4>
-                    <blockquote>
-                      <p>
-                        I am so grateful for my choice in Stephen. Being able to
-                        have total confidence in him made the experience of
-                        selling my house stress free. He is friendly, focused,
-                        professional, and to the point. Best Realtor I have ever
-                        used, period.
-                      </p>
-                      <cite>Amy</cite>
-                    </blockquote>
+                  <div className="swiper-slide">
+                    <div className="quote">
+                      <h4>What My Clients Are Saying</h4>
+                      <blockquote>
+                        <p>
+                          I am so grateful for my choice in Stephen. Being able
+                          to have total confidence in him made the experience of
+                          selling my house stress free. He is friendly, focused,
+                          professional, and to the point. Best Realtor I have
+                          ever used, period.
+                        </p>
+                        <cite>Amy</cite>
+                      </blockquote>
+                    </div>
                   </div>
-                </SwiperSlide>
-              </Swiper>
+                </div>
+                <div className="swiper-pagination" />
+              </div>
             ) : (
               <div className="primary-section__content__wrap">
                 <p>

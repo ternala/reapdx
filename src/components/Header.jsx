@@ -1,37 +1,37 @@
-import React, { useState, useLayoutEffect, useRef } from "react"
+// import React, { useState, useLayoutEffect, useRef } from "react"
 // import { NavLink } from "react-router-dom"
 
 import Logo from "../assets/icons/icon-logo.svg"
 import Icon from "./Icon"
 
 function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [height, setHeight] = useState(0)
-  const navInfo = useRef(null)
-  const nav = useRef(null)
+  // const [isMenuOpen, setIsMenuOpen] = useState(false)
+  // const [height, setHeight] = useState(0)
+  // const navInfo = useRef(null)
+  // const nav = useRef(null)
 
-  useLayoutEffect(() => {
-    const handleResize = () => {
-      setHeight(navInfo.current.offsetHeight + nav.current.offsetHeight)
-    }
+  // useLayoutEffect(() => {
+  //   const handleResize = () => {
+  //     setHeight(navInfo.offsetHeight + nav.offsetHeight)
+  //   }
 
-    window.addEventListener("load", handleResize)
-    window.addEventListener("resize", handleResize)
+  //   window.addEventListener("load", handleResize)
+  //   window.addEventListener("resize", handleResize)
 
-    return () => {
-      window.removeEventListener("resize", handleResize)
-    }
-  }, [])
+  //   return () => {
+  //     window.removeEventListener("resize", handleResize)
+  //   }
+  // }, [])
 
-  document.body.style.setProperty("--navHeight", `${height}px`)
+  // document.body.style.setProperty("--navHeight", `${height}px`)
 
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen)
-  }
+  // const toggleMenu = () => {
+  //   setIsMenuOpen(!isMenuOpen)
+  // }
 
   return (
     <header>
-      <ul ref={navInfo} className="nav-info">
+      <ul  className="nav-info">
         <li>
           <Icon id="phone" />
           <a className="link" href="tel:5037141111">
@@ -56,11 +56,10 @@ function Header() {
       <div className="nav-wrap">
         <div className="container">
           <nav
-            ref={nav}
-            className={isMenuOpen ? "nav show" : "nav"}
+            className="nav"
             role="navigation"
           >
-            <button className="burger" type="button" onClick={toggleMenu}>
+            <button className="burger" type="button">
               <span />
               <span />
               <span />
