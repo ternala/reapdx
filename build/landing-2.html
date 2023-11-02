@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link href="/realestateagent/favicon.ico" rel="icon" />
+    <link href="/favicon.ico" rel="icon" />
     <meta content="width=device-width,initial-scale=1" name="viewport" />
     <meta content="#000000" name="theme-color" />
     <meta
@@ -10,13 +10,14 @@
       name="description"
     />
     <title>React App</title>
-    <script defer src="/realestateagent/static/js/main.23f1c025.js"></script>
-    <link
-      href="/realestateagent/static/css/main.26f53b33.css"
-      rel="stylesheet"
-    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net" rel="preconnect" />
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="/main.js" defer></script>
+
+    <link href="/static/css/main.7a824c26.css" rel="stylesheet" />
   </head>
-  <body style="--navHeight: 0px">
+  <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root">
       <header>
@@ -24,7 +25,7 @@
           <li>
             <svg class="">
               <use
-                href="/realestateagent/static/media/sprite.cd430a8c45fb60ff2aaf6e7a28480673.svg#icon-phone"
+                href="/static/media/sprite.cd430a8c45fb60ff2aaf6e7a28480673.svg#icon-phone"
               ></use>
             </svg>
             <a href="tel:5037141111" class="link">503-714-1111</a>
@@ -33,7 +34,7 @@
           <li>
             <svg class="">
               <use
-                href="/realestateagent/static/media/sprite.cd430a8c45fb60ff2aaf6e7a28480673.svg#icon-phone"
+                href="/static/media/sprite.cd430a8c45fb60ff2aaf6e7a28480673.svg#icon-phone"
               ></use>
             </svg>
             <a href="tel:3603453833" class="link">360-345-3833</a>
@@ -42,7 +43,7 @@
           <li>
             <svg class="">
               <use
-                href="/realestateagent/static/media/sprite.cd430a8c45fb60ff2aaf6e7a28480673.svg#icon-calendar"
+                href="/static/media/sprite.cd430a8c45fb60ff2aaf6e7a28480673.svg#icon-calendar"
               ></use>
             </svg>
             <a href="/" class="link">Set an Appointment</a>
@@ -59,101 +60,62 @@
               <div class="logo">
                 <img
                   alt=""
-                  src="/realestateagent/static/media/icon-logo.2bb994a0c50f9680d2d99ff540215d5b.svg"
+                  src="/static/media/icon-logo.2bb994a0c50f9680d2d99ff540215d5b.svg"
                 />
               </div>
               <ul class="menu">
                 <li class="menu__item">
-                  <a
-                    href="/realestateagent/default.html"
-                    class="menu__item__link"
-                  >
+                  <a href="/default.html" class="menu__item__link">
                     Default page
                   </a>
                 </li>
                 <li class="menu__item">
-                  <a href="/realestateagent/home.html" class="menu__item__link">
-                    Home page
-                  </a>
+                  <a href="/home.html" class="menu__item__link">Home page</a>
                 </li>
                 <li class="menu__item">
                   <a href="/" class="menu__item__link">
                     Landings
                     <svg class="">
                       <use
-                        href="/realestateagent/static/media/sprite.cd430a8c45fb60ff2aaf6e7a28480673.svg#icon-down-arrow"
+                        href="/static/media/sprite.cd430a8c45fb60ff2aaf6e7a28480673.svg#icon-down-arrow"
                       ></use>
                     </svg>
                   </a>
                   <ul>
-                    <li>
-                      <a href="/realestateagent/landing-1.html">Landing 1</a>
-                    </li>
-                    <li>
-                      <a href="/realestateagent/landing-2.html">Landing 2</a>
-                    </li>
-                    <li>
-                      <a href="/realestateagent/landing-3.html">Landing 3</a>
-                    </li>
+                    <li><a href="/landing-1.html">Landing 1</a></li>
+                    <li><a href="/landing-2.html">Landing 2</a></li>
+                    <li><a href="/landing-3.html">Landing 3</a></li>
                   </ul>
                 </li>
                 <li class="menu__item">
-                  <a
-                    href="/realestateagent/listings.html"
-                    class="menu__item__link"
-                  >
-                    Listings
-                  </a>
+                  <a href="/listings.html" class="menu__item__link">Listings</a>
                 </li>
                 <li class="menu__item">
-                  <a
-                    href="/realestateagent/article.html"
-                    class="menu__item__link"
-                  >
-                    Article
-                  </a>
+                  <a href="/article.html" class="menu__item__link">Article</a>
                 </li>
                 <li class="menu__item">
-                  <a
-                    href="/realestateagent/calculator.html"
-                    class="menu__item__link"
-                  >
+                  <a href="/calculator.html" class="menu__item__link">
                     Calculator
                   </a>
                 </li>
                 <li class="menu__item">
-                  <a
-                    href="/realestateagent/contact.html"
-                    class="menu__item__link"
-                  >
-                    Contact
-                  </a>
+                  <a href="/contact.html" class="menu__item__link">Contact</a>
                 </li>
                 <li class="menu__item">
-                  <a href="/realestateagent/blog.html" class="menu__item__link">
-                    Blog
-                  </a>
+                  <a href="/blog.html" class="menu__item__link">Blog</a>
                 </li>
                 <li class="menu__item">
-                  <a
-                    href="/realestateagent/blog-category.html"
-                    class="menu__item__link"
-                  >
+                  <a href="/blog-category.html" class="menu__item__link">
                     Blog category
                   </a>
                 </li>
                 <li class="menu__item">
-                  <a
-                    href="/realestateagent/made-right-choice.html"
-                    class="menu__item__link"
-                  >
+                  <a href="/made-right-choice.html" class="menu__item__link">
                     MRC
                   </a>
                 </li>
                 <li class="menu__item">
-                  <a href="/realestateagent/404.html" class="menu__item__link">
-                    404
-                  </a>
+                  <a href="/404.html" class="menu__item__link">404</a>
                 </li>
               </ul>
             </nav>
@@ -173,10 +135,7 @@
           <section>
             <div class="container container_sm">
               <div class="hero-section">
-                <img
-                  alt=""
-                  src="/realestateagent/images/hero-section-landing-2.png"
-                />
+                <img alt="" src="/images/hero-section-landing-2.png" />
                 <div class="hero-section__content">
                   <h2>
                     Portland Realtor: Among The Top 1% of Seller Agents in
@@ -214,10 +173,7 @@
                     data-caption="Caption #1"
                     data-fancybox="gallery"
                   >
-                    <img
-                      alt=""
-                      src="/realestateagent/images/image-stephen-sell.png"
-                    />
+                    <img alt="" src="/images/image-stephen-sell.png" />
                   </a>
                 </div>
                 <div class="primary-section__content">
@@ -237,10 +193,7 @@
                     </p>
                     <div class="photo-block">
                       <div class="photo-block__image">
-                        <img
-                          alt=""
-                          src="/realestateagent/images/photo-block-stephen.png"
-                        />
+                        <img alt="" src="/images/photo-block-stephen.png" />
                       </div>
                       <div class="photo-block__content">
                         <h6>Stephen FitzMaurice</h6>
@@ -288,10 +241,7 @@
                   <li>
                     <a href="/">
                       <div class="recent-list__image">
-                        <img
-                          alt=""
-                          src="/realestateagent/images/article-1.png"
-                        />
+                        <img alt="" src="/images/article-1.png" />
                       </div>
                       <h2>
                         Gresham, Oregon Real Estate Market 2023 Report with
@@ -303,10 +253,7 @@
                   <li>
                     <a href="/">
                       <div class="recent-list__image">
-                        <img
-                          alt=""
-                          src="/realestateagent/images/article-2.png"
-                        />
+                        <img alt="" src="/images/article-2.png" />
                       </div>
                       <h2>
                         Gresham, Oregon Real Estate Market 2023 Report with
@@ -318,10 +265,7 @@
                   <li>
                     <a href="/">
                       <div class="recent-list__image">
-                        <img
-                          alt=""
-                          src="/realestateagent/images/article-3.png"
-                        />
+                        <img alt="" src="/images/article-3.png" />
                       </div>
                       <h2>
                         Gresham, Oregon Real Estate Market 2023 Report with
@@ -345,34 +289,18 @@
                 <ul>
                   <li>
                     <a href="/">
-                      <img
-                        alt=""
-                        src="/realestateagent/images/member-housing.png"
-                      />
+                      <img alt="" src="/images/member-housing.png" />
                     </a>
                   </li>
                   <li>
-                    <a href="/">
-                      <img
-                        alt=""
-                        src="/realestateagent/images/member-oar.png"
-                      />
-                    </a>
+                    <a href="/"><img alt="" src="/images/member-oar.png" /></a>
+                  </li>
+                  <li>
+                    <a href="/"><img alt="" src="/images/member-pmar.png" /></a>
                   </li>
                   <li>
                     <a href="/">
-                      <img
-                        alt=""
-                        src="/realestateagent/images/member-pmar.png"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/">
-                      <img
-                        alt=""
-                        src="/realestateagent/images/member-realtor.png"
-                      />
+                      <img alt="" src="/images/member-realtor.png" />
                     </a>
                   </li>
                 </ul>
@@ -382,66 +310,42 @@
                 <ul>
                   <li>
                     <a href="/">
-                      <img
-                        alt=""
-                        src="/realestateagent/images/education-abr.png"
-                      />
+                      <img alt="" src="/images/education-abr.png" />
                     </a>
                   </li>
                   <li>
                     <a href="/">
-                      <img
-                        alt=""
-                        src="/realestateagent/images/education-cfa.png"
-                      />
+                      <img alt="" src="/images/education-cfa.png" />
                     </a>
                   </li>
                   <li>
                     <a href="/">
-                      <img
-                        alt=""
-                        src="/realestateagent/images/education-cssa.png"
-                      />
+                      <img alt="" src="/images/education-cssa.png" />
                     </a>
                   </li>
                   <li>
                     <a href="/">
-                      <img
-                        alt=""
-                        src="/realestateagent/images/education-energytrust.png"
-                      />
+                      <img alt="" src="/images/education-energytrust.png" />
                     </a>
                   </li>
                   <li>
                     <a href="/">
-                      <img
-                        alt=""
-                        src="/realestateagent/images/education-green.png"
-                      />
+                      <img alt="" src="/images/education-green.png" />
                     </a>
                   </li>
                   <li>
                     <a href="/">
-                      <img
-                        alt=""
-                        src="/realestateagent/images/education-sfr.png"
-                      />
+                      <img alt="" src="/images/education-sfr.png" />
                     </a>
                   </li>
                   <li>
                     <a href="/">
-                      <img
-                        alt=""
-                        src="/realestateagent/images/education-sps.png"
-                      />
+                      <img alt="" src="/images/education-sps.png" />
                     </a>
                   </li>
                   <li>
                     <a href="/">
-                      <img
-                        alt=""
-                        src="/realestateagent/images/education-srs.png"
-                      />
+                      <img alt="" src="/images/education-srs.png" />
                     </a>
                   </li>
                 </ul>
@@ -451,63 +355,40 @@
                 <ul>
                   <li>
                     <a href="/">
-                      <img
-                        alt=""
-                        src="/realestateagent/images/award-100most.png"
-                      />
+                      <img alt="" src="/images/award-100most.png" />
                     </a>
                   </li>
                   <li>
                     <a href="/">
-                      <img
-                        alt=""
-                        src="/realestateagent/images/award-expertnetwork.png"
-                      />
+                      <img alt="" src="/images/award-expertnetwork.png" />
                     </a>
                   </li>
                   <li>
                     <a href="/">
-                      <img
-                        alt=""
-                        src="/realestateagent/images/award-fivestar.png"
-                      />
+                      <img alt="" src="/images/award-fivestar.png" />
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/"><img alt="" src="/images/award-m.png" /></a>
+                  </li>
+                  <li>
+                    <a href="/">
+                      <img alt="" src="/images/award-presidents.png" />
                     </a>
                   </li>
                   <li>
                     <a href="/">
-                      <img alt="" src="/realestateagent/images/award-m.png" />
+                      <img alt="" src="/images/award-threebest.png" />
                     </a>
                   </li>
                   <li>
                     <a href="/">
-                      <img
-                        alt=""
-                        src="/realestateagent/images/award-presidents.png"
-                      />
+                      <img alt="" src="/images/award-top100.png" />
                     </a>
                   </li>
                   <li>
                     <a href="/">
-                      <img
-                        alt=""
-                        src="/realestateagent/images/award-threebest.png"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/">
-                      <img
-                        alt=""
-                        src="/realestateagent/images/award-top100.png"
-                      />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/">
-                      <img
-                        alt=""
-                        src="/realestateagent/images/award-zillow.png"
-                      />
+                      <img alt="" src="/images/award-zillow.png" />
                     </a>
                   </li>
                 </ul>
@@ -519,7 +400,7 @@
           <div class="footer-center">
             <div class="footer-left">
               <div class="footer-image">
-                <img alt="" src="/realestateagent/images/image-stephen.jpg" />
+                <img alt="" src="/images/image-stephen.jpg" />
               </div>
               <h6>Stephen FitzMaurice</h6>
               <ul>
@@ -563,7 +444,7 @@
                   <li>
                     <svg class="">
                       <use
-                        href="/realestateagent/static/media/sprite.cd430a8c45fb60ff2aaf6e7a28480673.svg#icon-mail"
+                        href="/static/media/sprite.cd430a8c45fb60ff2aaf6e7a28480673.svg#icon-mail"
                       ></use>
                     </svg>
                     <a
@@ -575,7 +456,7 @@
                   <li>
                     <svg class="">
                       <use
-                        href="/realestateagent/static/media/sprite.cd430a8c45fb60ff2aaf6e7a28480673.svg#icon-phone"
+                        href="/static/media/sprite.cd430a8c45fb60ff2aaf6e7a28480673.svg#icon-phone"
                       ></use>
                     </svg>
                     <a href="tel:5037141111">503-714-1111</a>
@@ -584,7 +465,7 @@
                   <li>
                     <svg class="">
                       <use
-                        href="/realestateagent/static/media/sprite.cd430a8c45fb60ff2aaf6e7a28480673.svg#icon-phone"
+                        href="/static/media/sprite.cd430a8c45fb60ff2aaf6e7a28480673.svg#icon-phone"
                       ></use>
                     </svg>
                     <a href="tel:3603453833">360-345-3833</a>
@@ -603,7 +484,7 @@
                     >
                       <svg class="">
                         <use
-                          href="/realestateagent/static/media/sprite.cd430a8c45fb60ff2aaf6e7a28480673.svg#icon-facebook"
+                          href="/static/media/sprite.cd430a8c45fb60ff2aaf6e7a28480673.svg#icon-facebook"
                         ></use>
                       </svg>
                     </a>
@@ -616,7 +497,7 @@
                     >
                       <svg class="">
                         <use
-                          href="/realestateagent/static/media/sprite.cd430a8c45fb60ff2aaf6e7a28480673.svg#icon-twitter"
+                          href="/static/media/sprite.cd430a8c45fb60ff2aaf6e7a28480673.svg#icon-twitter"
                         ></use>
                       </svg>
                     </a>
@@ -629,7 +510,7 @@
                     >
                       <svg class="">
                         <use
-                          href="/realestateagent/static/media/sprite.cd430a8c45fb60ff2aaf6e7a28480673.svg#icon-instagram"
+                          href="/static/media/sprite.cd430a8c45fb60ff2aaf6e7a28480673.svg#icon-instagram"
                         ></use>
                       </svg>
                     </a>
@@ -642,7 +523,7 @@
                     >
                       <svg class="">
                         <use
-                          href="/realestateagent/static/media/sprite.cd430a8c45fb60ff2aaf6e7a28480673.svg#icon-linkedin"
+                          href="/static/media/sprite.cd430a8c45fb60ff2aaf6e7a28480673.svg#icon-linkedin"
                         ></use>
                       </svg>
                     </a>
@@ -655,7 +536,7 @@
                     >
                       <svg class="">
                         <use
-                          href="/realestateagent/static/media/sprite.cd430a8c45fb60ff2aaf6e7a28480673.svg#icon-youtube"
+                          href="/static/media/sprite.cd430a8c45fb60ff2aaf6e7a28480673.svg#icon-youtube"
                         ></use>
                       </svg>
                     </a>
@@ -668,7 +549,7 @@
                     >
                       <svg class="">
                         <use
-                          href="/realestateagent/static/media/sprite.cd430a8c45fb60ff2aaf6e7a28480673.svg#icon-pinterest"
+                          href="/static/media/sprite.cd430a8c45fb60ff2aaf6e7a28480673.svg#icon-pinterest"
                         ></use>
                       </svg>
                     </a>
@@ -677,7 +558,7 @@
                     <a to="mailto:re%61les%74a%74eag%65nt%70dx@gmai%6C.com">
                       <svg class="">
                         <use
-                          href="/realestateagent/static/media/sprite.cd430a8c45fb60ff2aaf6e7a28480673.svg#icon-mail"
+                          href="/static/media/sprite.cd430a8c45fb60ff2aaf6e7a28480673.svg#icon-mail"
                         ></use>
                       </svg>
                     </a>
