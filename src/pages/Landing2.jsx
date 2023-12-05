@@ -9,7 +9,7 @@ function Landing2() {
   return (
     <div className="wrapper">
       <main>
-        <Breadcrumbs page="Landing-2"/>
+        <Breadcrumbs page="Landing-2" />
         <HeroSection {...hero[2]} />
         <PrimarySection
           extraClass="start"
@@ -46,11 +46,15 @@ function Landing2() {
                     <a href="/">Top 5%</a> Agent in the U.S.
                   </li>
                   <li>Principal Broker in Oregon</li>
-                  <li>
-                    <a href="/">503-714-1111</a>
-                  </li>
                 </ul>
               </div>
+              <ul className="button-group">
+                <li>
+                  <a className="button button-icon" href="/">
+                    503-714-1111
+                  </a>
+                </li>
+              </ul>
             </div>
             <p>
               As the team leader and top 1% agent in the U.S., my primary

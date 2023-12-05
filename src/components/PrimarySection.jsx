@@ -49,6 +49,13 @@ function PrimarySection({
                     className="primary-section__content__wrap"
                     content={content}
                   />
+                  <ul className="button-group">
+                    <li>
+                      <a className="button button-primary" href="-">
+                        Learn more
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               ) : (
                 <>

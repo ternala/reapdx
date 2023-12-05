@@ -27,6 +27,7 @@
     a {
       @include link-style;
       display: inline;
+      white-space: normal;
     }
     ul {
       @include list-style(var(--primary-dark));

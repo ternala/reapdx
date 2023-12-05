@@ -11,7 +11,7 @@ function Landing3() {
   return (
     <div className="wrapper">
       <main>
-        <Breadcrumbs page="Landing-3"/>
+        <Breadcrumbs page="Landing-3" />
         <HeroSection {...hero[3]} />
         <PrimarySection
           extraClass="start"
@@ -29,15 +29,21 @@ function Landing3() {
               </div>
               <div className="photo-block__content">
                 <h6>Kami Price, Realtor</h6>
-                <ul>
-                  <li>
-                    Portland: <a href="/">503-773-0000</a>
-                  </li>
-                  <li>
-                    SW WA: <a href="/">360-345-3833</a>
-                  </li>
-                </ul>
               </div>
+              <ul className="button-group">
+                <p>Portland</p>
+                <li>
+                  <a className="button button-icon" href="tel:5037141111">
+                    503-714-1111
+                  </a>
+                </li>
+                <p>SW WA</p>
+                <li>
+                  <a className="button button-icon" href="tel:3603453833">
+                    360-345-3833
+                  </a>
+                </li>
+              </ul>
             </div>
             <p>
               <strong>Kami Price, Principal and Managing Broker</strong>

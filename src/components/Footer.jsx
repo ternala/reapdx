@@ -255,20 +255,24 @@ function Footer() {
               <h6>Let`s Meet Up. Click to Contact Us.</h6>
               <ul>
                 <li>
-                  <Icon id="mail" />
-                  <a href="mailto:realestateagentpdx@gmail.com?subject=Stephen FitzMaurice Team">
-                    RealEstateAgentPDX@gmail.com
+                  <a href="tel:3603453833">
+                    {/* <Icon id="phone" /> */}
+                    360-345-3833
+                    <span>SW WA</span>
                   </a>
                 </li>
                 <li>
-                  <Icon id="phone" />
-                  <a href="tel:5037141111">503-714-1111</a>
-                  <span>OR</span>
+                  <a href="tel:5037141111">
+                    {/* <Icon id="phone" /> */}
+                    503-714-1111
+                    <span>OR</span>
+                  </a>
                 </li>
                 <li>
-                  <Icon id="phone" />
-                  <a href="tel:3603453833">360-345-3833</a>
-                  <span>SW WA</span>
+                  <a href="mailto:realestateagentpdx@gmail.com?subject=Stephen FitzMaurice Team">
+                    {/* <Icon id="mail" /> */}
+                    RealEstateAgentPDX@gmail.com
+                  </a>
                 </li>
               </ul>
             </div>

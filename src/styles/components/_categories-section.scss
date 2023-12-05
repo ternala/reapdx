@@ -79,6 +79,13 @@
         align-items: center;
         flex-wrap: wrap;
         row-gap: 20px;
+        .button-primary {
+          color: var(--primary-accent);
+          background-color: var(--primary-light);
+          &:hover {
+            opacity: 0.8;
+          }
+        }
       }
 
       span {

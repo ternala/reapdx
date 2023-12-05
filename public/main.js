@@ -46,17 +46,23 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // Calculate height of navbar
-  if (document.querySelector(".nav-info")) {
-    const handleResize = () => {
-      document.body.style.setProperty(
-        "--navHeight",
-        `${
-          document.querySelector(".nav-info").offsetHeight +
-          document.querySelector(".nav").offsetHeight
-        }px`,
-      )
-    }
-    handleResize()
-    window.addEventListener("resize", handleResize)
+  // if (document.querySelector(".nav-info")) {
+  //   const handleResize = () => {
+  //     document.body.style.setProperty(
+  //       "--navHeight",
+  //       `${
+  //         document.querySelector(".nav-info").offsetHeight +
+  //         document.querySelector(".nav").offsetHeight
+  //       }px`,
+  //     )
+  //   }
+  //   handleResize()
+  //   window.addEventListener("resize", handleResize)
+  // }
+
+  // Adding the current year
+  const copyright = document.querySelector(".footer-bottom ul li p")
+  if (copyright) {
+    copyright.textContent = `© ${new Date().getFullYear()} Copyright Stephen FitzMaurice`
   }
 })

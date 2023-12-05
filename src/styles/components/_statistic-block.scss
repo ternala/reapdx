@@ -46,44 +46,61 @@
 }
 .photo-block {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  // flex-direction: row;
   gap: 20px;
   @include mdMax {
     gap: 5px;
   }
-  ul {
+  .photo-block__content {
+    ul {
+      list-style: none !important;
+      display: flex;
+      flex-direction: column;
+      gap: 5px !important;
+      margin: 0 !important;
+      padding: 0 !important;
+      @include smMax {
+        gap: 2px !important;
+      }
+    }
+    a {
+      @include link-style;
+      display: inline;
+      white-space: normal;
+      font-size: inherit !important;
+      font-style: inherit !important;
+    }
+    h6,
+    li {
+      color: var(--primary-dark);
+      font-family: var(--font-primary);
+      font-size: 14px !important;
+      font-weight: 300;
+      @include smMax {
+        font-size: 10px;
+      }
+    }
+    li {
+      font-style: italic !important;
+    }
+    h6 {
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+  }
+  .button-group {
+    width: 100%;
     list-style: none !important;
-    display: flex;
-    flex-direction: column;
-    gap: 5px !important;
     margin: 0 !important;
-    @include smMax {
-      gap: 2px !important;
+    padding: 0 !important;
+    p {
+      margin: 0;
     }
-  }
-  a {
-    @include link-style;
-    display: inline;
-    white-space: normal;
-    font-size: inherit !important;
-    font-style: inherit !important;
-  }
-  h6,
-  li {
-    color: var(--primary-dark);
-    font-family: var(--font-primary);
-    font-size: 14px !important;
-    font-weight: 300;
-    @include smMax {
-      font-size: 10px;
+    .button-icon {
+      text-decoration: none;
+      transition: all 0.25s ease;
     }
-  }
-  li {
-    font-style: italic !important;
-  }
-  h6 {
-    font-weight: 700;
-    margin-bottom: 6px;
   }
 }
 .photo-block__image {

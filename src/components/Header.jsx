@@ -12,7 +12,7 @@ function Header() {
 
   // useLayoutEffect(() => {
   //   const handleResize = () => {
-  //     setHeight(navInfo.offsetHeight + nav.offsetHeight)
+  //     setHeight(navInfo.current.offsetHeight + nav.current.offsetHeight)
   //   }
 
   //   window.addEventListener("load", handleResize)
@@ -23,42 +23,39 @@ function Header() {
   //   }
   // }, [])
 
-  // document.body.style.setProperty("--navHeight", `${height}px`)
-
+  // document.documentElement.style.setProperty("--navHeight", `${height}px`)
+  //
   // const toggleMenu = () => {
   //   setIsMenuOpen(!isMenuOpen)
   // }
 
   return (
     <header>
-      <ul  className="nav-info">
+      <ul className="nav-info">
         <li>
-          <Icon id="phone" />
           <a className="link" href="tel:5037141111">
+            {/* <Icon id="phone" /> */}
             503-714-1111
+            <span> OR</span>
           </a>
-          <span>OR</span>
         </li>
         <li>
-          <Icon id="phone" />
           <a className="link" href="tel:3603453833">
+            {/* <Icon id="phone" /> */}
             360-345-3833
+            <span> SW WA</span>
           </a>
-          <span>SW WA</span>
         </li>
         <li>
-          <Icon id="calendar" />
           <a className="link" href="/">
+            {/* <Icon id="calendar" /> */}
             Set an Appointment
           </a>
         </li>
       </ul>
       <div className="nav-wrap">
         <div className="container">
-          <nav
-            className="nav"
-            role="navigation"
-          >
+          <nav className="nav" role="navigation">
             <button className="burger" type="button">
               <span />
               <span />

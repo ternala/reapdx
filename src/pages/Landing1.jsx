@@ -2,17 +2,54 @@ import React from "react"
 import Recent from "../components/Recent"
 import PrimarySection from "../components/PrimarySection"
 import FormSection from "../components/FormSection"
-import HeroSection from "../components/HeroSection"
+// import HeroSection from "../components/HeroSection"
 import Breadcrumbs from "../components/Breadcrumbs"
 // import data from "../data/Landing-1.json"
-import hero from "../data/Hero.json"
+// import hero from "../data/Hero.json"
 
 function Landing1() {
   return (
     <div className="wrapper">
       <main>
-        <Breadcrumbs page="Landing-1"/>
-        <HeroSection {...hero[1]} />
+        <Breadcrumbs page="Landing-1" />
+        {/* <HeroSection {...hero[1]} /> */}
+        <section>
+          <div className="container container_sm">
+            <div className="hero-section">
+              <img src="/images/hero-section-landing-1.png" alt="" />
+              <div className="hero-section__content">
+                <h2>Professional Home Value Estimate</h2>
+                <div>
+                  <p>
+                    Whether you are looking for a Realtor’s exact market value
+                    estimate of your home, or simply want the best online value
+                    tracker for your home, we’ve got you covered. Whenever
+                    you’re ready our top 1% sellers agents would love to tour
+                    your home.{" "}
+                    <strong>
+                      4% max. to sell a home. Cancel anytime policy.
+                    </strong>
+                  </p>
+                </div>
+                <ul className="button-group">
+                  <p>Call:</p>
+                  <li>
+                    <a className="button button-icon" href="tel:5037141111">
+                      503-714-1111
+                      <span>OR</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a className="button button-icon" href="tel:3603453833">
+                      360-345-3833
+                      <span>SW WA</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
         <PrimarySection
           image={{
             src: "/images/image-stephen-preview.jpg",

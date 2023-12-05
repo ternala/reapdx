@@ -43,6 +43,11 @@
 @import "pages/landing-3";
 @import "pages/page-404";
 
+html {
+  scroll-behavior: smooth;
+  // scroll-padding-top: var(--navHeight);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
