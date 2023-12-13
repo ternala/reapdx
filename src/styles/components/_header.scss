@@ -17,9 +17,6 @@ header {
   @include lgMax {
     column-gap: 15px;
   }
-  @include smMax {
-    column-gap: 20px;
-  }
   li {
     a {
       @include link-wrap-style;

@@ -21,6 +21,7 @@ import {
   Article,
   Page404,
   MadeRightChoice,
+  Privacy
 } from "./pages"
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
         <Route path="/article.html" element={<Article />} />
         <Route path="/404.html" element={<Page404 />} />
         <Route path="/made-right-choice.html" element={<MadeRightChoice />} />
+        <Route path="/privacy-policy.html" element={<Privacy />} />
       </Routes>
       <Footer />
     </Router>

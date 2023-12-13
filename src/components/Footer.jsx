@@ -351,7 +351,7 @@ function Footer() {
         <div className="footer-bottom">
           <ul>
             <li>
-              <a href="/">Privacy Policy</a>
+              <a  href={`${process.env.PUBLIC_URL}/privacy-policy.html`}>Privacy Policy</a>
             </li>
             <li>
               <a href="/">Disclosures</a>
