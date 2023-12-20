@@ -12,6 +12,35 @@ function Home() {
     <div className="wrapper">
       <main>
         <HeroSectionHome {...hero[0]} />
+        <PrimarySection
+          reverse="true"
+          image={{
+            src: "/images/image-home-stephen-preview.jpg",
+            alt: "",
+            video: "https://www.youtube.com/watch?v=2x3jtcLjpUM",
+          }}
+        >
+          <h2>4% to Sell a Home</h2>
+          <div className="primary-section__content__wrap">
+            <p>
+              We charge a max. of 4% commission to sell a home in Portland or SW
+              Washington, and a max. 4.5% to sell a home in Bend or Salem metro
+              areas (this includes the buyer’s agent commission).{" "}
+            </p>
+          </div>
+          <ul className="button-group">
+            <li>
+              <a className="button button-primary" href="-">
+                Sell a House
+              </a>
+            </li>
+            <li>
+              <a className="button button-secondary" href="-">
+                4% commission
+              </a>
+            </li>
+          </ul>
+        </PrimarySection>
         <PrimarySection {...data[0]} />
         <PrimarySection {...data[1]} />
         <PrimarySection {...data[2]} />
