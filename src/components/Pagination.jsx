@@ -3,29 +3,17 @@ import Icon from "./Icon"
 function Pagination() {
   return (
     <ul className="pagination">
-      <li className="disabled">
+      <a href="-">
         <Icon id="pagination-arrow" />
-      </li>
-      <li className="active">
-        <a href="/">1</a>
-      </li>
-      <li>
-        <a href="/">2</a>
-      </li>
-      <li>
-        <a href="/">3</a>
-      </li>
-      <li>
-        <span>...</span>
-      </li>
-      <li>
-        <a href="/">32</a>
-      </li>
-      <li>
-        <a href="/">
-          <Icon id="pagination-arrow" />
-        </a>
-      </li>
+      </a>
+      <a href="-">1</a>
+      <span>2</span>
+      <a href="-">3</a>
+      <a href="-">4</a>
+      <a href="-">5</a>
+      <a href="-">
+        <Icon id="pagination-arrow" />
+      </a>
     </ul>
   )
 }
