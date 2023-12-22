@@ -31,14 +31,15 @@ function Landing3() {
                 <h6>Kami Price, Realtor</h6>
               </div>
               <ul className="button-group">
-                <p>Portland</p>
                 <li>
+                  <p>Portland</p>
                   <a className="button button-icon" href="tel:5037141111">
                     503-714-1111
                   </a>
                 </li>
-                <p>SW WA</p>
+
                 <li>
+                  <p>SW WA</p>
                   <a className="button button-icon" href="tel:3603453833">
                     360-345-3833
                   </a>

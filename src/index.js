@@ -21,7 +21,8 @@ import {
   Article,
   Page404,
   MadeRightChoice,
-  Privacy
+  Privacy,
+  TeamRoster
 } from "./pages"
 
 function App() {
@@ -46,6 +47,7 @@ function App() {
         <Route path="/404.html" element={<Page404 />} />
         <Route path="/made-right-choice.html" element={<MadeRightChoice />} />
         <Route path="/privacy-policy.html" element={<Privacy />} />
+        <Route path="/team-roster.html" element={<TeamRoster />} />
       </Routes>
       <Footer />
     </Router>

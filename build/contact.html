@@ -16,12 +16,6 @@
     <script src="/static/js/main.js" defer></script>
     <link href="/static/css/main.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net" rel="preconnect" />
-    <link
-      href="https://stephenfitzmauriceteam.zohobookings.com"
-      rel="preconnect"
-    />
-    <link href="https://static.zohocdn.com" rel="preconnect" />
-    <link href="https://js.zohocdn.com" rel="preconnect" />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -63,14 +57,14 @@
                   <a href="/home.html" class="menu__item__link">Home page</a>
                 </li>
                 <li class="menu__item">
-                  <a href="/" class="menu__item__link">
+                  <span class="menu__item__link">
                     Landings
                     <svg class="">
                       <use
                         href="/static/media/sprite.svg#icon-down-arrow"
                       ></use>
                     </svg>
-                  </a>
+                  </span>
                   <ul>
                     <li><a href="/landing-1.html">Landing 1</a></li>
                     <li><a href="/landing-2.html">Landing 2</a></li>
@@ -78,7 +72,18 @@
                   </ul>
                 </li>
                 <li class="menu__item">
-                  <a href="/listings.html" class="menu__item__link">Listings</a>
+                  <span class="menu__item__link">
+                    Links
+                    <svg class="">
+                      <use
+                        href="/static/media/sprite.svg#icon-down-arrow"
+                      ></use>
+                    </svg>
+                  </span>
+                  <ul>
+                    <li><a href="/listings.html">Listings</a></li>
+                    <li><a href="/team-roster.html">Team Roster</a></li>
+                  </ul>
                 </li>
                 <li class="menu__item">
                   <a href="/article.html" class="menu__item__link">Article</a>
@@ -290,15 +295,19 @@
           </section>
           <section>
             <div class="container">
-              <div class="primary-section primary-section_short">
-                <div class="primary-section__content__wrap">
-                  <h2>Stephen FitzMaurice Team Reviews</h2>
-                  <img alt="" src="/images/section-contact-arrivala.png" />
-                  <p>
-                    Click the image to see all 600+ verified client reviews on
-                    Arrivala.com.
-                  </p>
-                </div>
+              <div class="review-section">
+                <h2>Stephen FitzMaurice Team Reviews</h2>
+                <a href="/" class="review-section__image">
+                  <img
+                    alt=""
+                    src="/images/section-contact-arrivala.png"
+                    target="_blank"
+                  />
+                </a>
+                <p>
+                  Click the image to see all 600+ verified client reviews on
+                  Arrivala.com.
+                </p>
               </div>
             </div>
           </section>

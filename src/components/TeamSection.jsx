@@ -7,6 +7,8 @@ function TeamSection() {
             <img src={`${process.env.PUBLIC_URL}/images/team-1.png`} alt="" />
             <div className="team-section__item__content">
               <span>Dory Stuart, Broker</span>
+              <a href="-">Link</a>
+              <a className="button button-icon" href="tel:3603453833">3603453833</a>
               <p>
                 Dory is a 5th generation native Oregonian with a lot of strong
                 local connections. Her previous occupation as an event

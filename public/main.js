@@ -11,6 +11,11 @@ document.addEventListener("DOMContentLoaded", () => {
       new Swiper(el, {
         pagination: {
           el: ".swiper-pagination",
+          clickable: true,
+          autoplay: {
+            delay: 1000,
+            disableOnInteraction: false,
+          },
         },
       })
     })

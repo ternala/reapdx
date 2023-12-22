@@ -82,10 +82,10 @@ function Header() {
                 </a>
               </li>
               <li className="menu__item">
-                <a href="/" className="menu__item__link">
+                <span className="menu__item__link">
                   Landings
                   <Icon id="down-arrow" />
-                </a>
+                </span>
                 <ul>
                   <li>
                     <a href={`${process.env.PUBLIC_URL}/landing-1.html`}>
@@ -105,12 +105,22 @@ function Header() {
                 </ul>
               </li>
               <li className="menu__item">
-                <a
-                  className="menu__item__link"
-                  href={`${process.env.PUBLIC_URL}/listings.html`}
-                >
-                  Listings
-                </a>
+                <span className="menu__item__link">
+                  Links
+                  <Icon id="down-arrow" />
+                </span>
+                <ul>
+                  <li>
+                    <a href={`${process.env.PUBLIC_URL}/listings.html`}>
+                      Listings
+                    </a>
+                  </li>
+                  <li>
+                    <a href={`${process.env.PUBLIC_URL}/team-roster.html`}>
+                      Team Roster
+                    </a>
+                  </li>
+                </ul>
               </li>
               <li className="menu__item">
                 <a

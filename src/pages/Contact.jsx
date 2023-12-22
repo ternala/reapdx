@@ -48,9 +48,16 @@ function Contact() {
               <div className="contact-hero-section__content">
                 <div className="contact-hero-section__content__links">
                   <h2>Call</h2>
-                  <a className="button button-icon" href="tel:5037141111">503-714-1111</a>
+                  <a className="button button-icon" href="tel:5037141111">
+                    503-714-1111
+                  </a>
                   <h2>Click to Email:</h2>
-                  <a className="button button-icon" href="mailto:realestateagentpdx@gmail.com?subject=Stephen FitzMaurice Team">RealEstateAgentPDX@gmail.com</a>
+                  <a
+                    className="button button-icon"
+                    href="mailto:realestateagentpdx@gmail.com?subject=Stephen FitzMaurice Team"
+                  >
+                    RealEstateAgentPDX@gmail.com
+                  </a>
                   <p>Looking for someone in particular?</p>
                   <p>
                     Go here to see the entire <a href="/">Team Roster</a>
@@ -77,18 +84,19 @@ function Contact() {
         <PrimarySection {...data[1]} />
         <section>
           <div className="container">
-            <div className="primary-section primary-section_short">
-              <div className="primary-section__content__wrap">
-                <h2>Stephen FitzMaurice Team Reviews</h2>
+            <div className="review-section">
+              <h2>Stephen FitzMaurice Team Reviews</h2>
+              <a href="/" className="review-section__image">
                 <img
                   src={`${process.env.PUBLIC_URL}/images/section-contact-arrivala.png`}
                   alt=""
+                  target="_blank"
                 />
-                <p>
-                  Click the image to see all 600+ verified client reviews on
-                  Arrivala.com.
-                </p>
-              </div>
+              </a>
+              <p>
+                Click the image to see all 600+ verified client reviews on
+                Arrivala.com.
+              </p>
             </div>
           </div>
         </section>

@@ -50,7 +50,14 @@ function Landing2() {
               </div>
               <ul className="button-group">
                 <li>
-                  <a className="button button-icon" href="/">
+                  <p>Portland</p>
+                  <a className="button button-icon" href="tel:5037141111" >
+                    503-714-1111
+                  </a>
+                </li>
+                <li>
+                  <p>SW WA </p>
+                  <a className="button button-icon" href="tel:5037141111" >
                     503-714-1111
                   </a>
                 </li>

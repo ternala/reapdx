@@ -11,11 +11,11 @@
     />
     <title>React App</title>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <link href="https://cdn.jsdelivr.net" rel="preconnect" />
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
     <script src="/main.js" defer></script>
     <script src="/static/js/main.js" defer></script>
     <link href="/static/css/main.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net" rel="preconnect" />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -57,14 +57,14 @@
                   <a href="/home.html" class="menu__item__link">Home page</a>
                 </li>
                 <li class="menu__item">
-                  <a href="/" class="menu__item__link">
+                  <span class="menu__item__link">
                     Landings
                     <svg class="">
                       <use
                         href="/static/media/sprite.svg#icon-down-arrow"
                       ></use>
                     </svg>
-                  </a>
+                  </span>
                   <ul>
                     <li><a href="/landing-1.html">Landing 1</a></li>
                     <li><a href="/landing-2.html">Landing 2</a></li>
@@ -72,7 +72,18 @@
                   </ul>
                 </li>
                 <li class="menu__item">
-                  <a href="/listings.html" class="menu__item__link">Listings</a>
+                  <span class="menu__item__link">
+                    Links
+                    <svg class="">
+                      <use
+                        href="/static/media/sprite.svg#icon-down-arrow"
+                      ></use>
+                    </svg>
+                  </span>
+                  <ul>
+                    <li><a href="/listings.html">Listings</a></li>
+                    <li><a href="/team-roster.html">Team Roster</a></li>
+                  </ul>
                 </li>
                 <li class="menu__item">
                   <a href="/article.html" class="menu__item__link">Article</a>
@@ -191,7 +202,14 @@
                       </div>
                       <ul class="button-group">
                         <li>
-                          <a href="/" class="button button-icon">
+                          <p>Portland</p>
+                          <a href="tel:5037141111" class="button button-icon">
+                            503-714-1111
+                          </a>
+                        </li>
+                        <li>
+                          <p>SW WA</p>
+                          <a href="tel:5037141111" class="button button-icon">
                             503-714-1111
                           </a>
                         </li>
