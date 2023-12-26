@@ -10,7 +10,7 @@ function HeroSectionHome({ image, title, subtitle, content = [] }) {
           <div className="hero-section__content">
             {title ? <h1>{title}</h1> : null}
             {subtitle ? <h2>{subtitle}</h2> : null}
-            <RenderContent content={content} />
+            <RenderContent content={content} className="hero-section__content__wrap" />
           </div>
         </div>
         <StatisticBlock />

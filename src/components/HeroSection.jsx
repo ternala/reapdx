@@ -24,7 +24,10 @@ function HeroSection({
               <>
                 {title ? <h1>{title}</h1> : null}
                 {subtitle ? <h2>{subtitle}</h2> : null}
-                <RenderContent content={content} />
+                <RenderContent
+                  content={content}
+                  className="hero-section__content__wrap"
+                />
               </>
             )}
           </div>

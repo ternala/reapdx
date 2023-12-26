@@ -64,17 +64,20 @@ function TeamRoster() {
               />
               <div className="hero-section__content">
                 <h2>Top 1% Seller Agents</h2>
-                <div>
-                  <p>
-                    <a href="-" target="_blank">
-                      Explanation of seller’s services.
+                <div className="hero-section__content__buttons">
+                  <a className="button button-primary" href="-">
+                    Sell Faster & For More
+                  </a>
+                  <div className="hero-section__content__buttons__wrap">
+                    <p>Oregon</p>
+                    <a className="button button-icon" href="tel:5037141111">
+                      503-714-1111{" "}
                     </a>
-                    <strong>
-                      <a href="tel:5037141111">503-714-1111</a>
-                      Oregon
-                      <a href="tel:3604707777">360-470-7777</a> Washington
-                    </strong>
-                  </p>
+                    <p>Washington</p>
+                    <a className="button button-icon" href="tel:3604707777">
+                      360-470-7777{" "}
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -88,18 +91,21 @@ function TeamRoster() {
                 alt=""
               />
               <div className="hero-section__content">
-                <h2>Top 1% Seller Agents</h2>
-                <div>
-                  <p>
-                    <a href="-" target="_blank">
-                      Explanation of seller’s services.
+                <h2>Top 1% Buyers Agents</h2>
+                <div className="hero-section__content__buttons">
+                  <a className="button button-primary" href="-">
+                    Expert Representation
+                  </a>
+                  <div className="hero-section__content__buttons__wrap">
+                    <p>Oregon</p>
+                    <a className="button button-icon" href="tel:5037730000">
+                      503-773-0000
                     </a>
-                    <strong>
-                      <a href="tel:5037141111">503-714-1111</a>
-                      Oregon
-                      <a href="tel:3604707777">360-470-7777</a> Washington
-                    </strong>
-                  </p>
+                    <p>Washington</p>
+                    <a className="button button-icon" href="tel:3603453833">
+                      360-345-3833
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
