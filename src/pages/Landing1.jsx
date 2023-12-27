@@ -19,7 +19,8 @@ function Landing1() {
               <img src="/images/hero-section-landing-1.png" alt="" />
               <div className="hero-section__content">
                 <h2>Professional Home Value Estimate</h2>
-                <div>
+                <div className="hero-section__content__wrap">
+                  <h3>H3 heading</h3>
                   <p>
                     Whether you are looking for a Realtor’s exact market value
                     estimate of your home, or simply want the best online value

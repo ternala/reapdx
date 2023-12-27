@@ -71,6 +71,18 @@
   h2 {
     @include title("secondary");
   }
+  h3 {
+    @include title("tertiary");
+  }
+  h4 {
+    @include title("quaternary");
+  }
+  h5 {
+    @include title("fivefold");
+  }
+  h6 {
+    @include title("sixfold");
+  }
   p {
     @include text("tertiary", var(--primary-light));
     margin-bottom: 20px;
@@ -80,6 +92,17 @@
     }
   }
   &__wrap {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      margin-bottom: 15px;
+      @include mdMax {
+        margin-bottom: 10px;
+      }
+    }
     a {
       @include link-style;
       white-space: normal;

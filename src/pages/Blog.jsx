@@ -50,6 +50,13 @@ function Blog() {
               <Icon id="arrow-right" />
             </div>
           </a>
+          <ul className="button-group">
+            <li>
+              <a className="button button-primary" href="-">
+                Go to this Category
+              </a>
+            </li>
+          </ul>
         </PrimarySection>
         <PrimarySection
           extraClass="start"

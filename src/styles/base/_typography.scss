@@ -30,13 +30,13 @@
     } @else if $size == "secondary" {
       font-size: 24px;
     } @else if $size == "tertiary" {
-      // font-size: 28px;
+      font-size: 22px;
     } @else if $size == "quaternary" {
-      // font-size: 24px;
+      font-size: 20px;
     } @else if $size == "fivefold" {
-      // font-size: 20px;
+      font-size: 18px;
     } @else if $size == "sixfold" {
-      // font-size: 16px;
+      font-size: 16px;
     } @else {
       @error "Unknown size #{$size}.";
     }
@@ -47,13 +47,13 @@
     } @else if $size == "secondary" {
       font-size: 20px;
     } @else if $size == "tertiary" {
-      // font-size: 28px;
+      font-size: 18px;
     } @else if $size == "quaternary" {
-      // font-size: 24px;
+      font-size: 16px;
     } @else if $size == "fivefold" {
-      // font-size: 20px;
+      font-size: 14px;
     } @else if $size == "sixfold" {
-      // font-size: 16px;
+      font-size: 12px;
     } @else {
       @error "Unknown size #{$size}.";
     }
