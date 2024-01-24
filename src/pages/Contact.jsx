@@ -20,7 +20,7 @@ function Contact() {
                 loading="lazy"
                 width="100%"
                 height="600px"
-                frameBorder="0"
+                // frameBorder="0"
                 src="https://stephenfitzmauriceteam.zohobookings.com/portal-embed#/customer/stephenfitzmauriceteam"
                 allowFullScreen=""
                 data-rocket-lazyload="fitvidscompatible"
@@ -54,7 +54,7 @@ function Contact() {
                   <h2>Click to Email:</h2>
                   <a
                     className="button button-icon"
-                    href="mailto:realestateagentpdx@gmail.com?subject=Stephen FitzMaurice Team"
+                    href="mailto:realestateagentpdx@gmail.com"
                   >
                     RealEstateAgentPDX@gmail.com
                   </a>

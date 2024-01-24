@@ -24,55 +24,17 @@ function PrimaryFormSection({ title, type, extraClass, reverse = false }) {
           </div>
           <div className="primary-section__content">
             {type === "primary" ? (
-              <div className="swiper">
-                <div className="swiper-wrapper">
-                  <div className="swiper-slide">
-                    <div className="quote">
-                      <h4>What My Clients Are Saying</h4>
-                      <blockquote className="">
-                        <p>
-                          I am so grateful for my choice in Stephen. Being able
-                          to have total confidence in him made the experience of
-                          selling my house stress free. He is friendly, focused,
-                          professional, and to the point. Best Realtor I have
-                          ever used, period.
-                        </p>
-                        <cite>Amy</cite>
-                      </blockquote>
-                    </div>
-                  </div>
-                  <div className="swiper-slide">
-                    <div className="quote">
-                      <h4>What My Clients Are Saying</h4>
-                      <blockquote>
-                        <p>
-                          I am so grateful for my choice in Stephen. Being able
-                          to have total confidence in him made the experience of
-                          selling my house stress free. He is friendly, focused,
-                          professional, and to the point. Best Realtor I have
-                          ever used, period.
-                        </p>
-                        <cite>Amy</cite>
-                      </blockquote>
-                    </div>
-                  </div>
-                  <div className="swiper-slide">
-                    <div className="quote">
-                      <h4>What My Clients Are Saying</h4>
-                      <blockquote>
-                        <p>
-                          I am so grateful for my choice in Stephen. Being able
-                          to have total confidence in him made the experience of
-                          selling my house stress free. He is friendly, focused,
-                          professional, and to the point. Best Realtor I have
-                          ever used, period.
-                        </p>
-                        <cite>Amy</cite>
-                      </blockquote>
-                    </div>
-                  </div>
-                </div>
-                <div className="swiper-pagination" />
+              <div className="quote">
+                <h4>What My Clients Are Saying</h4>
+                <blockquote>
+                  <p>
+                    I am so grateful for my choice in Stephen. Being able to
+                    have total confidence in him made the experience of selling
+                    my house stress free. He is friendly, focused, professional,
+                    and to the point. Best Realtor I have ever used, period.
+                  </p>
+                  <cite>Amy</cite>
+                </blockquote>
               </div>
             ) : (
               <div className="primary-section__content__wrap">

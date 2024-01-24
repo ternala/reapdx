@@ -4,7 +4,7 @@
     margin: 0 auto;
     padding-top: 60px;
     @include smMax {
-        padding-top: 40px;
+      padding-top: 40px;
     }
   }
 }
@@ -33,12 +33,15 @@
     transition:
       color 0.25s ease,
       text-decoration 0.25s ease;
-
+    &:visited {
+      color: #7c7c7c;
+    }
     &:hover,
     &.active {
       color: var(--primary-accent);
       text-decoration-color: var(--primary-accent);
     }
+
     @include smMax {
       font-size: 18px;
     }
@@ -128,11 +131,11 @@
     text-transform: uppercase;
     cursor: default;
     @include smMax {
-        top: 10px;
-        right: 10px;
-        padding: 0 5px;
-        height: 22px;
-        font-size: 10px;
+      top: 10px;
+      right: 10px;
+      padding: 0 5px;
+      height: 22px;
+      font-size: 10px;
     }
   }
   &:hover {

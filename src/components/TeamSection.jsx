@@ -31,6 +31,14 @@ function TeamSection() {
                 needs, preferences, and budget so she can best tailor her
                 services to match their requirements.
               </p>
+              <ul className="button-group">
+                <li>
+                  <a href="-" className="button button-primary">Learn more</a>
+                </li>
+                <li>
+                  <a href="tel:" className="button button-icon">333-44-333</a>
+                </li>
+              </ul>
             </div>
           </div>
           <div className="team-section__item">

@@ -5,13 +5,9 @@ main,
 section {
   padding: 30px 0;
   @include lgMax {
-    padding: 25px 0;
-  }
-  @include mdMax {
-    padding: 20px 0;
+    padding: 35px 0;
   }
   @include smMax {
-    padding: 15px 0;
     &:first-of-type {
       padding-top: 0;
     }
@@ -28,6 +24,12 @@ section {
   position: relative;
   margin: 0 auto;
   padding: 0 30px;
+  @include lgMax {
+    padding: 0 25px;
+  }
+  @include mdMax {
+    padding: 0 20px;
+  }
   @include smMax {
     padding: 0 15px;
   }

@@ -198,6 +198,7 @@
   padding: 30px 15px 30px 80px;
   width: calc(100% - 395px);
   height: 100%;
+  overflow: hidden;
   @include xlMax {
     width: calc(100% - 340px);
     padding: 30px 15px 30px 40px;
@@ -279,7 +280,18 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 334px;
+    &::-webkit-scrollbar {
+      background: var(--gray-900);
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--primary-accent);
+    }
+    @include lgMax {
+      max-height: 100%;
+    }
     @include xlMax {
       display: flex;
       flex-direction: column;

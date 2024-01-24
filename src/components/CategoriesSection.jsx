@@ -1,4 +1,4 @@
-// import { useState, useEffect } from "react"
+import { useState, useEffect } from "react"
 
 const list = [
   "Best Time to Sell or Buy a Home",
@@ -18,33 +18,33 @@ const list = [
 ]
 
 function CategoriesSection() {
-  // const [activeBlock, setActiveBlock] = useState(0)
+  const [activeBlock, setActiveBlock] = useState(0)
 
-  // const toggleMenuBlock = (index) => {
-  //   setActiveBlock(index)
-  // }
+  const toggleMenuBlock = (index) => {
+    setActiveBlock(index)
+  }
 
-  // useEffect(() => {
-  //   // Use query selectors to add event listeners to list items
-  //   const listItems = document.querySelectorAll(
-  //     ".categories-section__list__item",
-  //   )
+  useEffect(() => {
+    // Use query selectors to add event listeners to list items
+    const listItems = document.querySelectorAll(
+      ".categories-section__list__item",
+    )
 
-  //   listItems.forEach((item, index) => {
-  //     item.addEventListener("click", () => {
-  //       toggleMenuBlock(index)
-  //     })
-  //   })
+    listItems.forEach((item, index) => {
+      item.addEventListener("click", () => {
+        toggleMenuBlock(index)
+      })
+    })
 
-  //   // Clean up event listeners when the component unmounts
-  //   return () => {
-  //     listItems.forEach((item, index) => {
-  //       item.removeEventListener("click", () => {
-  //         toggleMenuBlock(index)
-  //       })
-  //     })
-  //   }
-  // }, [])
+    // Clean up event listeners when the component unmounts
+    return () => {
+      listItems.forEach((item, index) => {
+        item.removeEventListener("click", () => {
+          toggleMenuBlock(index)
+        })
+      })
+    }
+  }, [])
 
   return (
     <section>
@@ -55,7 +55,7 @@ function CategoriesSection() {
               <li
                 key={index}
                 className={
-                  index === 0
+                  index === activeBlock
                     ? "categories-section__list__item active"
                     : "categories-section__list__item"
                 }

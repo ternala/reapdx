@@ -43,9 +43,15 @@
   }
   .button {
     width: fit-content !important;
-    margin: 20px 0 15px 0;
+  }
+  .button-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 20px;
   }
   .button-icon {
+    text-decoration: none;
     &:hover {
       background-color: var(--button-secondary-background-hover);
       border-color: var(--primary-accent);

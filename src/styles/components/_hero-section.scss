@@ -137,15 +137,15 @@
         flex-direction: column;
         gap: 15px;
       }
-    }
-    p {
-      color: #fff;
-      font-family: var(--font-primary);
-      font-size: 18px;
-      font-style: italic;
-      font-weight: 400;
-      line-height: normal;
-      margin: 0;
+      p {
+        color: #fff;
+        font-family: var(--font-primary);
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+      }
     }
     .button-icon {
       &[href*="tel"]:before {

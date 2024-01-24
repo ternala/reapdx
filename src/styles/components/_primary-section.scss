@@ -12,16 +12,16 @@
   @include xlMax {
     column-gap: 70px;
   }
+  // @include lgMax {
+  //   column-gap: 40px;
+  // }
   @include lgMax {
-    column-gap: 50px;
-  }
-  @include mdMax {
-    column-gap: 40px;
+    column-gap: 30px;
     flex-direction: column;
   }
   &_reverse {
     flex-direction: row-reverse;
-    @include mdMax {
+    @include lgMax {
       flex-direction: column;
     }
   }
@@ -66,8 +66,8 @@
     }
   }
   img {
-    max-height: 600px;
-    max-width: 650px;
+    // max-height: 600px;
+    // max-width: 650px;
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -124,7 +124,7 @@
 .primary-section__content {
   position: relative;
   width: 50%;
-  @include mdMax {
+  @include lgMax {
     width: 100%;
   }
 }
@@ -168,7 +168,7 @@
     @include title("secondary", var(--primary-dark));
     margin: 0;
   }
-  @include mdMax {
+  @include lgMax {
     padding: 0;
     background: none;
   }
@@ -285,13 +285,13 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    @include mdMax {
+    @include lgMax {
       gap: 30px;
     }
   }
   &__item {
     width: 250px;
-    @include mdMax {
+    @include lgMax {
       width: 146px;
     }
     span {
