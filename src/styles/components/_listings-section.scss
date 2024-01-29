@@ -50,10 +50,16 @@
 .listings-section__nav__filters {
   display: flex;
   align-items: center;
-  gap: 20px;
-  margin-left: auto;
+  gap: 15px;
+  // margin-left: auto;
+
   @include smMax {
-    gap: 15px;
+    gap: 8px;
+    width: 100%;
+    .button-secondary {
+      padding: 0;
+      width: 33%;
+    }
   }
   span {
     color: var(--primary-dark);

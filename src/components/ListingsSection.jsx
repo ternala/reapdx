@@ -21,14 +21,15 @@ function ListingsSection() {
               </li>
             </ul>
             <div className="listings-section__nav__filters">
-              <span>Filter Listing by</span>
-              <select name="select">
-                <option value="100-500" defaultValue>
-                  100-500K
-                </option>
-                <option value="500-900">500-900K</option>
-                <option value="900-1200">900-1200K</option>
-              </select>
+              <a href="/" className="button button-secondary">
+                100-500K
+              </a>
+              <a href="/" className="button button-secondary">
+                500-900K
+              </a>
+              <a href="/" className="button button-secondary">
+                900-1200K
+              </a>
             </div>
           </div>
           <div className="listings-section__list">
