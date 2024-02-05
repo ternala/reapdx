@@ -14,7 +14,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   column-gap: 30px;
-  row-gap: 20px;
+  row-gap: 30px;
 }
 .listings-section__nav__tabs {
   display: flex;
@@ -52,14 +52,11 @@
   align-items: center;
   gap: 15px;
   // margin-left: auto;
-
+  overflow-x: auto;
+  padding-bottom: 10px;
   @include smMax {
     gap: 8px;
     width: 100%;
-    .button-secondary {
-      padding: 0;
-      width: 33%;
-    }
   }
   span {
     color: var(--primary-dark);

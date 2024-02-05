@@ -21,6 +21,24 @@ function ListingsSection() {
               </li>
             </ul>
             <div className="listings-section__nav__filters">
+            <a href="/" className="button button-secondary">
+                100-500K
+              </a>
+              <a href="/" className="button button-secondary">
+                100-500K
+              </a>
+              <a href="/" className="button button-secondary">
+                100-500K
+              </a>
+              <a href="/" className="button button-secondary">
+                100-500K
+              </a>
+              <a href="/" className="button button-secondary">
+                100-500K
+              </a>
+              <a href="/" className="button button-secondary">
+                100-500K
+              </a>
               <a href="/" className="button button-secondary">
                 100-500K
               </a>
