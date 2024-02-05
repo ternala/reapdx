@@ -71,7 +71,7 @@
       font-size: inherit !important;
       font-style: inherit !important;
     }
-    h6,
+    span,
     li {
       color: var(--primary-dark);
       font-family: var(--font-primary);
@@ -84,7 +84,7 @@
     li {
       font-style: italic !important;
     }
-    h6 {
+    span{
       font-weight: 700;
       margin-bottom: 6px;
     }

@@ -1,14 +1,10 @@
 .quote {
-    
-  h4 {
+  span {
     @include title("secondary", var(--gray-700));
     text-align: center;
     margin-bottom: 10px;
-  }
-  span {
-    position: absolute;
-    top: 0;
-    left: 0;
+    text-align: center;
+    display: block;
   }
   p {
     @include text("tertiary", var(--primary-dark), 400, italic);

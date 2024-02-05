@@ -40,7 +40,7 @@ function Landing2() {
                 />
               </div>
               <div className="photo-block__content">
-                <h6>Stephen FitzMaurice</h6>
+                <span>Stephen FitzMaurice</span>
                 <ul>
                   <li>
                     <a href="/">Top 5%</a> Agent in the U.S.

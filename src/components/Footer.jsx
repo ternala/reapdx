@@ -7,7 +7,7 @@ function Footer() {
         <div className="container">
           <div className="footer-top">
             <div className="footer-top__item">
-              <h6>Real Estate Membership</h6>
+              <span>Real Estate Membership</span>
               <ul>
                 <li>
                   <a href="/">
@@ -44,7 +44,7 @@ function Footer() {
               </ul>
             </div>
             <div className="footer-top__item">
-              <h6>Real Estate Education</h6>
+              <span>Real Estate Education</span>
               <ul>
                 <li>
                   <a href="/">
@@ -113,7 +113,7 @@ function Footer() {
               </ul>
             </div>
             <div className="footer-top__item">
-              <h6>Real Estate Awards</h6>
+              <span>Real Estate Awards</span>
               <ul>
                 <li>
                   <a href="/">

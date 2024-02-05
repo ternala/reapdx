@@ -65,8 +65,9 @@ footer {
       width: 100%;
     }
   }
-  h6 {
+  span {
     @include title("quaternary");
+    margin-bottom: 15px;
   }
 }
 .footer-center {

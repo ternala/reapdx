@@ -18,14 +18,14 @@ function PrimaryFormSection({ title, type, extraClass, reverse = false }) {
         <div className={primaryClassName()}>
           <div className="primary-section__media">
             <div className="primary-section__form">
-              <h3>{title}</h3>
+              <span>{title}</span>
               <Form type={type} />
             </div>
           </div>
           <div className="primary-section__content">
             {type === "primary" ? (
               <div className="quote">
-                <h4>What My Clients Are Saying</h4>
+                <span>What My Clients Are Saying</span>
                 <blockquote>
                   <p>
                     I am so grateful for my choice in Stephen. Being able to

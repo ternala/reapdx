@@ -34,7 +34,7 @@ function StatisticBlock() {
               />
             </div>
             <div className="photo-block__content">
-              <h6>Stephen FitzMaurice</h6>
+              <span>Stephen FitzMaurice</span>
               <ul>
                 <li>Team Leader</li>
                 <li>Principal Broker in Oregon</li>

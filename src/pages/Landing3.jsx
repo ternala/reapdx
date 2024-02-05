@@ -28,7 +28,7 @@ function Landing3() {
                 />
               </div>
               <div className="photo-block__content">
-                <h6>Kami Price, Realtor</h6>
+                <span>Kami Price, Realtor</span>
               </div>
               <ul className="button-group">
                 <li>
