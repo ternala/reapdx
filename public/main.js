@@ -30,6 +30,15 @@ document.addEventListener("DOMContentLoaded", () => {
     })
   }
 
+  if (window.matchMedia("(max-width: 992px)").matches) {
+    const categoriesSectionListItems = document.querySelectorAll(
+      ".categories-section__list__item",
+    )
+    categoriesSectionListItems.forEach((item) => {
+      item.classList.remove("active")
+    })
+  }
+
   // Categories section
   const categoriesItems = document.querySelectorAll(
     ".categories-section__list__item",
@@ -44,8 +53,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     categoriesItems.forEach((item) => {
       item.addEventListener("click", () => {
-        closeAllCategories()
-        item.classList.add("active")
+        if (item.classList.contains("active")) {
+          item.classList.remove("active")
+        } else {
+          closeAllCategories()
+          item.classList.add("active")
+        }
       })
     })
   }

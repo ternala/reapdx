@@ -2,6 +2,8 @@
   display: flex;
   align-items: center;
   flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
   gap: 20px;
   @include mdMax {
     gap: 10px;
@@ -14,9 +16,7 @@
     font-family: var(--font-primary);
     font-size: 18px;
     font-weight: 800;
-    color: var(--pagination-primary);
-    width: 100%;
-    height: 100%;
+    color: #000;
     text-decoration: none;
     transition: color 0.25s ease;
     display: flex;
@@ -42,9 +42,9 @@
       height: 100%;
     }
     &:hover {
-      color: var(--secondary-accent);
+      color: var(--pagination-primary);
       svg {
-        fill: var(--secondary-accent);
+        fill: var(--pagination-primary);
       }
     }
     &:last-child {
@@ -54,8 +54,7 @@
     }
   }
   span {
-    color: var(--secondary-accent);
+    color: var(--pagination-primary);
     cursor: default;
   }
 }
-
