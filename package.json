@@ -5,6 +5,7 @@
   "homepage": "",
   "dependencies": {
     "@babel/core": "^7.16.0",
+    "@fancyapps/ui": "^5.0.36",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
     "@svgr/webpack": "^5.5.0",
     "babel-jest": "^27.4.2",
