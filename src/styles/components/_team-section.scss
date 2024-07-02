@@ -22,10 +22,12 @@
     min-width: 275px;
   }
   img {
+    min-width: 180px;
     width: 180px;
     height: 180px;
     object-fit: contain;
     @include mdMax {
+      min-width: 150px;
       width: 150px;
       height: 150px;
     }
